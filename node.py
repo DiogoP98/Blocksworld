@@ -16,13 +16,10 @@ class Node:
 			current_x_position = self.agent[0]
 			current_y_position = self.agent[1]
 
-			changed_x = current_x_position + possibleMoves[i][0]
-			changed_y = current_y_position + possibleMoves[i][1]
+			new_x_position = current_x_position + possibleMoves[i][0]
+			new_y_position = current_y_position + possibleMoves[i][1]
 			
-			new_x_position = changed_x % 4
-			new_y_position = round(changed_y / 4) - 1
-
-			if new_y_position > 3:
+			if new_x_position < 0 or new_y_position < 0 or new_x_position > 3 or new_y_position > 3:
 				continue
 
 			board = self.board.copy()
@@ -33,9 +30,33 @@ class Node:
 
 			new_agent = [new_x_position,new_y_position]
 
-			desc.append(node(board,new_agent,self.depth+1))
+			desc.append(Node(board,new_agent,self.depth+1))
 
 		return desc
+
+	def compare_nodes(self, other_node):
+		letters = ['A', 'B', 'C']
+		for i in range(16):
+			if self.board[i] != other_node.board[i]:
+				if (self.board[i] in letters) or (other_node.board[i] in letters):
+					return False
+		return True
+
+	def check_solution(self, goal_state):
+		return self.compare_nodes(goal_state)
+
+	def print_board(self):
+		for i in range(16):
+			print(self.board[i], end = ' ')
+
+			if i % 4 == 3:
+				print("\n")
+
+		print("--------") 
+
+
+
+
 
 
 
