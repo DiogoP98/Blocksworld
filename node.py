@@ -2,10 +2,11 @@ import numpy as np
 
 class Node:
 
-	def __init__(self, board, agent, depth):
+	def __init__(self, board, agent, depth, parent=None):
 		self.board = board
 		self.agent = agent
 		self.depth = depth
+		self.parent = parent
 
 	#find all possible descendants
 	def descendants(self):
@@ -30,20 +31,25 @@ class Node:
 
 			new_agent = [new_x_position,new_y_position]
 
-			desc.append(Node(board,new_agent,self.depth+1))
+			desc.append(Node(board,new_agent,self.depth+1,self))
 
 		return desc
 
-	def compare_nodes(self, other_node):
+	def compare_nodes(self, other_board):
 		letters = ['A', 'B', 'C']
+		flag = 0
 		for i in range(16):
-			if self.board[i] != other_node.board[i]:
-				if (self.board[i] in letters) or (other_node.board[i] in letters):
-					return False
-		return True
+			if self.board[i] != other_board[i]:
+				if (self.board[i] in letters) or (other_board[i] in letters):
+					return 1
+				else:
+					flag = 2 #when its only the agent out of position
+					continue
+		return flag
 
-	def check_solution(self, goal_state):
-		return self.compare_nodes(goal_state)
+	def check_solution(self, end_state):
+		same = self.compare_nodes(end_state)
+		return (same==2) or (same==0)
 
 	def print_board(self):
 		for i in range(16):
@@ -52,7 +58,13 @@ class Node:
 			if i % 4 == 3:
 				print("\n")
 
-		print("--------") 
+		print("--------")
+
+	def print_path(self):
+		if self.parent != None:
+			self.parent.print_path()
+
+		self.print_board()
 
 
 

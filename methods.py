@@ -1,22 +1,43 @@
 import numpy as np
 
 
-def dfs(start_node, end_node, limit):
+def dfs(start_node, goal_state, limit):
 	stack = [start_node]
+	count_nodes = 0
 
 	while len(stack) != 0:
 		state = stack.pop()
+		count_nodes += 1
 
-		state.print_board()
-
-		if state.check_solution(end_node):
+		if state.check_solution(goal_state):
 			print("Solution found at depth  ", state.depth)
-			state.print_board()
+			print("Nodes visited ", count_nodes)
+			state.print_path()
 			return True
 
 		if(state.depth < limit):
 			child_nodes = state.descendants()
 			for i in range(len(child_nodes)):
-				stack.insert(0,child_nodes[i])
+				stack.append(child_nodes[i])
+
+	return False
+
+def bfs(start_node, goal_state):
+	queue = [start_node]
+	count_nodes = 0
+
+	while len(queue) != 0:
+		state = queue.pop(0)
+		count_nodes += 1
+
+		if state.check_solution(goal_state):
+			print("Solution found at depth  ", state.depth)
+			print("Nodes visited: ", count_nodes)
+			state.print_path()
+			return True
+
+		child_nodes = state.descendants()
+		for i in range(len(child_nodes)):
+			queue.append(child_nodes[i])
 
 	return False

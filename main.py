@@ -17,8 +17,8 @@ def find_agent():
 def main():
 	agent = find_agent()
 	start_node = Node(initial_state, agent, 0)
-	end_node = Node(goal_state, agent, 0)
-	sol = methods.dfs(start_node, end_node, 10)
+	sol = methods.dfs(start_node, goal_state, 10)
+	#sol = methods.bfs(start_node, goal_state)
 	if not(sol):
 		print("No solution")
 
