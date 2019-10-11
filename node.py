@@ -76,7 +76,7 @@ class Node:
 		self.print_board()
 
 		if self.parent != None:
-			self.parent.print_path()
+			self.parent.print_path_reserse()
 
 
 

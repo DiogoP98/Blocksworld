@@ -24,9 +24,9 @@ def main():
 	end_node = Node(goal_state, end_agent, 0) #used for bidirectional search
 	#sol = methods.dfs(start_node, goal_state, 10)
 	#sol = methods.bfs(start_node, goal_state)
-	#sol = methods.bfs(start_node, goal_state, True)
+	sol = methods.bfs(start_node, goal_state, True)
 	#sol = methods.idfs(start_node,goal_state)
-	sol = methods.BidirectionalSearch(start_node, end_node) #might need hash
+	#sol = methods.BidirectionalSearch(start_node, end_node) #might need hash
 	if not(sol):
 		print("No solution")
 

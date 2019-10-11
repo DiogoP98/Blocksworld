@@ -2,12 +2,16 @@ import numpy as np
 
 def print_solution(state1, number_nodes_visited, state2 = None): #state2 only used for bidirectional
 	print("Nodes visited ", number_nodes_visited)
-	print("Solution found at depth  ", state1.depth)
+
+	if state2 != None:
+		print("Solution found at depth  ", state1.depth + state2.depth)
+	else:
+		print("Solution found at depth  ", state1.depth)
 
 	state1.print_path()
 
 	if state2 != None:
-		state2.print_path_reserse()
+		state2.parent.print_path_reserse()
 
 def dfs(start_node, goal_state, limit):
 	stack = [start_node]
@@ -74,23 +78,22 @@ def BidirectionalSearch(start_node, end_node):
 
 	number_nodes_visited = 0
 
+	hash_value_down = {}
+	hash_value_up = {}
+
 	while len(queue_down) != 0 and len(queue_up) != 0:
 		state_down = queue_down.pop(0)
 		state_up = queue_up.pop(0)
 
 		number_nodes_visited += 2
 
-		if  state_down_hash == state_up_hash:
-			print("Solution found")
-			print("Nodes visited: ", number_nodes_visited)
-			state_down.print_path()
-			state_up.print_path_reserse()
-			return True
+		state_down_hash = state_down.build_hash()
+		state_up_hash = state_up.build_hash()
 
 		if state_down_hash not in visited_nodes_down:
 			visited_nodes_down.add(state_down_hash)
-			if state_down_hash in visited_nodes_up:
-				print_solution(state, number_nodes_visited)
+			hash_value_down[state_down_hash] = state_down
+
 			child_nodes_down = state_down.descendants()
 			for i in range(len(child_nodes_down)):
 				queue_down.append(child_nodes_down[i])
@@ -99,11 +102,17 @@ def BidirectionalSearch(start_node, end_node):
 
 		if state_up_hash not in visited_nodes_up:
 			visited_nodes_up.add(state_up_hash)
-			child_nodes_up = state_down.descendants()
+			hash_value_up[state_up_hash] = state_up
+
+			child_nodes_up = state_up.descendants()
 			for i in range(len(child_nodes_up)):
 				queue_up.append(child_nodes_up[i])
 		else:
 			child_nodes_up = []
+
+		if state_down_hash in visited_nodes_up: #if the node was also visited from the search up then a path was found
+				print_solution(state_down, number_nodes_visited, hash_value_up[state_down_hash])
+				return True
 
 	return False
 
