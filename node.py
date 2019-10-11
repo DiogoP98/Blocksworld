@@ -9,7 +9,7 @@ class Node:
 		self.parent = parent
 
 	#find all possible descendants
-	def descendants(self, set_of_nodes=None):
+	def descendants(self):
 		desc = []
 		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] #go up, down, right and left
 
@@ -30,16 +30,8 @@ class Node:
 			board[new_y_position * 4 + new_x_position] = 1
 
 			new_agent = [new_x_position,new_y_position]
-
-			new_node = Node(board,new_agent,self.depth+1,self)
 			
-			if set_of_nodes == None:
-					desc.append(new_node)
-					continue
-
-			#print("here")
-			if new_node.build_hash() not in set_of_nodes: #only add if the node was not visited before
-				desc.append(new_node)
+			desc.append(Node(board,new_agent,self.depth+1,self))
 				
 		return desc
 
@@ -79,6 +71,12 @@ class Node:
 			self.parent.print_path()
 
 		self.print_board()
+
+	def print_path_reserse(self):
+		self.print_board()
+
+		if self.parent != None:
+			self.parent.print_path()
 
 
 
