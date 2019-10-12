@@ -64,13 +64,14 @@ class Node:
 		final_tile = 0
 
 		for tile in range(0,16):
-			if self.board[tile] == 0:
+			value_of_tile = self.board[tile]
+			if value_of_tile == 0 or value_of_tile == 1:
 				continue
-			elif self.board[tile] == 'A':
+			elif value_of_tile == 'A':
 				final_tile = final_pos[0]
-			elif end_state[tile] == 'B':
+			elif value_of_tile == 'B':
 				final_tile = final_pos[1]
-			elif end_state[tile] == 'C':
+			elif value_of_tile == 'C':
 				final_tile = final_pos[2]
 						
 			current_x =  tile % 4

@@ -126,7 +126,7 @@ def Astar(start_node, goal_state):
 	while not prior_queue.empty():
 		node_f, current_node = prior_queue.get()
 		number_nodes_visited += 1
-
+		
 		if current_node.check_solution(goal_state):
 			print_solution(current_node, number_nodes_visited)
 			return True
@@ -136,6 +136,7 @@ def Astar(start_node, goal_state):
 		for child in child_nodes:
 			child_h = child.heuristic_manhattan(goal_state)
 			child_f = child_h + child.depth
+
 			prior_queue.put((child_f, child))
 
 	return False		
