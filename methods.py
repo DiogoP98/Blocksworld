@@ -37,6 +37,8 @@ def bfs(start_node, goal_state, graphSearch = False):
 	queue = [start_node]
 	number_nodes_visited = 0
 
+	child_nodes = []
+
 	if graphSearch:
 		visited_nodes = set([])
 
@@ -78,6 +80,9 @@ def BidirectionalSearch(start_node, end_node):
 	visited_nodes_up = set([])
 
 	number_nodes_visited = 0
+
+	child_nodes_down = []
+	child_nodes_up = []
 
 	hash_value_down = {}
 	hash_value_up = {}
