@@ -1,4 +1,5 @@
 import numpy as np
+from queue import PriorityQueue
 
 def print_solution(state1, number_nodes_visited, state2 = None): #state2 only used for bidirectional
 	print("Nodes visited ", number_nodes_visited)
@@ -17,7 +18,7 @@ def dfs(start_node, goal_state, limit):
 	stack = [start_node]
 	number_nodes_visited = 0
 
-	while len(stack) != 0:
+	while len(stack) > 0:
 		state = stack.pop()
 		number_nodes_visited += 1
 
@@ -39,7 +40,7 @@ def bfs(start_node, goal_state, graphSearch = False):
 	if graphSearch:
 		visited_nodes = set([])
 
-	while len(queue) != 0:
+	while len(queue) > 0:
 		state = queue.pop(0)
 		number_nodes_visited += 1
 
@@ -81,7 +82,7 @@ def BidirectionalSearch(start_node, end_node):
 	hash_value_down = {}
 	hash_value_up = {}
 
-	while len(queue_down) != 0 and len(queue_up) != 0:
+	while len(queue_down) > 0 and len(queue_up) > 0:
 		state_down = queue_down.pop(0)
 		state_up = queue_up.pop(0)
 
@@ -116,5 +117,25 @@ def BidirectionalSearch(start_node, end_node):
 
 	return False
 
-def Astar():
+def Astar(start_node, goal_state):
+	prior_queue = PriorityQueue()
+	prior_queue.put((0, start_node))
+
+	number_nodes_visited = 0
+
+	while not prior_queue.empty():
+		node_f, current_node = prior_queue.get()
+		number_nodes_visited += 1
+
+		if current_node.check_solution(goal_state):
+			print_solution(current_node, number_nodes_visited)
+			return True
+		
+		child_nodes = current_node.descendants()
+
+		for child in child_nodes:
+			child_h = child.heuristic_manhattan(goal_state)
+			child_f = child_h + child.depth
+			prior_queue.put((child_f, child))
+
 	return False		

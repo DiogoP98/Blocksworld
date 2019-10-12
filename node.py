@@ -7,7 +7,28 @@ class Node:
 		self.agent = agent
 		self.depth = depth
 		self.parent = parent
+	
+	def __lt__(self, other): #for A*: when they have same value, the tiebracker is the distance at which the agent is to the closest tile 
+		letters_list = ['A', 'B', 'C']
+		dist_1 = 10
+		dist_2 = 10
+		for tile in range(0,16):
+			if self.board[tile] in letters_list:
+				current_x =  tile % 4
+				current_y =  round(tile / 4) - 1
+				distance_to_agent = abs(current_x - self.agent[0]) + abs(current_y - self.agent[1])
+				dist_1 = min(dist_1, distance_to_agent)
+			if other.board[tile] in letters_list:
+				current_x =  tile % 4
+				current_y =  round(tile / 4) - 1
+				distance_to_agent = abs(current_x - self.agent[0]) + abs(current_y - self.agent[1])
+				dist_2 = min(dist_2, distance_to_agent)
 
+		if dist_2 > dist_1:
+			return True
+		else:
+			return False
+	
 	#find all possible descendants
 	def descendants(self):
 		desc = []
@@ -34,6 +55,50 @@ class Node:
 			desc.append(Node(board,new_agent,self.depth+1,self))
 				
 		return desc
+
+	def heuristic_manhattan(self, end_state):
+		value = 0
+		letters_accounted = 0
+
+		final_pos = self.get_position(end_state)
+		final_tile = 0
+
+		for tile in range(0,16):
+			if self.board[tile] == 0:
+				continue
+			elif self.board[tile] == 'A':
+				final_tile = final_pos[0]
+			elif end_state[tile] == 'B':
+				final_tile = final_pos[1]
+			elif end_state[tile] == 'C':
+				final_tile = final_pos[2]
+						
+			current_x =  tile % 4
+			current_y =  round(tile / 4) - 1
+
+			final_x = final_tile % 4
+			final_y = round(final_tile / 4) - 1
+
+			value += abs(current_x - final_x) + abs(current_y - final_y)
+
+			letters_accounted += 1
+			if letters_accounted == 3: # no need to stay in the loop if already found the 3 letters
+				break
+	
+		return value
+	
+	def get_position(self, end_state):
+		list_posi = [None] * 3
+		
+		for tile in range(0,16):
+			if end_state[tile] == 'A':
+				list_posi[0] = tile
+			elif end_state[tile] == 'B':
+				list_posi[1] = tile
+			elif end_state[tile] == 'C':
+				list_posi[2] = tile
+		
+		return list_posi
 
 	def build_hash(self):
 		board_hash = ""
