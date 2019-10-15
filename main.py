@@ -29,18 +29,22 @@ def main():
 	sol = False
 
 	if method == "dfs":
-		sol = methods.dfs(start_node, goal_state, 10)
+		sol = methods.dfs(start_node, goal_state, 15)
 	elif method == "bfs":
-		print("Normal BFS: ")
-		sol = methods.bfs(start_node, goal_state)
-		print("BFS graph search: ")
-		sol = methods.bfs(start_node, goal_state, True)
+		if str(sys.argv[2]) == "normal":
+			print("Normal BFS: ")
+			sol = methods.bfs(start_node, goal_state)
+		else: 
+			print("BFS graph search: ")
+			sol = methods.bfs(start_node, goal_state, True)
 	elif method == "idfs":
 		sol = methods.idfs(start_node,goal_state)
 	elif method == "bidirec":
 		sol = methods.BidirectionalSearch(start_node, end_node) #might need hash
 	elif method == "astar":
 		sol = methods.Astar(start_node, goal_state)
+	elif method == "greedy":
+		sol = methods.Greedy(start_node, goal_state)
 	else:
 		print("Invalid method")
 	

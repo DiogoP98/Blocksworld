@@ -1,4 +1,5 @@
 import numpy as np
+import random
 
 class Node:
 
@@ -30,9 +31,12 @@ class Node:
 			return False
 	
 	#find all possible descendants
-	def descendants(self):
+	def descendants(self, randomize = False):
 		desc = []
 		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] #go up, down, right and left
+
+		if randomize: # for DFS so it doesnt always expand the same node
+			random.shuffle(possibleMoves)
 
 		for i in range(4):
 			current_x_position = self.agent[0]

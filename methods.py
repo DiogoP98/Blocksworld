@@ -27,7 +27,7 @@ def dfs(start_node, goal_state, limit):
 			return True
 
 		if(state.depth < limit):
-			child_nodes = state.descendants()
+			child_nodes = state.descendants(True)
 			for i in range(len(child_nodes)):
 				stack.append(child_nodes[i])
 
@@ -46,6 +46,10 @@ def bfs(start_node, goal_state, graphSearch = False):
 		state = queue.pop(0)
 		number_nodes_visited += 1
 
+		if(number_nodes_visited < 11):
+			print("depth: " + str(state.depth))
+			state.print_board()
+
 		if state.check_solution(goal_state):
 			print_solution(state, number_nodes_visited)
 			return True
@@ -58,7 +62,7 @@ def bfs(start_node, goal_state, graphSearch = False):
 			else:
 				child_nodes = []
 		else:
-			child_nodes = state.descendants()
+			child_nodes = state.descendants(True)
 		
 		for i in range(len(child_nodes)):
 			queue.append(child_nodes[i])
@@ -144,4 +148,31 @@ def Astar(start_node, goal_state):
 
 			prior_queue.put((child_f, child))
 
-	return False		
+	return False
+
+def Greedy(start_node, goal_state):
+	prior_queue = PriorityQueue()
+	prior_queue.put((0, start_node))
+
+	number_nodes_visited = 0
+
+	while not prior_queue.empty():
+		node_f, current_node = prior_queue.get()
+		number_nodes_visited += 1
+		
+		if current_node.check_solution(goal_state):
+			print_solution(current_node, number_nodes_visited)
+			return True
+		
+		child_nodes = current_node.descendants()
+
+		for child in child_nodes:
+			child_f = child.heuristic_manhattan(goal_state)
+
+			prior_queue.put((child_f, child))
+
+	return False
+
+def Monte_Carlo(start_node, goal_state):
+
+	return True			
