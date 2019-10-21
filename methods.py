@@ -22,6 +22,8 @@ def dfs(start_node, goal_state, limit):
 		state = stack.pop()
 		number_nodes_visited += 1
 
+		state.count = number_nodes_visited
+
 		if state.check_solution(goal_state):
 			print_solution(state, number_nodes_visited)
 			return True
@@ -45,6 +47,8 @@ def bfs(start_node, goal_state, graphSearch = False):
 	while len(queue) > 0:
 		state = queue.pop(0)
 		number_nodes_visited += 1
+
+		state.count = number_nodes_visited
 
 		if(number_nodes_visited < 11):
 			print("depth: " + str(state.depth))
@@ -97,6 +101,9 @@ def BidirectionalSearch(start_node, end_node):
 
 		number_nodes_visited += 2
 
+		state_down.count = number_nodes_visited - 1
+		state_up.count = number_nodes_visited
+
 		state_down_hash = state_down.build_hash()
 		state_up_hash = state_up.build_hash()
 
@@ -135,6 +142,8 @@ def Astar(start_node, goal_state):
 	while not prior_queue.empty():
 		node_f, current_node = prior_queue.get()
 		number_nodes_visited += 1
+
+		current_node.count = number_nodes_visited
 		
 		if current_node.check_solution(goal_state):
 			print_solution(current_node, number_nodes_visited)
@@ -160,6 +169,8 @@ def Greedy(start_node, goal_state):
 		node_f, current_node = prior_queue.get()
 		number_nodes_visited += 1
 		
+		current_node.count = number_nodes_visited
+
 		if current_node.check_solution(goal_state):
 			print_solution(current_node, number_nodes_visited)
 			return True
@@ -171,8 +182,4 @@ def Greedy(start_node, goal_state):
 
 			prior_queue.put((child_f, child))
 
-	return False
-
-def Monte_Carlo(start_node, goal_state):
-
-	return True			
+	return False		

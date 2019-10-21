@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import random
 
 class Node:
@@ -7,6 +8,7 @@ class Node:
 		self.board = board
 		self.agent = agent
 		self.depth = depth
+		self.count = 0 #keep track of number of nodes visited, for debub purposes
 		self.parent = parent
 	
 	def __lt__(self, other): #for A*: when they have same value, the tiebracker is the distance at which the agent is to the closest tile 
@@ -128,13 +130,37 @@ class Node:
 		return (same==2) or (same==0)
 
 	def print_board(self):
+		fig = plt.figure(figsize=[4,4])
+		ax = fig.add_subplot(111)
+
+		for x in range(5):
+			ax.plot([x, x], [0,4], 'k')
+		for y in range(5):
+			ax.plot([0, 4], [y,y], 'k')
+		
+		agent = plt.imread('Images/agent.png')
+		A = plt.imread('Images/A_letter.png')
+		B = plt.imread('Images/B_letter.png')
+		C = plt.imread('Images/C_letter.png')
+		extent = np.array([-0.3, 0.3, -0.3, 0.3])
+		ax.set_axis_off()
+
 		for i in range(16):
-			print(self.board[i], end = ' ')
-
-			if i % 4 == 3:
-				print("\n")
-
-		print("--------")
+			x_coord = i % 4 + 0.5
+			y_coord = 3.5 - i // 4
+			if(self.board[i] == 'A'):
+				ax.imshow(A, extent=extent + [x_coord, x_coord, y_coord, y_coord])
+			elif(self.board[i] == 'B'):
+				ax.imshow(B, extent=extent + [x_coord, x_coord, y_coord, y_coord])
+			elif(self.board[i] == 'C'):
+				ax.imshow(C, extent=extent + [x_coord, x_coord, y_coord, y_coord])
+			elif(self.board[i] == 1):
+				ax.imshow(agent, extent=extent + [x_coord, x_coord, y_coord, y_coord])
+	
+		ax.set(xticks=[], yticks=[])
+		ax.axis('image')
+		ax.set_title("Visited node " + str(self.count) + " at depth: " + str(self.depth))
+		plt.show()
 
 	def print_path(self):
 		if self.parent != None:
