@@ -4,8 +4,8 @@ import methods
 import sys
 
 #use oned list instead of matrix to optimize space
-initial_state = [0,0,0,0,0,0,0,0,0,0,0,0,'A','B','C',1] #1 represents the agent
-goal_state = [0,0,0,0,0,'A',0,0,0,'B',0,0,0,'C',0,1] #Agent position doesnt matter
+initial_state = [0,'O',0,0,0,0,0,'O',0,0,0,0,'A','B','C',1] #1 represents the agent
+goal_state = [0,'O',0,0,0,'A',0,'O',0,'B',0,0,0,'C',0,1] #Agent position doesnt matter
 
 def find_agent():
 	start_agent = [None]*2

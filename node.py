@@ -53,6 +53,9 @@ class Node:
 			board = self.board.copy()
 
 			old_value = board[new_y_position * 4 + new_x_position] #check the value before change
+
+			if(old_value == 'O'): #obstacle, cannot pass
+				continue
 			board[current_y_position * 4 + current_x_position] = old_value
 			board[new_y_position * 4 + new_x_position] = 1
 
@@ -138,6 +141,7 @@ class Node:
 			ax.plot([0, 4], [y,y], 'k')
 		
 		agent = plt.imread('Images/agent.png')
+		obstacle = plt.imread('Images/block.jpg')
 		A = plt.imread('Images/A_letter.png')
 		B = plt.imread('Images/B_letter.png')
 		C = plt.imread('Images/C_letter.png')
@@ -153,6 +157,8 @@ class Node:
 				ax.imshow(B, extent=extent + [x_coord, x_coord, y_coord, y_coord])
 			elif(self.board[i] == 'C'):
 				ax.imshow(C, extent=extent + [x_coord, x_coord, y_coord, y_coord])
+			elif(self.board[i] == 'O'):
+				ax.imshow(obstacle, extent=extent + [x_coord, x_coord, y_coord, y_coord])
 			elif(self.board[i] == 1):
 				ax.imshow(agent, extent=extent + [x_coord, x_coord, y_coord, y_coord])
 	
