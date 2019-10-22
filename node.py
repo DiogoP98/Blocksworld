@@ -8,7 +8,7 @@ class Node:
 		self.board = board
 		self.agent = agent
 		self.depth = depth
-		self.count = 0 #keep track of number of nodes visited, for debub purposes
+		self.count = 0 #keep track of number of nodes visited, for debug purposes
 		self.parent = parent
 	
 	def __lt__(self, other): #for A*: when they have same value, the tiebracker is the distance at which the agent is to the closest tile 
@@ -129,9 +129,8 @@ class Node:
 		same = self.compare_nodes(end_state)
 		return (same==2) or (same==0)
 
-	def print_board(self):
-		fig = plt.figure(figsize=[4,4])
-		ax = fig.add_subplot(111)
+	def print_board(self, fig, dimensions, count):
+		ax = fig.add_subplot(dimensions, dimensions, count)
 
 		for x in range(5):
 			ax.plot([x, x], [0,4], 'k')
@@ -160,19 +159,18 @@ class Node:
 		ax.set(xticks=[], yticks=[])
 		ax.axis('image')
 		ax.set_title("Visited node " + str(self.count) + " at depth: " + str(self.depth))
-		plt.show()
 
-	def print_path(self):
+	def print_path(self, fig, dimensions, count):
 		if self.parent != None:
-			self.parent.print_path()
+			self.parent.print_path(fig, dimensions, count = count + 1)
+		
+		self.print_board(fig, dimensions, count)
 
-		self.print_board()
-
-	def print_path_reserse(self):
-		self.print_board()
+	def print_path_reserse(self, fig, dimensions, count):
+		self.print_board(fig, dimensions, count)
 
 		if self.parent != None:
-			self.parent.print_path_reserse()
+			self.parent.print_path_reserse(fig, dimensions, count = count + 1)
 
 
 

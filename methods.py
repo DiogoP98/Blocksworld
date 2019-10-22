@@ -1,18 +1,28 @@
 import numpy as np
+import math
+import matplotlib.pyplot as plt
 from queue import PriorityQueue
 
 def print_solution(state1, number_nodes_visited, state2 = None): #state2 only used for bidirectional
 	print("Nodes visited ", number_nodes_visited)
 
 	if state2 != None:
-		print("Solution found at depth  ", state1.depth + state2.depth)
+		total_depth = state1.depth + state2.depth
+		print("Solution found at depth  ", total_depth)
 	else:
-		print("Solution found at depth  ", state1.depth)
+		total_depth = state1.depth
+		print("Solution found at depth  ", total_depth)
 
-	state1.print_path()
+	dimensions = int(math.sqrt(total_depth)) + 1
+
+	fig = plt.figure(figsize=[4 * dimensions, 4 * dimensions])
+
+	state1.print_path(fig, dimensions, 1)
 
 	if state2 != None:
-		state2.parent.print_path_reserse()
+		state2.parent.print_path_reserse(fig, dimensions, state1.depth + 2)
+	
+	plt.savefig('path.png')
 
 def dfs(start_node, goal_state, limit):
 	stack = [start_node]
