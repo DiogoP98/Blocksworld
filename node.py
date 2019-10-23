@@ -33,12 +33,11 @@ class Node:
 			return False
 	
 	#find all possible descendants
-	def descendants(self, randomize = False):
+	def descendants(self):
 		desc = []
 		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] #go up, down, right and left
 
-		if randomize: # for DFS so it doesnt always expand the same node
-			random.shuffle(possibleMoves)
+		random.shuffle(possibleMoves) #randomize chosen moves
 
 		for i in range(4):
 			current_x_position = self.agent[0]
@@ -164,7 +163,7 @@ class Node:
 	
 		ax.set(xticks=[], yticks=[])
 		ax.axis('image')
-		ax.set_title("Visited node " + str(self.count) + " at depth: " + str(self.depth))
+		ax.set_title("Visited Node : " + str(self.count) + ", Depth: " + str(self.depth))
 
 	def print_path(self, fig, dimensions, count):
 		if self.parent != None:

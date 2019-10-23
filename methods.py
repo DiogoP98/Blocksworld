@@ -39,7 +39,7 @@ def dfs(start_node, goal_state, limit):
 			return True
 
 		if(state.depth < limit):
-			child_nodes = state.descendants(True)
+			child_nodes = state.descendants()
 			for i in range(len(child_nodes)):
 				stack.append(child_nodes[i])
 
@@ -52,7 +52,7 @@ def bfs(start_node, goal_state, graphSearch = False):
 	child_nodes = []
 
 	if graphSearch:
-		visited_nodes = set([])
+		visited_nodes = set([start_node.build_hash()])
 
 	while len(queue) > 0:
 		state = queue.pop(0)
@@ -60,26 +60,20 @@ def bfs(start_node, goal_state, graphSearch = False):
 
 		state.count = number_nodes_visited
 
-		if(number_nodes_visited < 11):
-			print("depth: " + str(state.depth))
-			state.print_board()
-
 		if state.check_solution(goal_state):
 			print_solution(state, number_nodes_visited)
 			return True
 
 		if graphSearch:
-			state_hash = state.build_hash()
-			if state_hash not in visited_nodes:
-				visited_nodes.add(state_hash)
-				child_nodes = state.descendants()
-			else:
-				child_nodes = []
+			child_nodes = state.descendants()
+			for i in range(len(child_nodes)):
+				if child_nodes[i].build_hash() not in visited_nodes:
+					queue.append(child_nodes[i])
+					visited_nodes.add(child_nodes[i].build_hash())
 		else:
-			child_nodes = state.descendants(True)
-		
-		for i in range(len(child_nodes)):
-			queue.append(child_nodes[i])
+			child_nodes = state.descendants()
+			for i in range(len(child_nodes)):
+				queue.append(child_nodes[i])
 
 	return False
 
