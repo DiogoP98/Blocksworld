@@ -1,0 +1,1418 @@
+DFS 15 graph search normal descedants at depth 15: 
+Expanded nodes: 145
+Found solution at depth: 15
+
+Expanded nodes: 652
+Found solution at depth: 15
+
+
+
+Expanded nodes: 527
+Found solution at depth: 15
+
+Expanded nodes: 616
+Found solution at depth: 15
+
+Expanded nodes: 1169
+Found solution at depth: 15
+
+
+
+
+------------
+DFS 15 graph search improved descedants at depth 15: 
+Expanded nodes: 418
+Found solution at depth: 15
+
+Expanded nodes: 1075
+Found solution at depth: 15
+
+Expanded nodes: 947
+Found solution at depth: 15
+
+Expanded nodes: 1026
+Found solution at depth: 15
+
+Expanded nodes: 680
+Found solution at depth: 15
+
+Expanded nodes: 424
+Found solution at depth: 15
+
+Expanded nodes: 845
+Found solution at depth: 15
+
+Expanded nodes: 611
+Found solution at depth: 15
+
+
+Expanded nodes: 1193
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 14: 
+
+
+Expanded nodes: 366
+Found solution at depth: 15
+
+
+Expanded nodes: 248
+Found solution at depth: 15
+
+Expanded nodes: 816
+Found solution at depth: 15
+
+
+
+
+
+------------
+DFS 15 graph search improved descedants at depth 14: 
+
+
+
+Expanded nodes: 238
+Found solution at depth: 15
+
+
+Expanded nodes: 561
+Found solution at depth: 15
+
+Expanded nodes: 204
+Found solution at depth: 15
+
+Expanded nodes: 693
+Found solution at depth: 15
+
+
+Expanded nodes: 586
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 13: 
+
+Expanded nodes: 672
+Found solution at depth: 15
+
+
+Expanded nodes: 736
+Found solution at depth: 15
+
+Expanded nodes: 63
+Found solution at depth: 15
+
+Expanded nodes: 594
+Found solution at depth: 15
+
+Expanded nodes: 326
+Found solution at depth: 15
+
+Expanded nodes: 1157
+Found solution at depth: 15
+
+Expanded nodes: 509
+Found solution at depth: 15
+
+
+------------
+DFS 15 graph search improved descedants at depth 13: 
+Expanded nodes: 1178
+Found solution at depth: 15
+
+
+Expanded nodes: 585
+Found solution at depth: 13
+
+
+Expanded nodes: 940
+Found solution at depth: 15
+
+Expanded nodes: 1182
+Found solution at depth: 15
+
+Expanded nodes: 463
+Found solution at depth: 13
+
+Expanded nodes: 86
+Found solution at depth: 15
+
+
+Expanded nodes: 985
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 12: 
+
+
+
+
+
+Expanded nodes: 220
+Found solution at depth: 13
+
+
+
+
+Expanded nodes: 600
+Found solution at depth: 13
+
+------------
+DFS 15 graph search improved descedants at depth 12: 
+
+
+Expanded nodes: 490
+Found solution at depth: 15
+
+
+
+Expanded nodes: 905
+Found solution at depth: 15
+
+
+
+Expanded nodes: 380
+Found solution at depth: 13
+
+
+DFS 15 graph search normal descedants at depth 11: 
+Expanded nodes: 646
+Found solution at depth: 11
+
+Expanded nodes: 1072
+Found solution at depth: 13
+
+Expanded nodes: 1168
+Found solution at depth: 11
+
+Expanded nodes: 771
+Found solution at depth: 13
+
+
+
+Expanded nodes: 1200
+Found solution at depth: 11
+
+Expanded nodes: 839
+Found solution at depth: 15
+
+Expanded nodes: 241
+Found solution at depth: 13
+
+
+------------
+DFS 15 graph search improved descedants at depth 11: 
+Expanded nodes: 594
+Found solution at depth: 11
+
+Expanded nodes: 668
+Found solution at depth: 13
+
+
+Expanded nodes: 1036
+Found solution at depth: 13
+
+
+
+
+Expanded nodes: 247
+Found solution at depth: 13
+
+Expanded nodes: 537
+Found solution at depth: 13
+
+Expanded nodes: 430
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 10: 
+Expanded nodes: 892
+Found solution at depth: 14
+
+Expanded nodes: 658
+Found solution at depth: 11
+
+
+
+Expanded nodes: 699
+Found solution at depth: 10
+
+
+
+
+Expanded nodes: 819
+Found solution at depth: 13
+
+Expanded nodes: 558
+Found solution at depth: 14
+
+------------
+DFS 15 graph search improved descedants at depth 10: 
+Expanded nodes: 581
+Found solution at depth: 13
+
+Expanded nodes: 602
+Found solution at depth: 13
+
+Expanded nodes: 703
+Found solution at depth: 13
+
+Expanded nodes: 814
+Found solution at depth: 11
+
+Expanded nodes: 608
+Found solution at depth: 14
+
+Expanded nodes: 548
+Found solution at depth: 14
+
+Expanded nodes: 805
+Found solution at depth: 11
+
+Expanded nodes: 993
+Found solution at depth: 13
+
+Expanded nodes: 1163
+Found solution at depth: 11
+
+Expanded nodes: 303
+Found solution at depth: 14
+
+DFS 15 graph search normal descedants at depth 9: 
+Expanded nodes: 258
+Found solution at depth: 14
+
+Expanded nodes: 255
+Found solution at depth: 12
+
+Expanded nodes: 88
+Found solution at depth: 13
+
+Expanded nodes: 188
+Found solution at depth: 13
+
+Expanded nodes: 195
+Found solution at depth: 13
+
+Expanded nodes: 30
+Found solution at depth: 15
+
+Expanded nodes: 629
+Found solution at depth: 9
+
+Expanded nodes: 416
+Found solution at depth: 10
+
+Expanded nodes: 18
+Found solution at depth: 9
+
+Expanded nodes: 185
+Found solution at depth: 12
+
+------------
+DFS 15 graph search improved descedants at depth 9: 
+Expanded nodes: 1195
+Found solution at depth: 10
+
+Expanded nodes: 958
+Found solution at depth: 10
+
+Expanded nodes: 284
+Found solution at depth: 13
+
+Expanded nodes: 557
+Found solution at depth: 10
+
+Expanded nodes: 326
+Found solution at depth: 11
+
+Expanded nodes: 497
+Found solution at depth: 9
+
+Expanded nodes: 388
+Found solution at depth: 9
+
+Expanded nodes: 443
+Found solution at depth: 12
+
+Expanded nodes: 260
+Found solution at depth: 14
+
+Expanded nodes: 263
+Found solution at depth: 14
+
+DFS 15 graph search normal descedants at depth 8: 
+Expanded nodes: 74
+Found solution at depth: 13
+
+
+Expanded nodes: 186
+Found solution at depth: 13
+
+Expanded nodes: 738
+Found solution at depth: 13
+
+Expanded nodes: 853
+Found solution at depth: 10
+
+
+Expanded nodes: 69
+Found solution at depth: 10
+
+
+Expanded nodes: 1209
+Found solution at depth: 13
+
+
+------------
+DFS 15 graph search improved descedants at depth 8: 
+Expanded nodes: 84
+Found solution at depth: 10
+
+
+Expanded nodes: 619
+Found solution at depth: 10
+
+
+Expanded nodes: 782
+Found solution at depth: 10
+
+
+Expanded nodes: 543
+Found solution at depth: 15
+
+Expanded nodes: 221
+Found solution at depth: 13
+
+
+Expanded nodes: 1146
+Found solution at depth: 13
+
+DFS 15 graph search normal descedants at depth 7: 
+Expanded nodes: 78
+Found solution at depth: 15
+
+Expanded nodes: 736
+Found solution at depth: 10
+
+Expanded nodes: 542
+Found solution at depth: 10
+
+Expanded nodes: 525
+Found solution at depth: 10
+
+Expanded nodes: 636
+Found solution at depth: 7
+
+Expanded nodes: 191
+Found solution at depth: 15
+
+Expanded nodes: 358
+Found solution at depth: 15
+
+Expanded nodes: 615
+Found solution at depth: 12
+
+Expanded nodes: 206
+Found solution at depth: 15
+
+Expanded nodes: 449
+Found solution at depth: 7
+
+------------
+DFS 15 graph search improved descedants at depth 7: 
+Expanded nodes: 171
+Found solution at depth: 13
+
+Expanded nodes: 764
+Found solution at depth: 10
+
+Expanded nodes: 123
+Found solution at depth: 8
+
+Expanded nodes: 61
+Found solution at depth: 15
+
+Expanded nodes: 473
+Found solution at depth: 10
+
+Expanded nodes: 178
+Found solution at depth: 12
+
+Expanded nodes: 133
+Found solution at depth: 15
+
+Expanded nodes: 332
+Found solution at depth: 15
+
+Expanded nodes: 115
+Found solution at depth: 13
+
+Expanded nodes: 710
+Found solution at depth: 11
+
+DFS 15 graph search normal descedants at depth 6: 
+Expanded nodes: 66
+Found solution at depth: 15
+
+Expanded nodes: 451
+Found solution at depth: 13
+
+Expanded nodes: 633
+Found solution at depth: 15
+
+Expanded nodes: 40
+Found solution at depth: 15
+
+Expanded nodes: 1378
+Found solution at depth: 6
+
+Expanded nodes: 332
+Found solution at depth: 15
+
+Expanded nodes: 385
+Found solution at depth: 15
+
+Expanded nodes: 277
+Found solution at depth: 12
+
+Expanded nodes: 311
+Found solution at depth: 15
+
+Expanded nodes: 744
+Found solution at depth: 15
+
+------------
+DFS 15 graph search improved descedants at depth 6: 
+Expanded nodes: 1134
+Found solution at depth: 15
+
+Expanded nodes: 443
+Found solution at depth: 13
+
+Expanded nodes: 1011
+Found solution at depth: 13
+
+Expanded nodes: 210
+Found solution at depth: 15
+
+Expanded nodes: 150
+Found solution at depth: 15
+
+Expanded nodes: 195
+Found solution at depth: 14
+
+Expanded nodes: 176
+Found solution at depth: 14
+
+Expanded nodes: 590
+Found solution at depth: 15
+
+Expanded nodes: 1129
+Found solution at depth: 15
+
+Expanded nodes: 237
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 5: 
+Expanded nodes: 10
+Found solution at depth: 5
+
+Expanded nodes: 300
+Found solution at depth: 15
+
+Expanded nodes: 365
+Found solution at depth: 8
+
+Expanded nodes: 80
+Found solution at depth: 13
+
+Expanded nodes: 117
+Found solution at depth: 12
+
+Expanded nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 174
+Found solution at depth: 13
+
+Expanded nodes: 156
+Found solution at depth: 13
+
+Expanded nodes: 235
+Found solution at depth: 14
+
+Expanded nodes: 212
+Found solution at depth: 8
+
+------------
+DFS 15 graph search improved descedants at depth 5: 
+Expanded nodes: 89
+Found solution at depth: 15
+
+Expanded nodes: 152
+Found solution at depth: 15
+
+Expanded nodes: 442
+Found solution at depth: 13
+
+Expanded nodes: 653
+Found solution at depth: 12
+
+Expanded nodes: 165
+Found solution at depth: 13
+
+Expanded nodes: 542
+Found solution at depth: 15
+
+Expanded nodes: 707
+Found solution at depth: 15
+
+Expanded nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 270
+Found solution at depth: 15
+
+Expanded nodes: 174
+Found solution at depth: 13
+
+DFS 15 graph search normal descedants at depth 4: 
+Expanded nodes: 764
+Found solution at depth: 15
+
+Expanded nodes: 915
+Found solution at depth: 15
+
+Expanded nodes: 287
+Found solution at depth: 15
+
+Expanded nodes: 69
+Found solution at depth: 15
+
+Expanded nodes: 326
+Found solution at depth: 13
+
+Expanded nodes: 609
+Found solution at depth: 7
+
+Expanded nodes: 64
+Found solution at depth: 15
+
+Expanded nodes: 254
+Found solution at depth: 12
+
+Expanded nodes: 68
+Found solution at depth: 15
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+------------
+DFS 15 graph search improved descedants at depth 4: 
+Expanded nodes: 443
+Found solution at depth: 7
+
+Expanded nodes: 594
+Found solution at depth: 15
+
+Expanded nodes: 279
+Found solution at depth: 15
+
+Expanded nodes: 236
+Found solution at depth: 15
+
+Expanded nodes: 459
+Found solution at depth: 15
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+Expanded nodes: 728
+Found solution at depth: 15
+
+Expanded nodes: 109
+Found solution at depth: 15
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+DFS 15 graph search normal descedants at depth 3: 
+Expanded nodes: 188
+Found solution at depth: 13
+
+Expanded nodes: 566
+Found solution at depth: 13
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 112
+Found solution at depth: 12
+
+Expanded nodes: 107
+Found solution at depth: 12
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 177
+Found solution at depth: 13
+
+Expanded nodes: 239
+Found solution at depth: 11
+
+------------
+DFS 15 graph search improved descedants at depth 3: 
+Expanded nodes: 642
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 514
+Found solution at depth: 14
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 588
+Found solution at depth: 14
+
+Expanded nodes: 566
+Found solution at depth: 13
+
+Expanded nodes: 424
+Found solution at depth: 12
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 600
+Found solution at depth: 13
+
+DFS 15 graph search normal descedants at depth 2: 
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 786
+Found solution at depth: 2
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 253
+Found solution at depth: 14
+
+Expanded nodes: 298
+Found solution at depth: 11
+
+Expanded nodes: 677
+Found solution at depth: 10
+
+Expanded nodes: 244
+Found solution at depth: 14
+
+Expanded nodes: 288
+Found solution at depth: 10
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+------------
+DFS 15 graph search improved descedants at depth 2: 
+Expanded nodes: 324
+Found solution at depth: 13
+
+Expanded nodes: 725
+Found solution at depth: 2
+
+Expanded nodes: 467
+Found solution at depth: 11
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 253
+Found solution at depth: 14
+
+Expanded nodes: 335
+Found solution at depth: 7
+
+Expanded nodes: 320
+Found solution at depth: 13
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 519
+Found solution at depth: 13
+
+Expanded nodes: 79
+Found solution at depth: 15
+
+DFS 15 graph search normal descedants at depth 1: 
+Expanded nodes: 638
+Found solution at depth: 10
+
+Expanded nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 241
+Found solution at depth: 8
+
+Expanded nodes: 865
+Found solution at depth: 11
+
+Expanded nodes: 1014
+Found solution at depth: 1
+
+Expanded nodes: 947
+Found solution at depth: 15
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 826
+Found solution at depth: 11
+
+Expanded nodes: 819
+Found solution at depth: 15
+
+Expanded nodes: 909
+Found solution at depth: 12
+
+------------
+DFS 15 graph search improved descedants at depth 1: 
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 687
+Found solution at depth: 8
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 484
+Found solution at depth: 13
+
+Expanded nodes: 162
+Found solution at depth: 11
+
+Expanded nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 321
+Found solution at depth: 15
+
+Expanded nodes: 551
+Found solution at depth: 10
+
+Expanded nodes: 956
+Found solution at depth: 1
+
+Expanded nodes: 1033
+Found solution at depth: 11
+
+DFS 18 graph search normal descedants at depth 15: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 15: 
+Expanded nodes: 315
+Found solution at depth: 17
+
+
+Expanded nodes: 1295
+Found solution at depth: 15
+
+Expanded nodes: 1725
+Found solution at depth: 15
+
+
+Expanded nodes: 782
+Found solution at depth: 15
+
+Expanded nodes: 92
+Found solution at depth: 15
+
+
+
+
+DFS 18 graph search normal descedants at depth 14: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 14: 
+Expanded nodes: 299
+Found solution at depth: 17
+
+
+
+
+Expanded nodes: 1339
+Found solution at depth: 18
+
+Expanded nodes: 828
+Found solution at depth: 15
+
+Expanded nodes: 298
+Found solution at depth: 18
+
+Expanded nodes: 179
+Found solution at depth: 17
+
+Expanded nodes: 466
+Found solution at depth: 16
+
+Expanded nodes: 305
+Found solution at depth: 16
+
+DFS 18 graph search normal descedants at depth 13: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 13: 
+
+Expanded nodes: 1324
+Found solution at depth: 13
+
+Expanded nodes: 765
+Found solution at depth: 16
+
+Expanded nodes: 305
+Found solution at depth: 15
+
+
+Expanded nodes: 184
+Found solution at depth: 17
+
+
+Expanded nodes: 408
+Found solution at depth: 15
+
+Expanded nodes: 1045
+Found solution at depth: 17
+
+Expanded nodes: 1148
+Found solution at depth: 16
+
+DFS 18 graph search normal descedants at depth 12: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 12: 
+
+
+
+
+
+
+
+
+Expanded nodes: 224
+Found solution at depth: 17
+
+
+DFS 18 graph search normal descedants at depth 11: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 11: 
+Expanded nodes: 1420
+Found solution at depth: 17
+
+Expanded nodes: 1285
+Found solution at depth: 17
+
+
+Expanded nodes: 744
+Found solution at depth: 17
+
+
+Expanded nodes: 1172
+Found solution at depth: 18
+
+Expanded nodes: 27
+Found solution at depth: 13
+
+
+Expanded nodes: 1272
+Found solution at depth: 14
+
+Expanded nodes: 221
+Found solution at depth: 11
+
+DFS 18 graph search normal descedants at depth 10: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 10: 
+Expanded nodes: 833
+Found solution at depth: 18
+
+Expanded nodes: 983
+Found solution at depth: 17
+
+Expanded nodes: 821
+Found solution at depth: 18
+
+Expanded nodes: 859
+Found solution at depth: 18
+
+Expanded nodes: 198
+Found solution at depth: 18
+
+Expanded nodes: 991
+Found solution at depth: 10
+
+
+Expanded nodes: 319
+Found solution at depth: 16
+
+Expanded nodes: 545
+Found solution at depth: 17
+
+
+DFS 18 graph search normal descedants at depth 9: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 9: 
+Expanded nodes: 366
+Found solution at depth: 10
+
+Expanded nodes: 459
+Found solution at depth: 17
+
+Expanded nodes: 784
+Found solution at depth: 14
+
+Expanded nodes: 961
+Found solution at depth: 10
+
+Expanded nodes: 951
+Found solution at depth: 12
+
+Expanded nodes: 612
+Found solution at depth: 15
+
+Expanded nodes: 425
+Found solution at depth: 12
+
+Expanded nodes: 210
+Found solution at depth: 17
+
+Expanded nodes: 55
+Found solution at depth: 18
+
+Expanded nodes: 633
+Found solution at depth: 16
+
+DFS 18 graph search normal descedants at depth 8: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 8: 
+Expanded nodes: 517
+Found solution at depth: 17
+
+Expanded nodes: 703
+Found solution at depth: 10
+
+
+Expanded nodes: 938
+Found solution at depth: 17
+
+Expanded nodes: 225
+Found solution at depth: 16
+
+Expanded nodes: 1108
+Found solution at depth: 18
+
+Expanded nodes: 1050
+Found solution at depth: 17
+
+Expanded nodes: 676
+Found solution at depth: 13
+
+Expanded nodes: 1288
+Found solution at depth: 18
+
+Expanded nodes: 1461
+Found solution at depth: 17
+
+DFS 18 graph search normal descedants at depth 7: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 7: 
+Expanded nodes: 1641
+Found solution at depth: 7
+
+Expanded nodes: 997
+Found solution at depth: 18
+
+Expanded nodes: 414
+Found solution at depth: 18
+
+Expanded nodes: 612
+Found solution at depth: 13
+
+Expanded nodes: 473
+Found solution at depth: 17
+
+Expanded nodes: 178
+Found solution at depth: 17
+
+Expanded nodes: 733
+Found solution at depth: 13
+
+Expanded nodes: 61
+Found solution at depth: 18
+
+Expanded nodes: 123
+Found solution at depth: 17
+
+Expanded nodes: 1555
+Found solution at depth: 10
+
+DFS 18 graph search normal descedants at depth 6: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 6: 
+Expanded nodes: 243
+Found solution at depth: 12
+
+Expanded nodes: 177
+Found solution at depth: 18
+
+Expanded nodes: 14
+Found solution at depth: 6
+
+Expanded nodes: 870
+Found solution at depth: 18
+
+Expanded nodes: 276
+Found solution at depth: 18
+
+Expanded nodes: 77
+Found solution at depth: 18
+
+Expanded nodes: 795
+Found solution at depth: 12
+
+
+Expanded nodes: 1197
+Found solution at depth: 15
+
+Expanded nodes: 282
+Found solution at depth: 18
+
+DFS 18 graph search normal descedants at depth 5: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 5: 
+Expanded nodes: 528
+Found solution at depth: 5
+
+Expanded nodes: 324
+Found solution at depth: 14
+
+Expanded nodes: 23
+Found solution at depth: 13
+
+Expanded nodes: 49
+Found solution at depth: 18
+
+Expanded nodes: 2365
+Found solution at depth: 5
+
+Expanded nodes: 831
+Found solution at depth: 16
+
+Expanded nodes: 1375
+Found solution at depth: 17
+
+Expanded nodes: 737
+Found solution at depth: 17
+
+Expanded nodes: 907
+Found solution at depth: 13
+
+Expanded nodes: 155
+Found solution at depth: 12
+
+DFS 18 graph search normal descedants at depth 4: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 4: 
+Expanded nodes: 2233
+Found solution at depth: 14
+
+Expanded nodes: 744
+Found solution at depth: 16
+
+Expanded nodes: 1384
+Found solution at depth: 18
+
+Expanded nodes: 323
+Found solution at depth: 16
+
+Expanded nodes: 479
+Found solution at depth: 15
+
+Expanded nodes: 607
+Found solution at depth: 15
+
+Expanded nodes: 191
+Found solution at depth: 18
+
+Expanded nodes: 614
+Found solution at depth: 14
+
+Expanded nodes: 1414
+Found solution at depth: 8
+
+Expanded nodes: 1966
+Found solution at depth: 4
+
+DFS 18 graph search normal descedants at depth 3: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 3: 
+Expanded nodes: 40
+Found solution at depth: 17
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 470
+Found solution at depth: 18
+
+Expanded nodes: 579
+Found solution at depth: 16
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 599
+Found solution at depth: 12
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 1124
+Found solution at depth: 8
+
+Expanded nodes: 1038
+Found solution at depth: 12
+
+DFS 18 graph search normal descedants at depth 2: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 2: 
+Expanded nodes: 52
+Found solution at depth: 18
+
+Expanded nodes: 999
+Found solution at depth: 18
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 586
+Found solution at depth: 18
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 319
+Found solution at depth: 18
+
+Expanded nodes: 53
+Found solution at depth: 16
+
+Expanded nodes: 822
+Found solution at depth: 11
+
+Expanded nodes: 1205
+Found solution at depth: 15
+
+Expanded nodes: 46
+Found solution at depth: 16
+
+DFS 18 graph search normal descedants at depth 1: 
+
+
+
+
+
+
+
+
+
+
+------------
+DFS 18 graph search improved descedants at depth 1: 
+Expanded nodes: 56
+Found solution at depth: 17
+
+Expanded nodes: 1106
+Found solution at depth: 15
+
+Expanded nodes: 1397
+Found solution at depth: 18
+
+Expanded nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 102
+Found solution at depth: 17
+
+Expanded nodes: 183
+Found solution at depth: 18
+
+Expanded nodes: 1065
+Found solution at depth: 17
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 683
+Found solution at depth: 17
+
+Expanded nodes: 347
+Found solution at depth: 13
+

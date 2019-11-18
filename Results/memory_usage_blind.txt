@@ -1,0 +1,1829 @@
+BFS normal descedants at depth 15: 
+It took more than 15 min
+ 19 
+ 12
+BFS normal descedants at depth 14: 
+It took more than 15 min
+ 18 
+ 37
+BFS normal descedants at depth 13: 
+It took more than 15 min
+ 18 
+ 28
+BFS normal descedants at depth 12: 
+It took more than 15 min
+ 18 
+ 73
+BFS normal descedants at depth 11: 
+Total memory usage: 17036222,83846875
+
+Total memory usage: 26407799,432503905
+
+Total memory usage: 13624274,79817578
+
+Total memory usage: 7089337,6630859375
+
+Total memory usage: 7618241,2421562495
+
+Total memory usage: 11571354,987210937
+
+Total memory usage: 14886027,909374999
+
+Total memory usage: 21089445,66530078
+
+Total memory usage: 14784755,203859374
+
+Total memory usage: 19831986,987999998
+
+BFS normal descedants at depth 10: 
+Total memory usage: 1989865,1790312498
+
+Total memory usage: 3539835,2239375
+
+Total memory usage: 2105033,9137890623
+
+Total memory usage: 1617408,3617890624
+
+Total memory usage: 2226502,704882812
+
+Total memory usage: 3515567,4940312495
+
+Total memory usage: 3091918,370421875
+
+Total memory usage: 2092424,5813906249
+
+Total memory usage: 2228755,084082031
+
+Total memory usage: 2576172,9105585935
+
+BFS normal descedants at depth 9: 
+Total memory usage: 676964,9791015624
+
+Total memory usage: 396229,8575976562
+
+Total memory usage: 311273,4496953125
+
+Total memory usage: 379902,07015625
+
+Total memory usage: 389197,2550585937
+
+Total memory usage: 503258,520359375
+
+Total memory usage: 445021,34307031246
+
+Total memory usage: 373477,6786367187
+
+Total memory usage: 300346,4100703125
+
+Total memory usage: 487741,90085156244
+
+BFS normal descedants at depth 8: 
+Total memory usage: 156152,23458984375
+
+Total memory usage: 221288,51277734374
+
+Total memory usage: 128468,2353984375
+
+Total memory usage: 265919,0782851562
+
+Total memory usage: 252190,94231249997
+
+Total memory usage: 195470,578046875
+
+Total memory usage: 126264,95431640625
+
+Total memory usage: 190233,31851953123
+
+Total memory usage: 128321,73599218749
+
+Total memory usage: 248377,34788671872
+
+BFS normal descedants at depth 7: 
+Total memory usage: 67647,26047265624
+
+Total memory usage: 43298,7452734375
+
+Total memory usage: 50102,833816406244
+
+Total memory usage: 48584,566125
+
+Total memory usage: 61742,886117187496
+
+Total memory usage: 52183,422875
+
+Total memory usage: 70740,02799218749
+
+Total memory usage: 48753,262535156246
+
+Total memory usage: 41386,852625
+
+Total memory usage: 58987,511417968744
+
+BFS normal descedants at depth 6: 
+Total memory usage: 21030,8191328125
+
+Total memory usage: 25360,69366015625
+
+Total memory usage: 58818,815007812496
+
+Total memory usage: 56232,13671875
+
+Total memory usage: 33570,58562109375
+
+Total memory usage: 54770,10116406249
+
+Total memory usage: 44985,709375
+
+Total memory usage: 28397,22904296875
+
+Total memory usage: 40093,51348046875
+
+Total memory usage: 60618,2433828125
+
+BFS normal descedants at depth 5: 
+Total memory usage: 6410,463585937499
+
+Total memory usage: 6916,55281640625
+
+Total memory usage: 5960,6064921874995
+
+Total memory usage: 6354,23144921875
+
+Total memory usage: 7197,7135
+
+Total memory usage: 6241,7671757812495
+
+Total memory usage: 7760,0348671875
+
+Total memory usage: 5848,142218749999
+
+Total memory usage: 7029,27933984375
+
+Total memory usage: 5117,4973281249995
+
+BFS normal descedants at depth 4: 
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+BFS normal descedants at depth 3: 
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+BFS normal descedants at depth 2: 
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+BFS normal descedants at depth 1: 
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+
+DFS normal descedants at depth 14: 
+Total memory usage: 468490,7634882812
+
+Total memory usage: 339777,7955703125
+
+Total memory usage: 126550,458515625
+
+Total memory usage: 579644,0819570312
+
+Total memory usage: 250253,36965234374
+
+Total memory usage: 9046,25228515625
+
+Total memory usage: 948960,0743671875
+
+Total memory usage: 17628,908035156248
+
+Total memory usage: 254332,67659765625
+
+Total memory usage: 193738,1709375
+
+DFS normal descedants at depth 13: 
+Total memory usage: 1779322,8107460937
+
+Total memory usage: 148314,31147265623
+
+Total memory usage: 347154,89626562496
+
+Total memory usage: 633202,4078242187
+
+Total memory usage: 533419,4052382812
+
+Total memory usage: 1676133,029046875
+
+Total memory usage: 3684920,7871679687
+
+Total memory usage: 440940,77404687495
+
+Total memory usage: 484512,98050781246
+
+Total memory usage: 214393,2841640625
+
+DFS normal descedants at depth 12: 
+Total memory usage: 934904,7979101562
+
+Total memory usage: 735480,9240429687
+
+Total memory usage: 613094,2743398437
+
+Total memory usage: 288793,5395039062
+
+Total memory usage: 363833,717625
+
+Total memory usage: 193072,137890625
+
+Total memory usage: 190068,7935234375
+
+Total memory usage: 906512,2360976562
+
+Total memory usage: 503891,4402460937
+
+Total memory usage: 31279,524546874996
+
+DFS normal descedants at depth 11: 
+Total memory usage: 389324,991296875
+
+Total memory usage: 1023599,8213242186
+
+Total memory usage: 133603,88534374998
+
+Total memory usage: 62021,50625390625
+
+Total memory usage: 579354,8775742187
+
+Total memory usage: 63632,520296874995
+
+Total memory usage: 201068,51327734374
+
+Total memory usage: 150788,7016875
+
+Total memory usage: 1644753,8085234375
+
+Total memory usage: 1561208,9448554686
+
+DFS normal descedants at depth 10: 
+Total memory usage: 1329389,0908242187
+
+Total memory usage: 2461385,2496367185
+
+Total memory usage: 211407,78508984373
+
+Total memory usage: 2461528,528285156
+
+Total memory usage: 598666,7995703125
+
+Total memory usage: 490067,88625
+
+Total memory usage: 1210100,3839804686
+
+Total memory usage: 593943,9843945312
+
+Total memory usage: 2797964,402445312
+
+Total memory usage: 990573,1053242186
+
+DFS normal descedants at depth 9: 
+Total memory usage: 54291,04007421875
+
+Total memory usage: 1806867,0142968749
+
+Total memory usage: 343235,373328125
+
+Total memory usage: 342203,30484374997
+
+Total memory usage: 1846924,7880195312
+
+Total memory usage: 25267,04582421875
+
+Total memory usage: 4099719,309285156
+
+Total memory usage: 3293,2863281249997
+
+Total memory usage: 456405,9966523437
+
+Total memory usage: 3066713,3426249996
+
+DFS normal descedants at depth 8: 
+Total memory usage: 291920,2683984375
+
+Total memory usage: 622795,23375
+
+Total memory usage: 2673293,9691054686
+
+Total memory usage: 137329,458015625
+
+Total memory usage: 2565321,0670234375
+
+Total memory usage: 1488567,8092460937
+
+Total memory usage: 1962106,754109375
+
+Total memory usage: 1916485,5105429685
+
+Total memory usage: 1359741,3936171874
+
+Total memory usage: 648277,1606679687
+
+DFS normal descedants at depth 7: 
+Total memory usage: 57546,63206249999
+
+Total memory usage: 554614,4953124999
+
+Total memory usage: 578269,4453125
+
+Total memory usage: 1100278,95540625
+
+Total memory usage: 148056,04439453123
+
+Total memory usage: 4673,098312499999
+
+Total memory usage: 674,638125
+
+Total memory usage: 317079,91874999995
+
+Total memory usage: 445616,57681249996
+
+Total memory usage: 1630754,25609375
+
+DFS normal descedants at depth 6: 
+Total memory usage: 60309,612011718746
+
+Total memory usage: 158528,4859375
+
+Total memory usage: 109579,6545625
+
+Total memory usage: 2534424,6036757813
+
+Total memory usage: 3326354,037078125
+
+Total memory usage: 40200,22464453125
+
+Total memory usage: 940335,3192968749
+
+Total memory usage: 966521,2235585937
+
+Total memory usage: 622720,3367890625
+
+Total memory usage: 3017093,0774921873
+
+DFS normal descedants at depth 5: 
+Total memory usage: 5176862,036996094
+
+Total memory usage: 846,592171875
+
+Total memory usage: 4441637,925363281
+
+Total memory usage: 382435,0322695312
+
+Total memory usage: 581452,9513320312
+
+Total memory usage: 190128,775015625
+
+Total memory usage: 1032,9371875
+
+Total memory usage: 921734,0538242187
+
+Total memory usage: 612871,5585273437
+
+Total memory usage: 939,7482890624999
+
+DFS normal descedants at depth 4: 
+Total memory usage: 746401,1902421875
+
+Total memory usage: 992805,119171875
+
+Total memory usage: 897356,1092578125
+
+Total memory usage: 460837,5791054687
+
+Total memory usage: 186513,41290624999
+
+Total memory usage: 2058020,15140625
+
+Total memory usage: 1976,7339609375
+
+Total memory usage: 1156661,836703125
+
+Total memory usage: 146391,17485546874
+
+Total memory usage: 2704853,8061210937
+
+DFS normal descedants at depth 3: 
+Total memory usage: 55668,11482421875
+
+Total memory usage: 150414,47093749998
+
+Total memory usage: 332371,8883515625
+
+Total memory usage: 43799,9378046875
+
+Total memory usage: 213,79931249999998
+
+Total memory usage: 1013186,3368593749
+
+Total memory usage: 90211,84873046874
+
+Total memory usage: 216,94631249999998
+
+Total memory usage: 90466,6123125
+
+Total memory usage: 1161516,608703125
+
+DFS normal descedants at depth 2: 
+Total memory usage: 1459277,7172968748
+
+Total memory usage: 1279,861953125
+
+Total memory usage: 498,455296875
+
+Total memory usage: 941,5266718749999
+
+Total memory usage: 1377765,7090898436
+
+Total memory usage: 35723,293429687496
+
+Total memory usage: 2624307,467976562
+
+Total memory usage: 169,40940234375
+
+Total memory usage: 621,16780859375
+
+Total memory usage: 368375,53112890624
+
+DFS normal descedants at depth 1: 
+Total memory usage: 201613,6449765625
+
+Total memory usage: 1028824,5420234374
+
+Total memory usage: 114,90647656249999
+
+Total memory usage: 1123543,0996367186
+
+Total memory usage: 115,8571328125
+
+Total memory usage: 75538,85059375
+
+Total memory usage: 115,8571328125
+
+Total memory usage: 695,1427968749999
+
+Total memory usage: 22244,569499999998
+
+Total memory usage: 1488033,5691171873
+
+DFS 15 normal descedants at depth 14: 
+Total memory usage: 14248759,565257812
+
+Total memory usage: 463493,6593984375
+
+Total memory usage: 361676167,075125
+
+Total memory usage: 293893152,4965937
+
+Total memory usage: 166022695,73483202
+
+Total memory usage: 129527613,35212499
+
+Total memory usage: 81536053,99148437
+
+Total memory usage: 127427925,65864062
+
+Total memory usage: 49193152,75209375
+
+Total memory usage: 93663216,11324999
+
+DFS 15 normal descedants at depth 13: 
+Total memory usage: 88593042,91218749
+
+Total memory usage: 180101779,1116406
+
+Total memory usage: 55153450,47768749
+
+Total memory usage: 17054925,361125
+
+Total memory usage: 227901217,02342185
+
+Total memory usage: 35432385,487265624
+
+Total memory usage: 7527056,359874999
+
+Total memory usage: 9378834,161999999
+
+Total memory usage: 65046185,85510937
+
+Total memory usage: 30883933,845796872
+
+DFS 15 normal descedants at depth 12: 
+Total memory usage: 6713939,8104375
+
+Total memory usage: 202657195,84771875
+
+Total memory usage: 124976,07342187499
+
+Total memory usage: 12265387,95028125
+
+Total memory usage: 52647702,620578125
+
+Total memory usage: 238518106,3089375
+
+Total memory usage: 372510139,9610156
+
+Total memory usage: 372643484,3008125
+
+Total memory usage: 1391572,962609375
+
+Total memory usage: 4547007,119296875
+
+DFS 15 normal descedants at depth 11: 
+Total memory usage: 4579234,9070625
+
+Total memory usage: 4399516,4244375
+
+Total memory usage: 173669072,82473436
+
+Total memory usage: 2148701,8251093747
+
+Total memory usage: 112630702,49971874
+
+Total memory usage: 41135595,74342968
+
+Total memory usage: 1565995,732640625
+
+Total memory usage: 3566052,405609375
+
+Total memory usage: 20057506,826671872
+
+Total memory usage: 22589767,421203125
+
+DFS 15 normal descedants at depth 10: 
+Total memory usage: 2338645,189375
+
+Total memory usage: 4201645,045984374
+
+Total memory usage: 3845745,5955703123
+
+Total memory usage: 18171330,347671874
+
+Total memory usage: 3725904,336171875
+
+Total memory usage: 8895101,834179686
+
+Total memory usage: 3138572,481515625
+
+Total memory usage: 1336239,3681484375
+
+Total memory usage: 737003,928625
+
+Total memory usage: 890587,1212382811
+
+DFS 15 normal descedants at depth 9: 
+Total memory usage: 127238,38533984373
+
+Total memory usage: 3365,0158007812497
+
+Total memory usage: 84778,00414453124
+
+Total memory usage: 1024535,1441445312
+
+Total memory usage: 252090,66856640624
+
+Total memory usage: 277542,4244414062
+
+Total memory usage: 137516,97905859374
+
+Total memory usage: 27266,825003906248
+
+Total memory usage: 65893,12758984375
+
+Total memory usage: 2141,3736914062497
+
+DFS 15 normal descedants at depth 8: 
+Total memory usage: 247542,7987265625
+
+Total memory usage: 657136,6008046875
+
+Total memory usage: 2488,0722890624997
+
+Total memory usage: 2118675,1302773436
+
+Total memory usage: 95362,508390625
+
+Total memory usage: 22678,16709375
+
+Total memory usage: 565893,6875156249
+
+Total memory usage: 43255,74856640625
+
+Total memory usage: 628707,3157968749
+
+Total memory usage: 107150,2607109375
+
+DFS 15 normal descedants at depth 7: 
+Total memory usage: 2712,4066757812498
+
+Total memory usage: 31753,51273828125
+
+Total memory usage: 5261,6610703125
+
+Total memory usage: 30917,357296874998
+
+Total memory usage: 958,51965234375
+
+Total memory usage: 10870,02073828125
+
+Total memory usage: 248868,41101171874
+
+Total memory usage: 13725,185660156249
+
+Total memory usage: 11053,567054687499
+
+Total memory usage: 6281,362828124999
+
+DFS 15 normal descedants at depth 6: 
+Total memory usage: 946939,8151015624
+
+Total memory usage: 44610,716460937496
+
+Total memory usage: 478907,36217187496
+
+Total memory usage: 407,96265624999995
+
+Total memory usage: 85223,398890625
+
+Total memory usage: 59982,393671875
+
+Total memory usage: 220854,14482421873
+
+Total memory usage: 356263,7484453125
+
+Total memory usage: 8507,730105468749
+
+Total memory usage: 795,6869882812499
+
+DFS 15 normal descedants at depth 5: 
+Total memory usage: 2529,876578125
+
+Total memory usage: 1550,569515625
+
+Total memory usage: 1509,7650546875
+
+Total memory usage: 7283,5962773437495
+
+Total memory usage: 510,05576171875
+
+Total memory usage: 163,21784375
+
+Total memory usage: 1101,7204453125
+
+Total memory usage: 918,1003710937499
+
+Total memory usage: 163,21784375
+
+Total memory usage: 816,08921875
+
+DFS 15 normal descedants at depth 4: 
+Total memory usage: 7916,065421875
+
+Total memory usage: 75263,82819921874
+
+Total memory usage: 2366,6587343749998
+
+Total memory usage: 64654,66835546875
+
+Total memory usage: 1815,79851171875
+
+Total memory usage: 91155,067734375
+
+Total memory usage: 20283,89015625
+
+Total memory usage: 42241,099218749994
+
+Total memory usage: 72870,99773437499
+
+Total memory usage: 1153896,2301562498
+
+DFS 15 normal descedants at depth 3: 
+Total memory usage: 693,81515625
+
+Total memory usage: 81,62531249999999
+
+Total memory usage: 8407,407187499999
+
+Total memory usage: 775,4404687499999
+
+Total memory usage: 1265,19234375
+
+Total memory usage: 1203,973359375
+
+Total memory usage: 244,8759375
+
+Total memory usage: 163,25062499999999
+
+Total memory usage: 673,4088281249999
+
+Total memory usage: 4713,8617968749995
+
+DFS 15 normal descedants at depth 2: 
+Total memory usage: 224,46960937499998
+
+Total memory usage: 408,1265625
+
+Total memory usage: 9284,879296874999
+
+Total memory usage: 3265,0125
+
+Total memory usage: 20753,235703125
+
+Total memory usage: 265,282265625
+
+Total memory usage: 142,844296875
+
+Total memory usage: 2040,6328124999998
+
+Total memory usage: 4775,08078125
+
+Total memory usage: 897,8784374999999
+
+DFS 15 normal descedants at depth 1: 
+Total memory usage: 244,8759375
+
+Total memory usage: 510,15820312499994
+
+Total memory usage: 40,812656249999996
+
+Total memory usage: 2305,94376171875
+
+Total memory usage: 87479,08489843749
+
+Total memory usage: 40,820851562499996
+
+Total memory usage: 1224,6255468749998
+
+Total memory usage: 76,708125
+
+Total memory usage: 824,6123437499999
+
+Total memory usage: 37471,9190625
+
+DFS 18 normal descedants at depth 14: 
+Total memory usage: 8076498,383703125
+
+Total memory usage: 72070135,29151562
+
+Total memory usage: 12325705,413402343
+
+It took more than 15 min
+ 207 
+ 7452
+
+It took more than 15 min
+ 198 
+ 4397
+
+Total memory usage: 10198062,787792968
+
+Total memory usage: 73704817,11014843
+
+Total memory usage: 13557842,337070312
+
+Total memory usage: 92257707,80848438
+
+Total memory usage: 206502198,50952733
+
+DFS 18 normal descedants at depth 13: 
+Total memory usage: 23534532,888773438
+
+Total memory usage: 176060,1361015625
+
+Total memory usage: 10089525,822839843
+
+Total memory usage: 227851563,42385545
+
+Total memory usage: 24575192,216015622
+
+Total memory usage: 231802740,1453359
+
+Total memory usage: 32198174,397281248
+
+It took more than 15 min
+ 204 
+ 0039
+
+It took more than 15 min
+ 177 
+ 5492
+
+Total memory usage: 13716430,091507811
+
+DFS 18 normal descedants at depth 12: 
+Total memory usage: 12742,1374375
+
+Total memory usage: 13517168,931472655
+
+Total memory usage: 177039839,85816404
+
+Total memory usage: 11485269,384078125
+
+Total memory usage: 4103195,9862187495
+
+Total memory usage: 20842006,97572656
+
+It took more than 15 min
+ 202 
+ 7076
+
+It took more than 15 min
+ 211 
+ 8862
+
+Total memory usage: 1396867,1017031248
+
+It took more than 15 min
+ 202 
+ 4949
+
+DFS 18 normal descedants at depth 11: 
+Total memory usage: 2265425,6368046873
+
+Total memory usage: 131556504,10936718
+
+Total memory usage: 2900728,720398437
+
+Total memory usage: 17214358,945570312
+
+Total memory usage: 472064,25164843746
+
+Total memory usage: 1245890,0635390624
+
+Total memory usage: 2035487,385546875
+
+Total memory usage: 376398,56586718746
+
+Total memory usage: 764747,9379921874
+
+Total memory usage: 1639926,0646640623
+
+DFS 18 normal descedants at depth 10: 
+Total memory usage: 479113,3021796875
+
+Total memory usage: 562280,2513046875
+
+Total memory usage: 389889,50081249996
+
+Total memory usage: 260311,366046875
+
+Total memory usage: 1433919,04378125
+
+Total memory usage: 11561109,273085937
+
+Total memory usage: 812032,8504843749
+
+Total memory usage: 85654,8493125
+
+Total memory usage: 14542,368953124998
+
+Total memory usage: 1805889,7396718748
+
+DFS 18 normal descedants at depth 9: 
+Total memory usage: 245028,55060937497
+
+Total memory usage: 364047,9185078125
+
+Total memory usage: 107349,93130468749
+
+Total memory usage: 329009,9908671875
+
+Total memory usage: 86939,11214843749
+
+Total memory usage: 12605,88626953125
+
+Total memory usage: 491170,3606640625
+
+Total memory usage: 381598,39740234375
+
+Total memory usage: 18249,649687499998
+
+Total memory usage: 751953,7070507812
+
+DFS 18 normal descedants at depth 8: 
+Total memory usage: 3183289,950117187
+
+Total memory usage: 117926,51068359375
+
+Total memory usage: 1331661,5321484373
+
+Total memory usage: 3056001,6061523436
+
+Total memory usage: 88670,7816796875
+
+Total memory usage: 2561187,2407617187
+
+Total memory usage: 21789,96322265625
+
+Total memory usage: 347706,1908398437
+
+Total memory usage: 3576442,508847656
+
+Total memory usage: 93544,26767578124
+
+DFS 18 normal descedants at depth 7: 
+Total memory usage: 3910,6392187499996
+
+Total memory usage: 1268661,7268554687
+
+Total memory usage: 18234,83666015625
+
+Total memory usage: 127347,59607421875
+
+Total memory usage: 370,32568359375
+
+Total memory usage: 28707,6469921875
+
+Total memory usage: 68776,88595703125
+
+Total memory usage: 9628,4677734375
+
+Total memory usage: 2340,4583203125
+
+Total memory usage: 84197,247421875
+
+DFS 18 normal descedants at depth 6: 
+Total memory usage: 259255,08451171874
+
+Total memory usage: 3230,13325
+
+Total memory usage: 15039,381875
+
+Total memory usage: 596448,54975
+
+Total memory usage: 222,25687499999998
+
+Total memory usage: 381881,762625
+
+Total memory usage: 14505,965375
+
+Total memory usage: 489009,57637499995
+
+Total memory usage: 166218,50824999998
+
+Total memory usage: 424881,05937499995
+
+DFS 18 normal descedants at depth 5: 
+Total memory usage: 148,17125
+
+Total memory usage: 1066,8329999999999
+
+Total memory usage: 3304,2188749999996
+
+Total memory usage: 97793,025
+
+Total memory usage: 1748,42075
+
+Total memory usage: 1615,066625
+
+Total memory usage: 144526,23724999998
+
+Total memory usage: 785,3076249999999
+
+Total memory usage: 33382,982625
+
+Total memory usage: 592,685
+
+DFS 18 normal descedants at depth 4: 
+Total memory usage: 44629,180499999995
+
+Total memory usage: 25692,89475
+
+Total memory usage: 15795,05525
+
+Total memory usage: 755,673375
+
+Total memory usage: 128597,82787499999
+
+Total memory usage: 325,97675
+
+Total memory usage: 10312,719
+
+Total memory usage: 8356,8585
+
+Total memory usage: 11483,271874999999
+
+Total memory usage: 57416,35937499999
+
+DFS 18 normal descedants at depth 3: 
+Total memory usage: 118,53699999999999
+
+Total memory usage: 59,268499999999996
+
+Total memory usage: 177,8055
+
+Total memory usage: 148,17125
+
+Total memory usage: 10342,35325
+
+Total memory usage: 118,53699999999999
+
+Total memory usage: 8816,189375
+
+Total memory usage: 2963,4249999999997
+
+Total memory usage: 71566,71375
+
+Total memory usage: 2178,117375
+
+DFS 18 normal descedants at depth 2: 
+Total memory usage: 222,25687499999998
+
+Total memory usage: 355,611
+
+Total memory usage: 191066,826875
+
+Total memory usage: 44,451375
+
+Total memory usage: 3022,6935
+
+Total memory usage: 355,611
+
+Total memory usage: 44,451375
+
+Total memory usage: 10179,364875
+
+Total memory usage: 44,451375
+
+Total memory usage: 133,35412499999998
+
+DFS 18 normal descedants at depth 1: 
+Total memory usage: 444,51374999999996
+
+Total memory usage: 6312,095249999999
+
+Total memory usage: 59,268499999999996
+
+Total memory usage: 29,634249999999998
+
+Total memory usage: 148,17125
+
+Total memory usage: 59,268499999999996
+
+Total memory usage: 22788,73825
+
+Total memory usage: 29,634249999999998
+
+Total memory usage: 177,8055
+
+Total memory usage: 9826,286226562499
+
+IDFS normal descedants at depth 14: 
+Total memory usage: 448482,1784648437
+
+Total memory usage: 2006635,5707148437
+
+Total memory usage: 905409,9010039062
+
+Total memory usage: 1358090,9396328125
+
+Total memory usage: 232839,55169140623
+
+Total memory usage: 274242,60644921876
+
+Total memory usage: 3596593,786554687
+
+Total memory usage: 1184716,325484375
+
+Total memory usage: 4311549,325070312
+
+Total memory usage: 506608,1617539062
+
+IDFS normal descedants at depth 13: 
+Total memory usage: 751207,0608125
+
+Total memory usage: 787994,8802617186
+
+Total memory usage: 921542,5006875
+
+Total memory usage: 6006676,916734375
+
+Total memory usage: 101941,28730468749
+
+Total memory usage: 1927825,5242578124
+
+Total memory usage: 70102,27696875
+
+Total memory usage: 24385,422789062497
+
+Total memory usage: 57929,963707031246
+
+Total memory usage: 769765,2353320312
+
+IDFS normal descedants at depth 12: 
+Total memory usage: 1786277,0292187498
+
+Total memory usage: 11516,233421874998
+
+Total memory usage: 292036,2320703125
+
+Total memory usage: 6405202,81815625
+
+Total memory usage: 604882,8867343749
+
+Total memory usage: 2256342,6941054687
+
+Total memory usage: 199431,92166406248
+
+Total memory usage: 1582519,8633789062
+
+Total memory usage: 172391,48807031248
+
+Total memory usage: 129159,26414843749
+
+IDFS normal descedants at depth 11: 
+Total memory usage: 22117,41512890625
+
+Total memory usage: 3561365,330191406
+
+Total memory usage: 426977,78500390623
+
+Total memory usage: 110458,65509765624
+
+Total memory usage: 197023,04887499998
+
+Total memory usage: 1670468,265140625
+
+Total memory usage: 1760463,8067929687
+
+Total memory usage: 24969,24455859375
+
+Total memory usage: 275707,2481132812
+
+Total memory usage: 2023288,564546875
+
+IDFS normal descedants at depth 10: 
+Total memory usage: 207903,20721484374
+
+Total memory usage: 121254,95490234374
+
+Total memory usage: 125382,2576953125
+
+Total memory usage: 169260,657421875
+
+Total memory usage: 675067,0922421875
+
+Total memory usage: 94135,14151171874
+
+Total memory usage: 554483,3006523437
+
+Total memory usage: 421049,1730117187
+
+Total memory usage: 38235,59516015625
+
+Total memory usage: 406348,4296445312
+
+IDFS normal descedants at depth 9: 
+Total memory usage: 1598002,2510664063
+
+Total memory usage: 1570753,0254960936
+
+Total memory usage: 875305,9202773437
+
+Total memory usage: 408283,4658554687
+
+Total memory usage: 194628,53837109375
+
+Total memory usage: 696632,2908242187
+
+Total memory usage: 1216920,2403046875
+
+Total memory usage: 212026,8876796875
+
+Total memory usage: 682856,3065195312
+
+Total memory usage: 2731495,857378906
+
+IDFS normal descedants at depth 8: 
+Total memory usage: 1333,5822265625
+
+Total memory usage: 525869,2441289062
+
+Total memory usage: 174209,4050703125
+
+Total memory usage: 54873,25966015625
+
+Total memory usage: 1717601,6381093748
+
+Total memory usage: 1171606,6815507812
+
+Total memory usage: 290753,07969921874
+
+Total memory usage: 124572,70014062499
+
+Total memory usage: 348920,2239453125
+
+Total memory usage: 1014889,8227109375
+
+IDFS normal descedants at depth 7: 
+Total memory usage: 937,7404375
+
+Total memory usage: 288838,90465625
+
+Total memory usage: 834929,471828125
+
+Total memory usage: 1410,34771875
+
+Total memory usage: 2319749,25734375
+
+Total memory usage: 307796,2974335937
+
+Total memory usage: 1183,23921875
+
+Total memory usage: 268772,7885390625
+
+Total memory usage: 403195,31184374995
+
+Total memory usage: 4727,05625
+
+IDFS normal descedants at depth 6: 
+Total memory usage: 258816,45909375
+
+Total memory usage: 151513,7819609375
+
+Total memory usage: 272381,66815625
+
+Total memory usage: 778074,9175156249
+
+Total memory usage: 881740,0519257812
+
+Total memory usage: 3490275,9524179683
+
+Total memory usage: 323633,22663281247
+
+Total memory usage: 1078528,0264570313
+
+Total memory usage: 278724,90559375
+
+Total memory usage: 403093,52606249996
+
+IDFS normal descedants at depth 5: 
+Total memory usage: 234707,23472656248
+
+Total memory usage: 712595,5753515625
+
+Total memory usage: 1343,3018671875
+
+Total memory usage: 56669,79508984375
+
+Total memory usage: 69415,395046875
+
+Total memory usage: 821543,9572851562
+
+Total memory usage: 12624,7887578125
+
+Total memory usage: 29695,436203125
+
+Total memory usage: 7485,213257812499
+
+Total memory usage: 613,5420703125
+
+IDFS normal descedants at depth 4: 
+Total memory usage: 308313,474921875
+
+Total memory usage: 1848480,9918125
+
+Total memory usage: 946732,6498945312
+
+Total memory usage: 1937241,0286406248
+
+Total memory usage: 957315,2774140624
+
+Total memory usage: 1332271,2142265625
+
+Total memory usage: 2917748,7781796874
+
+Total memory usage: 1679862,4985898437
+
+Total memory usage: 986946,9131093749
+
+Total memory usage: 3981,48359765625
+
+IDFS normal descedants at depth 3: 
+Total memory usage: 252,79260937499998
+
+Total memory usage: 252,79260937499998
+
+Total memory usage: 3626070,8094843747
+
+Total memory usage: 1028,80675
+
+Total memory usage: 385,80253124999996
+
+Total memory usage: 1873088,5116679687
+
+Total memory usage: 20541,35409375
+
+Total memory usage: 2444,6617187499996
+
+Total memory usage: 514,665625
+
+Total memory usage: 257,3328125
+
+IDFS normal descedants at depth 2: 
+Total memory usage: 266293,60406640626
+
+Total memory usage: 101669,3668359375
+
+Total memory usage: 70495,03732031249
+
+Total memory usage: 359659,39422656246
+
+Total memory usage: 319,41230468749995
+
+Total memory usage: 199952,102734375
+
+Total memory usage: 191,64738281249998
+
+Total memory usage: 191,64738281249998
+
+Total memory usage: 3607476,0387968747
+
+Total memory usage: 218324,682109375
+
+IDFS normal descedants at depth 1: 
+Total memory usage: 129,86292187499998
+
+Total memory usage: 123759,36454687499
+
+Total memory usage: 419587,100578125
+
+Total memory usage: 129,86292187499998
+
+Total memory usage: 909,0404531249999
+
+Total memory usage: 920969,5950742187
+
+Total memory usage: 521,61525
+
+Total memory usage: 130,4038125
+
+Total memory usage: 370672,83703125
+
+Total memory usage: 1379422,4038046873
+
+Bidirec normal descedants at depth 14: 
+Total memory usage: 17846,37475 
+
+
+Total memory usage: 19683,501562499998
+ 
+
+
+Total memory usage: 16862,199671874998 
+
+
+Total memory usage: 17649,539734374997 
+
+
+Total memory usage: 26047,833734375
+ 
+
+
+Total memory usage: 19421,054874999998 
+
+
+Total memory usage: 26113,445406249997
+ 
+
+
+Total memory usage: 23948,260234374997
+ 
+
+
+Total memory usage: 20995,734999999997
+ 
+
+
+Total memory usage: 28606,6889375
+ 
+
+
+Bidirec normal descedants at depth 13: 
+Total memory usage: 15090,684531249999 
+
+
+Total memory usage: 18568,103140625 
+
+
+Total memory usage: 12728,664343749999 
+
+
+Total memory usage: 14040,89778125 
+
+
+Total memory usage: 11219,595890625 
+
+
+Total memory usage: 14828,23784375 
+
+
+Total memory usage: 14172,121125 
+
+
+Total memory usage: 15943,636265624998 
+
+
+Total memory usage: 15418,742890624999 
+
+
+Total memory usage: 14959,4611875 
+
+
+Bidirec normal descedants at depth 12: 
+Total memory usage: 17059,0346875 
+
+
+Total memory usage: 16337,306296874998 
+
+
+Total memory usage: 12607,054101562499 
+
+
+Total memory usage: 9510,848648437499 
+
+
+Total memory usage: 9509,111242187499 
+
+
+Total memory usage: 7350,6953984374995 
+
+
+Total memory usage: 8906,682015625 
+
+
+Total memory usage: 9765,157390625 
+
+
+Total memory usage: 12333,6584765625 
+
+
+Total memory usage: 6978,57084375 
+
+
+Bidirec normal descedants at depth 11: 
+Total memory usage: 5868,3436640625 
+
+
+Total memory usage: 7522,6166640625 
+
+
+Total memory usage: 7417,405242187499 
+
+
+Total memory usage: 6752,3064609375 
+
+
+Total memory usage: 5391,3764765625 
+
+
+Total memory usage: 6333,558773437499 
+
+
+Total memory usage: 7537,458374999999 
+
+
+Total memory usage: 7655,9380078125 
+
+
+Total memory usage: 6510,1513671875 
+
+
+Total memory usage: 8072,5876953125 
+
+
+Bidirec normal descedants at depth 10: 
+Total memory usage: 5051,8774609375 
+
+
+Total memory usage: 6510,1513671875 
+
+
+Total memory usage: 6041,42046875 
+
+
+Total memory usage: 4767,344406249999 
+
+
+Total memory usage: 6477,3701171875 
+
+
+Total memory usage: 5130,077132812499 
+
+
+Total memory usage: 8446,4906328125 
+
+
+Total memory usage: 4870,982328125 
+
+
+Total memory usage: 8558,414015625 
+
+
+Total memory usage: 4794,7741171874995 
+
+
+Bidirec normal descedants at depth 9: 
+Total memory usage: 4021,423453125 
+
+
+Total memory usage: 3969,8667421874998 
+
+Total memory usage: 3660,5264765624997 
+
+
+Total memory usage: 2526,2788359375 
+ound solution at depth: 10
+
+Total memory usage: 2629,3922578125 
+
+
+Total memory usage: 3763,6398984374996 
+
+
+Total memory usage: 2784,062390625 
+
+
+Total memory usage: 3969,8667421874998 
+
+
+Total memory usage: 2577,8355468749996 
+
+
+Total memory usage: 2680,94896875 
+
+
+Bidirec normal descedants at depth 8: 
+Total memory usage: 3712,0831875 
+
+
+Total memory usage: 3196,5160781249997 
+
+
+Total memory usage: 3196,5160781249997 
+
+
+Total memory usage: 4794,7741171874995 
+
+
+Total memory usage: 3918,3100312499996 
+
+
+Total memory usage: 2938,7325234375 
+
+
+Total memory usage: 3712,0831875 
+
+
+Total memory usage: 4433,877140625 
+
+
+Total memory usage: 2938,7325234375 
+
+
+Total memory usage: 2216,9385703125 
+ound solution at depth: 10
+
+Bidirec normal descedants at depth 7: 
+Total memory usage: 2526,2788359375 
+ound solution at depth: 10
+
+Total memory usage: 2835,6191015625 
+
+
+Total memory usage: 2423,1654140624996 
+ound solution at depth: 10
+
+Total memory usage: 3763,6398984374996 
+
+
+Total memory usage: 1856,04159375 
+ound solution at depth: 10
+
+Total memory usage: 3299,6295 
+
+
+Total memory usage: 1907,5983046874999 
+ound solution at depth: 10
+
+Total memory usage: 3557,4130546875 
+
+
+Total memory usage: 2474,722125 
+ound solution at depth: 10
+
+Total memory usage: 4124,536875 
+
+
+Bidirec normal descedants at depth 6: 
+Total memory usage: 2784,062390625 
+
+Total memory usage: 2732,5056796874997 
+
+Total memory usage: 3815,1966093749998 
+
+Total memory usage: 2938,7325234375 
+
+Total memory usage: 3815,1966093749998 
+
+Total memory usage: 2113,8251484375 
+ound solution at depth: 9
+
+Total memory usage: 2216,9385703125 
+ound solution at depth: 9
+
+Total memory usage: 3712,0831875 
+
+Total memory usage: 2835,6191015625 
+
+Total memory usage: 3196,5160781249997 
+
+Bidirec normal descedants at depth 5: 
+Total memory usage: 3351,1862109374997 
+
+
+Total memory usage: 2216,9385703125 
+ound solution at depth: 10
+
+Total memory usage: 2577,8355468749996 
+
+
+Total memory usage: 2938,7325234375 
+
+
+Total memory usage: 2113,8251484375 
+ound solution at depth: 10
+
+Total memory usage: 2526,2788359375 
+ound solution at depth: 10
+
+Total memory usage: 2216,9385703125 
+ound solution at depth: 10
+
+Total memory usage: 2680,94896875 
+
+
+Total memory usage: 2784,062390625 
+
+
+Total memory usage: 1907,5983046874999 
+ound solution at depth: 10
+
+Bidirec normal descedants at depth 4: 
+Total memory usage: 1340,474484375 
+ound solution at depth: 7
+
+Total memory usage: 876,464085937499 
+ound solution at depth: 7
+
+Total memory usage: 1134,24764062 
+ound solution at depth: 7
+
+Total memory usage: 824,90737 
+ound solution at depth: 7
+
+Total memory usage: 1804,4848828124998 
+ound solution at depth: 9
+
+Total memory usage: 928,02079687 
+ound solution at depth: 7
+
+Total memory usage: 2062,2684375 
+ound solution at depth: 7
+
+Total memory usage: 1185,804351562 
+ound solution at depth: 7
+
+Total memory usage: 1082,690929687499 
+ound solution at depth: 7
+
+Total memory usage: 1804,4848828124998 
+ound solution at depth: 9
+
+Bidirec normal descedants at depth 3: 
+Total memory usage: 1031,1342187 
+ound solution at depth: 6
+
+Total memory usage: 876,464085937499 
+ound solution at depth: 6
+
+Total memory usage: 618,6805312 
+ound solution at depth: 6
+
+Total memory usage: 1031,1342187 
+ound solution at depth: 6
+
+Total memory usage: 515,56710937 
+ound solution at depth: 6
+
+Total memory usage: 618,6805312 
+ound solution at depth: 6
+
+Total memory usage: 721,793953124999 
+ound solution at depth: 6
+
+Total memory usage: 567,123820312 
+ound solution at depth: 6
+
+Total memory usage: 876,464085937499 
+ound solution at depth: 6
+
+Total memory usage: 876,464085937499 
+ound solution at depth: 6
+
+Bidirec normal descedants at depth 2: 
+Total memory usage: 1082,690929687499 
+ound solution at depth: 5
+
+Total memory usage: 515,56710937 
+ound solution at depth: 5
+
+Total memory usage: 515,56710937 
+ound solution at depth: 5
+
+Total memory usage: 1031,1342187 
+ound solution at depth: 7
+
+Total memory usage: 1031,1342187 
+ound solution at depth: 7
+
+Total memory usage: 773,350664062 
+ound solution at depth: 5
+
+Total memory usage: 670,237242187 
+ound solution at depth: 5
+
+Total memory usage: 1185,804351562 
+ound solution at depth: 5
+
+Total memory usage: 1082,690929687499 
+ound solution at depth: 5
+
+Total memory usage: 928,02079687 
+ound solution at depth: 7
+
+Bidirec normal descedants at depth 1: 
+Total memory usage: 773,350664062 
+ound solution at depth: 4
+
+Total memory usage: 360,8969765624999 
+ound solution at depth: 4
+
+Total memory usage: 670,237242187 
+ound solution at depth: 4
+
+Total memory usage: 360,8969765624999 
+ound solution at depth: 4
+
+Total memory usage: 567,123820312 
+ound solution at depth: 4
+
+Total memory usage: 515,56710937 
+ound solution at depth: 4
+
+Total memory usage: 567,123820312 
+ound solution at depth: 4
+
+Total memory usage: 309,34026562 
+ound solution at depth: 4
+
+Total memory usage: 773,350664062 
+ound solution at depth: 4
+
+Total memory usage: 309,34026562 
+ound solution at depth: 4
+

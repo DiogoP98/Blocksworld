@@ -1,0 +1,6923 @@
+Bidirectional normal descedants at depth 14: 
+Expanded nodes: 1015
+Visited nodes: 600
+Found solution at depth: 16
+
+Expanded nodes: 986
+Visited nodes: 594
+Found solution at depth: 16
+
+Expanded nodes: 1321
+Visited nodes: 788
+Found solution at depth: 16
+
+Expanded nodes: 1084
+Visited nodes: 638
+Found solution at depth: 16
+
+Expanded nodes: 1026
+Visited nodes: 602
+Found solution at depth: 16
+
+Expanded nodes: 1023
+Visited nodes: 598
+Found solution at depth: 16
+
+Expanded nodes: 1087
+Visited nodes: 640
+Found solution at depth: 16
+
+Expanded nodes: 1088
+Visited nodes: 642
+Found solution at depth: 16
+
+Expanded nodes: 1089
+Visited nodes: 648
+Found solution at depth: 16
+
+Expanded nodes: 1334
+Visited nodes: 796
+Found solution at depth: 16
+
+------------
+Bidirectional improved descedants at depth 14: 
+Expanded nodes: 845
+Visited nodes: 504
+Found solution at depth: 16
+
+Expanded nodes: 737
+Visited nodes: 428
+Found solution at depth: 16
+
+Expanded nodes: 899
+Visited nodes: 542
+Found solution at depth: 16
+
+Expanded nodes: 722
+Visited nodes: 418
+Found solution at depth: 16
+
+Expanded nodes: 727
+Visited nodes: 420
+Found solution at depth: 16
+
+Expanded nodes: 676
+Visited nodes: 394
+Found solution at depth: 16
+
+Expanded nodes: 720
+Visited nodes: 416
+Found solution at depth: 16
+
+Expanded nodes: 894
+Visited nodes: 536
+Found solution at depth: 16
+
+Expanded nodes: 845
+Visited nodes: 504
+Found solution at depth: 16
+
+Expanded nodes: 706
+Visited nodes: 406
+Found solution at depth: 16
+
+Bidirectional normal descedants at depth 13: 
+Expanded nodes: 655
+Visited nodes: 378
+Found solution at depth: 14
+
+Expanded nodes: 710
+Visited nodes: 410
+Found solution at depth: 14
+
+Expanded nodes: 791
+Visited nodes: 460
+Found solution at depth: 14
+
+Expanded nodes: 881
+Visited nodes: 516
+Found solution at depth: 14
+
+Expanded nodes: 919
+Visited nodes: 534
+Found solution at depth: 14
+
+Expanded nodes: 816
+Visited nodes: 470
+Found solution at depth: 14
+
+Expanded nodes: 804
+Visited nodes: 460
+Found solution at depth: 14
+
+Expanded nodes: 828
+Visited nodes: 478
+Found solution at depth: 14
+
+Expanded nodes: 789
+Visited nodes: 464
+Found solution at depth: 14
+
+Expanded nodes: 660
+Visited nodes: 384
+Found solution at depth: 14
+
+------------
+Bidirectional improved descedants at depth 13: 
+Expanded nodes: 553
+Visited nodes: 324
+Found solution at depth: 14
+
+Expanded nodes: 492
+Visited nodes: 288
+Found solution at depth: 14
+
+Expanded nodes: 517
+Visited nodes: 306
+Found solution at depth: 14
+
+Expanded nodes: 491
+Visited nodes: 292
+Found solution at depth: 14
+
+Expanded nodes: 738
+Visited nodes: 430
+Found solution at depth: 14
+
+Expanded nodes: 508
+Visited nodes: 296
+Found solution at depth: 14
+
+Expanded nodes: 521
+Visited nodes: 308
+Found solution at depth: 14
+
+Expanded nodes: 739
+Visited nodes: 430
+Found solution at depth: 14
+
+Expanded nodes: 613
+Visited nodes: 358
+Found solution at depth: 14
+
+Expanded nodes: 572
+Visited nodes: 334
+Found solution at depth: 14
+
+Bidirectional normal descedants at depth 12: 
+Expanded nodes: 785
+Visited nodes: 456
+Found solution at depth: 14
+
+Expanded nodes: 906
+Visited nodes: 526
+Found solution at depth: 14
+
+Expanded nodes: 515
+Visited nodes: 294
+Found solution at depth: 14
+
+Expanded nodes: 609
+Visited nodes: 360
+Found solution at depth: 14
+
+Expanded nodes: 654
+Visited nodes: 384
+Found solution at depth: 14
+
+Expanded nodes: 382
+Visited nodes: 220
+Found solution at depth: 14
+
+Expanded nodes: 571
+Visited nodes: 336
+Found solution at depth: 14
+
+Expanded nodes: 543
+Visited nodes: 318
+Found solution at depth: 14
+
+Expanded nodes: 554
+Visited nodes: 324
+Found solution at depth: 14
+
+Expanded nodes: 724
+Visited nodes: 420
+Found solution at depth: 14
+
+------------
+Bidirectional improved descedants at depth 12: 
+Expanded nodes: 621
+Visited nodes: 356
+Found solution at depth: 14
+
+Expanded nodes: 385
+Visited nodes: 232
+Found solution at depth: 14
+
+Expanded nodes: 456
+Visited nodes: 268
+Found solution at depth: 14
+
+Expanded nodes: 556
+Visited nodes: 318
+Found solution at depth: 14
+
+Expanded nodes: 533
+Visited nodes: 308
+Found solution at depth: 14
+
+Expanded nodes: 569
+Visited nodes: 328
+Found solution at depth: 14
+
+Expanded nodes: 395
+Visited nodes: 238
+Found solution at depth: 14
+
+Expanded nodes: 468
+Visited nodes: 278
+Found solution at depth: 14
+
+Expanded nodes: 316
+Visited nodes: 184
+Found solution at depth: 14
+
+Expanded nodes: 448
+Visited nodes: 264
+Found solution at depth: 14
+
+Bidirectional normal descedants at depth 11: 
+Expanded nodes: 551
+Visited nodes: 318
+Found solution at depth: 12
+
+Expanded nodes: 376
+Visited nodes: 210
+Found solution at depth: 12
+
+Expanded nodes: 546
+Visited nodes: 312
+Found solution at depth: 12
+
+Expanded nodes: 466
+Visited nodes: 260
+Found solution at depth: 12
+
+Expanded nodes: 518
+Visited nodes: 296
+Found solution at depth: 12
+
+Expanded nodes: 506
+Visited nodes: 288
+Found solution at depth: 12
+
+Expanded nodes: 445
+Visited nodes: 248
+Found solution at depth: 12
+
+Expanded nodes: 472
+Visited nodes: 268
+Found solution at depth: 12
+
+Expanded nodes: 467
+Visited nodes: 266
+Found solution at depth: 12
+
+Expanded nodes: 414
+Visited nodes: 232
+Found solution at depth: 12
+
+------------
+Bidirectional improved descedants at depth 11: 
+Expanded nodes: 313
+Visited nodes: 182
+Found solution at depth: 12
+
+Expanded nodes: 292
+Visited nodes: 168
+Found solution at depth: 12
+
+Expanded nodes: 245
+Visited nodes: 138
+Found solution at depth: 12
+
+Expanded nodes: 382
+Visited nodes: 222
+Found solution at depth: 12
+
+Expanded nodes: 372
+Visited nodes: 216
+Found solution at depth: 12
+
+Expanded nodes: 254
+Visited nodes: 142
+Found solution at depth: 12
+
+Expanded nodes: 291
+Visited nodes: 168
+Found solution at depth: 12
+
+Expanded nodes: 284
+Visited nodes: 160
+Found solution at depth: 12
+
+Expanded nodes: 272
+Visited nodes: 156
+Found solution at depth: 12
+
+Expanded nodes: 293
+Visited nodes: 166
+Found solution at depth: 12
+
+Bidirectional normal descedants at depth 10: 
+Expanded nodes: 411
+Visited nodes: 232
+Found solution at depth: 12
+
+Expanded nodes: 356
+Visited nodes: 202
+Found solution at depth: 12
+
+Expanded nodes: 438
+Visited nodes: 250
+Found solution at depth: 12
+
+Expanded nodes: 265
+Visited nodes: 144
+Found solution at depth: 12
+
+Expanded nodes: 292
+Visited nodes: 162
+Found solution at depth: 12
+
+Expanded nodes: 292
+Visited nodes: 164
+Found solution at depth: 12
+
+Expanded nodes: 451
+Visited nodes: 258
+Found solution at depth: 12
+
+Expanded nodes: 437
+Visited nodes: 252
+Found solution at depth: 12
+
+Expanded nodes: 301
+Visited nodes: 166
+Found solution at depth: 12
+
+Expanded nodes: 411
+Visited nodes: 234
+Found solution at depth: 12
+
+------------
+Bidirectional improved descedants at depth 10: 
+Expanded nodes: 268
+Visited nodes: 152
+Found solution at depth: 12
+
+Expanded nodes: 244
+Visited nodes: 136
+Found solution at depth: 12
+
+Expanded nodes: 289
+Visited nodes: 164
+Found solution at depth: 12
+
+Expanded nodes: 376
+Visited nodes: 222
+Found solution at depth: 12
+
+Expanded nodes: 291
+Visited nodes: 166
+Found solution at depth: 12
+
+Expanded nodes: 226
+Visited nodes: 128
+Found solution at depth: 12
+
+Expanded nodes: 238
+Visited nodes: 134
+Found solution at depth: 12
+
+Expanded nodes: 224
+Visited nodes: 130
+Found solution at depth: 12
+
+Expanded nodes: 219
+Visited nodes: 124
+Found solution at depth: 12
+
+Expanded nodes: 242
+Visited nodes: 136
+Found solution at depth: 12
+
+Bidirectional normal descedants at depth 9: 
+Expanded nodes: 229
+Visited nodes: 122
+Found solution at depth: 10
+
+Expanded nodes: 210
+Visited nodes: 110
+Found solution at depth: 10
+
+Expanded nodes: 223
+Visited nodes: 118
+Found solution at depth: 10
+
+Expanded nodes: 253
+Visited nodes: 140
+Found solution at depth: 10
+
+Expanded nodes: 275
+Visited nodes: 150
+Found solution at depth: 10
+
+Expanded nodes: 220
+Visited nodes: 118
+Found solution at depth: 10
+
+Expanded nodes: 190
+Visited nodes: 102
+Found solution at depth: 10
+
+Expanded nodes: 207
+Visited nodes: 110
+Found solution at depth: 10
+
+Expanded nodes: 213
+Visited nodes: 114
+Found solution at depth: 10
+
+Expanded nodes: 198
+Visited nodes: 106
+Found solution at depth: 10
+
+------------
+Bidirectional improved descedants at depth 9: 
+Expanded nodes: 188
+Visited nodes: 106
+Found solution at depth: 10
+
+Expanded nodes: 109
+Visited nodes: 60
+Found solution at depth: 10
+
+Expanded nodes: 104
+Visited nodes: 56
+Found solution at depth: 10
+
+Expanded nodes: 141
+Visited nodes: 82
+Found solution at depth: 10
+
+Expanded nodes: 142
+Visited nodes: 82
+Found solution at depth: 10
+
+Expanded nodes: 105
+Visited nodes: 58
+Found solution at depth: 10
+
+Expanded nodes: 143
+Visited nodes: 84
+Found solution at depth: 10
+
+Expanded nodes: 188
+Visited nodes: 106
+Found solution at depth: 10
+
+Expanded nodes: 86
+Visited nodes: 44
+Found solution at depth: 10
+
+Expanded nodes: 174
+Visited nodes: 98
+Found solution at depth: 10
+
+Bidirectional normal descedants at depth 8: 
+Expanded nodes: 287
+Visited nodes: 152
+Found solution at depth: 10
+
+Expanded nodes: 297
+Visited nodes: 154
+Found solution at depth: 10
+
+Expanded nodes: 308
+Visited nodes: 162
+Found solution at depth: 10
+
+Expanded nodes: 331
+Visited nodes: 174
+Found solution at depth: 10
+
+Expanded nodes: 276
+Visited nodes: 144
+Found solution at depth: 10
+
+Expanded nodes: 290
+Visited nodes: 152
+Found solution at depth: 10
+
+Expanded nodes: 342
+Visited nodes: 180
+Found solution at depth: 10
+
+Expanded nodes: 290
+Visited nodes: 152
+Found solution at depth: 10
+
+Expanded nodes: 180
+Visited nodes: 88
+Found solution at depth: 10
+
+Expanded nodes: 323
+Visited nodes: 172
+Found solution at depth: 10
+
+------------
+Bidirectional improved descedants at depth 8: 
+Expanded nodes: 152
+Visited nodes: 80
+Found solution at depth: 10
+
+Expanded nodes: 193
+Visited nodes: 106
+Found solution at depth: 10
+
+Expanded nodes: 226
+Visited nodes: 126
+Found solution at depth: 10
+
+Expanded nodes: 162
+Visited nodes: 86
+Found solution at depth: 10
+
+Expanded nodes: 186
+Visited nodes: 100
+Found solution at depth: 10
+
+Expanded nodes: 187
+Visited nodes: 100
+Found solution at depth: 10
+
+Expanded nodes: 160
+Visited nodes: 86
+Found solution at depth: 10
+
+Expanded nodes: 152
+Visited nodes: 80
+Found solution at depth: 10
+
+Expanded nodes: 160
+Visited nodes: 86
+Found solution at depth: 10
+
+Expanded nodes: 120
+Visited nodes: 60
+Found solution at depth: 10
+
+Bidirectional normal descedants at depth 7: 
+Expanded nodes: 158
+Visited nodes: 80
+Found solution at depth: 10
+
+Expanded nodes: 132
+Visited nodes: 66
+Found solution at depth: 10
+
+Expanded nodes: 271
+Visited nodes: 146
+Found solution at depth: 10
+
+Expanded nodes: 247
+Visited nodes: 132
+Found solution at depth: 10
+
+Expanded nodes: 266
+Visited nodes: 144
+Found solution at depth: 10
+
+Expanded nodes: 290
+Visited nodes: 156
+Found solution at depth: 12
+
+Expanded nodes: 168
+Visited nodes: 86
+Found solution at depth: 10
+
+Expanded nodes: 249
+Visited nodes: 134
+Found solution at depth: 10
+
+Expanded nodes: 129
+Visited nodes: 66
+Found solution at depth: 10
+
+Expanded nodes: 221
+Visited nodes: 114
+Found solution at depth: 10
+
+------------
+Bidirectional improved descedants at depth 7: 
+Expanded nodes: 160
+Visited nodes: 88
+Found solution at depth: 10
+
+Expanded nodes: 179
+Visited nodes: 100
+Found solution at depth: 10
+
+Expanded nodes: 127
+Visited nodes: 72
+Found solution at depth: 10
+
+Expanded nodes: 150
+Visited nodes: 82
+Found solution at depth: 10
+
+Expanded nodes: 171
+Visited nodes: 96
+Found solution at depth: 10
+
+Expanded nodes: 191
+Visited nodes: 106
+Found solution at depth: 10
+
+Expanded nodes: 162
+Visited nodes: 90
+Found solution at depth: 10
+
+Expanded nodes: 106
+Visited nodes: 56
+Found solution at depth: 10
+
+Expanded nodes: 113
+Visited nodes: 62
+Found solution at depth: 10
+
+Expanded nodes: 106
+Visited nodes: 56
+Found solution at depth: 10
+
+Bidirectional normal descedants at depth 6: 
+Expanded nodes: 120
+Visited nodes: 60
+Found solution at depth: 9
+
+Expanded nodes: 157
+Visited nodes: 82
+Found solution at depth: 9
+
+Expanded nodes: 204
+Visited nodes: 108
+Found solution at depth: 9
+
+Expanded nodes: 153
+Visited nodes: 80
+Found solution at depth: 9
+
+Expanded nodes: 166
+Visited nodes: 86
+Found solution at depth: 9
+
+Expanded nodes: 160
+Visited nodes: 84
+Found solution at depth: 9
+
+Expanded nodes: 157
+Visited nodes: 82
+Found solution at depth: 9
+
+Expanded nodes: 157
+Visited nodes: 82
+Found solution at depth: 9
+
+Expanded nodes: 206
+Visited nodes: 110
+Found solution at depth: 9
+
+Expanded nodes: 153
+Visited nodes: 80
+Found solution at depth: 9
+
+------------
+Bidirectional improved descedants at depth 6: 
+Expanded nodes: 106
+Visited nodes: 58
+Found solution at depth: 9
+
+Expanded nodes: 110
+Visited nodes: 60
+Found solution at depth: 9
+
+Expanded nodes: 136
+Visited nodes: 78
+Found solution at depth: 9
+
+Expanded nodes: 101
+Visited nodes: 56
+Found solution at depth: 9
+
+Expanded nodes: 140
+Visited nodes: 80
+Found solution at depth: 9
+
+Expanded nodes: 110
+Visited nodes: 60
+Found solution at depth: 9
+
+Expanded nodes: 130
+Visited nodes: 76
+Found solution at depth: 9
+
+Expanded nodes: 110
+Visited nodes: 60
+Found solution at depth: 9
+
+Expanded nodes: 186
+Visited nodes: 106
+Found solution at depth: 9
+
+Expanded nodes: 173
+Visited nodes: 98
+Found solution at depth: 9
+
+Bidirectional normal descedants at depth 5: 
+Expanded nodes: 156
+Visited nodes: 78
+Found solution at depth: 10
+
+Expanded nodes: 182
+Visited nodes: 94
+Found solution at depth: 10
+
+Expanded nodes: 288
+Visited nodes: 156
+Found solution at depth: 10
+
+Expanded nodes: 136
+Visited nodes: 68
+Found solution at depth: 10
+
+Expanded nodes: 185
+Visited nodes: 96
+Found solution at depth: 10
+
+Expanded nodes: 192
+Visited nodes: 98
+Found solution at depth: 10
+
+Expanded nodes: 190
+Visited nodes: 98
+Found solution at depth: 10
+
+Expanded nodes: 196
+Visited nodes: 102
+Found solution at depth: 10
+
+Expanded nodes: 160
+Visited nodes: 82
+Found solution at depth: 10
+
+Expanded nodes: 160
+Visited nodes: 80
+Found solution at depth: 10
+
+------------
+Bidirectional improved descedants at depth 5: 
+Expanded nodes: 123
+Visited nodes: 68
+Found solution at depth: 10
+
+Expanded nodes: 128
+Visited nodes: 70
+Found solution at depth: 10
+
+Expanded nodes: 136
+Visited nodes: 76
+Found solution at depth: 10
+
+Expanded nodes: 132
+Visited nodes: 72
+Found solution at depth: 10
+
+Expanded nodes: 120
+Visited nodes: 66
+Found solution at depth: 10
+
+Expanded nodes: 119
+Visited nodes: 64
+Found solution at depth: 10
+
+Expanded nodes: 108
+Visited nodes: 58
+Found solution at depth: 10
+
+Expanded nodes: 124
+Visited nodes: 70
+Found solution at depth: 10
+
+Expanded nodes: 113
+Visited nodes: 62
+Found solution at depth: 10
+
+Expanded nodes: 99
+Visited nodes: 52
+Found solution at depth: 10
+
+Bidirectional normal descedants at depth 4: 
+Expanded nodes: 154
+Visited nodes: 76
+Found solution at depth: 7
+
+Expanded nodes: 97
+Visited nodes: 44
+Found solution at depth: 7
+
+Expanded nodes: 118
+Visited nodes: 54
+Found solution at depth: 7
+
+Expanded nodes: 205
+Visited nodes: 106
+Found solution at depth: 9
+
+Expanded nodes: 73
+Visited nodes: 34
+Found solution at depth: 7
+
+Expanded nodes: 114
+Visited nodes: 52
+Found solution at depth: 7
+
+Expanded nodes: 165
+Visited nodes: 84
+Found solution at depth: 9
+
+Expanded nodes: 162
+Visited nodes: 82
+Found solution at depth: 9
+
+Expanded nodes: 110
+Visited nodes: 52
+Found solution at depth: 7
+
+Expanded nodes: 100
+Visited nodes: 44
+Found solution at depth: 7
+
+------------
+Bidirectional improved descedants at depth 4: 
+Expanded nodes: 105
+Visited nodes: 54
+Found solution at depth: 7
+
+Expanded nodes: 86
+Visited nodes: 40
+Found solution at depth: 7
+
+Expanded nodes: 84
+Visited nodes: 40
+Found solution at depth: 7
+
+Expanded nodes: 73
+Visited nodes: 34
+Found solution at depth: 7
+
+Expanded nodes: 111
+Visited nodes: 60
+Found solution at depth: 9
+
+Expanded nodes: 77
+Visited nodes: 36
+Found solution at depth: 7
+
+Expanded nodes: 102
+Visited nodes: 52
+Found solution at depth: 9
+
+Expanded nodes: 110
+Visited nodes: 58
+Found solution at depth: 7
+
+Expanded nodes: 108
+Visited nodes: 56
+Found solution at depth: 7
+
+Expanded nodes: 100
+Visited nodes: 52
+Found solution at depth: 7
+
+Bidirectional normal descedants at depth 3: 
+Expanded nodes: 42
+Visited nodes: 26
+Found solution at depth: 6
+
+Expanded nodes: 77
+Visited nodes: 40
+Found solution at depth: 6
+
+Expanded nodes: 40
+Visited nodes: 24
+Found solution at depth: 6
+
+Expanded nodes: 32
+Visited nodes: 20
+Found solution at depth: 6
+
+Expanded nodes: 77
+Visited nodes: 40
+Found solution at depth: 6
+
+Expanded nodes: 32
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 32
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 40
+Visited nodes: 22
+Found solution at depth: 6
+
+Expanded nodes: 40
+Visited nodes: 22
+Found solution at depth: 6
+
+Expanded nodes: 80
+Visited nodes: 40
+Found solution at depth: 6
+
+------------
+Bidirectional improved descedants at depth 3: 
+Expanded nodes: 41
+Visited nodes: 24
+Found solution at depth: 6
+
+Expanded nodes: 28
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 41
+Visited nodes: 24
+Found solution at depth: 6
+
+Expanded nodes: 36
+Visited nodes: 22
+Found solution at depth: 6
+
+Expanded nodes: 29
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 32
+Visited nodes: 20
+Found solution at depth: 6
+
+Expanded nodes: 41
+Visited nodes: 24
+Found solution at depth: 6
+
+Expanded nodes: 28
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 28
+Visited nodes: 18
+Found solution at depth: 6
+
+Expanded nodes: 28
+Visited nodes: 18
+Found solution at depth: 6
+
+Bidirectional normal descedants at depth 2: 
+Expanded nodes: 56
+Visited nodes: 30
+Found solution at depth: 5
+
+Expanded nodes: 59
+Visited nodes: 32
+Found solution at depth: 5
+
+Expanded nodes: 60
+Visited nodes: 34
+Found solution at depth: 5
+
+Expanded nodes: 56
+Visited nodes: 28
+Found solution at depth: 5
+
+Expanded nodes: 48
+Visited nodes: 26
+Found solution at depth: 5
+
+Expanded nodes: 60
+Visited nodes: 34
+Found solution at depth: 5
+
+Expanded nodes: 46
+Visited nodes: 24
+Found solution at depth: 5
+
+Expanded nodes: 80
+Visited nodes: 40
+Found solution at depth: 7
+
+Expanded nodes: 56
+Visited nodes: 30
+Found solution at depth: 5
+
+Expanded nodes: 42
+Visited nodes: 22
+Found solution at depth: 5
+
+------------
+Bidirectional improved descedants at depth 2: 
+Expanded nodes: 54
+Visited nodes: 28
+Found solution at depth: 5
+
+Expanded nodes: 56
+Visited nodes: 30
+Found solution at depth: 5
+
+Expanded nodes: 29
+Visited nodes: 18
+Found solution at depth: 5
+
+Expanded nodes: 61
+Visited nodes: 32
+Found solution at depth: 5
+
+Expanded nodes: 28
+Visited nodes: 16
+Found solution at depth: 5
+
+Expanded nodes: 25
+Visited nodes: 14
+Found solution at depth: 5
+
+Expanded nodes: 56
+Visited nodes: 30
+Found solution at depth: 5
+
+Expanded nodes: 39
+Visited nodes: 22
+Found solution at depth: 5
+
+Expanded nodes: 42
+Visited nodes: 24
+Found solution at depth: 5
+
+Expanded nodes: 25
+Visited nodes: 14
+Found solution at depth: 5
+
+Bidirectional normal descedants at depth 1: 
+Expanded nodes: 56
+Visited nodes: 28
+Found solution at depth: 4
+
+Expanded nodes: 30
+Visited nodes: 14
+Found solution at depth: 4
+
+Expanded nodes: 33
+Visited nodes: 14
+Found solution at depth: 4
+
+Expanded nodes: 60
+Visited nodes: 30
+Found solution at depth: 4
+
+Expanded nodes: 45
+Visited nodes: 22
+Found solution at depth: 4
+
+Expanded nodes: 33
+Visited nodes: 12
+Found solution at depth: 4
+
+Expanded nodes: 58
+Visited nodes: 26
+Found solution at depth: 4
+
+Expanded nodes: 47
+Visited nodes: 20
+Found solution at depth: 4
+
+Expanded nodes: 33
+Visited nodes: 14
+Found solution at depth: 4
+
+Expanded nodes: 40
+Visited nodes: 20
+Found solution at depth: 4
+
+------------
+Bidirectional improved descedants at depth 1: 
+Expanded nodes: 30
+Visited nodes: 16
+Found solution at depth: 4
+
+Expanded nodes: 37
+Visited nodes: 20
+Found solution at depth: 4
+
+Expanded nodes: 45
+Visited nodes: 24
+Found solution at depth: 4
+
+Expanded nodes: 30
+Visited nodes: 16
+Found solution at depth: 4
+
+Expanded nodes: 24
+Visited nodes: 12
+Found solution at depth: 4
+
+Expanded nodes: 35
+Visited nodes: 18
+Found solution at depth: 4
+
+Expanded nodes: 31
+Visited nodes: 18
+Found solution at depth: 4
+
+Expanded nodes: 45
+Visited nodes: 24
+Found solution at depth: 4
+
+Expanded nodes: 26
+Visited nodes: 14
+Found solution at depth: 4
+
+Expanded nodes: 44
+Visited nodes: 24
+Found solution at depth: 4
+
+
+---------Here---------------
+
+idfs normal descedants at depth 14: 
+Expanded nodes: 5585734
+Visited nodes: 5585733
+Found solution at depth: 14
+
+Expanded nodes: 5435741
+Visited nodes: 5435741
+Found solution at depth: 14
+
+Expanded nodes: 5076863
+Visited nodes: 5076865
+Found solution at depth: 14
+
+Expanded nodes: 3558987
+Visited nodes: 3558987
+Found solution at depth: 14
+
+Expanded nodes: 3425784
+Visited nodes: 3425785
+Found solution at depth: 14
+
+Expanded nodes: 5591529
+Visited nodes: 5591527
+Found solution at depth: 14
+
+Expanded nodes: 3042358
+Visited nodes: 3042359
+Found solution at depth: 14
+
+Expanded nodes: 5862356
+Visited nodes: 5862358
+Found solution at depth: 14
+
+Expanded nodes: 4848238
+Visited nodes: 4848239
+Found solution at depth: 14
+
+Expanded nodes: 2526735
+Visited nodes: 2526734
+Found solution at depth: 14
+
+------------
+idfs improved descedants at depth 14: 
+Expanded nodes: 24905
+Visited nodes: 24909
+Found solution at depth: 14
+
+Expanded nodes: 23504
+Visited nodes: 23507
+Found solution at depth: 14
+
+Expanded nodes: 24757
+Visited nodes: 24761
+Found solution at depth: 14
+
+Expanded nodes: 23494
+Visited nodes: 23497
+Found solution at depth: 14
+
+Expanded nodes: 38989
+Visited nodes: 38992
+Found solution at depth: 14
+
+Expanded nodes: 35937
+Visited nodes: 35942
+Found solution at depth: 14
+
+Expanded nodes: 27538
+Visited nodes: 27546
+Found solution at depth: 14
+
+Expanded nodes: 26900
+Visited nodes: 26904
+Found solution at depth: 14
+
+Expanded nodes: 26862
+Visited nodes: 26864
+Found solution at depth: 14
+
+Expanded nodes: 40482
+Visited nodes: 40491
+Found solution at depth: 14
+
+idfs normal descedants at depth 13: 
+Expanded nodes: 832663
+Visited nodes: 832665
+Found solution at depth: 13
+
+Expanded nodes: 2028491
+Visited nodes: 2028497
+Found solution at depth: 13
+
+Expanded nodes: 1320597
+Visited nodes: 1320593
+Found solution at depth: 13
+
+Expanded nodes: 1814415
+Visited nodes: 1814418
+Found solution at depth: 13
+
+Expanded nodes: 1567885
+Visited nodes: 1567889
+Found solution at depth: 13
+
+Expanded nodes: 1000977
+Visited nodes: 1000975
+Found solution at depth: 13
+
+Expanded nodes: 2027455
+Visited nodes: 2027459
+Found solution at depth: 13
+
+Expanded nodes: 1026276
+Visited nodes: 1026273
+Found solution at depth: 13
+
+Expanded nodes: 1160108
+Visited nodes: 1160110
+Found solution at depth: 13
+
+Expanded nodes: 1383441
+Visited nodes: 1383446
+Found solution at depth: 13
+
+------------
+idfs improved descedants at depth 13: 
+Expanded nodes: 22255
+Visited nodes: 22264
+Found solution at depth: 13
+
+Expanded nodes: 18850
+Visited nodes: 18859
+Found solution at depth: 13
+
+Expanded nodes: 17696
+Visited nodes: 17702
+Found solution at depth: 13
+
+Expanded nodes: 18022
+Visited nodes: 18031
+Found solution at depth: 13
+
+Expanded nodes: 12691
+Visited nodes: 12698
+Found solution at depth: 13
+
+Expanded nodes: 15719
+Visited nodes: 15726
+Found solution at depth: 13
+
+Expanded nodes: 18031
+Visited nodes: 18036
+Found solution at depth: 13
+
+Expanded nodes: 12207
+Visited nodes: 12213
+Found solution at depth: 13
+
+Expanded nodes: 19678
+Visited nodes: 19685
+Found solution at depth: 13
+
+Expanded nodes: 12299
+Visited nodes: 12302
+Found solution at depth: 13
+
+idfs normal descedants at depth 12: 
+Expanded nodes: 1957780
+Visited nodes: 1957780
+Found solution at depth: 13
+
+Expanded nodes: 1617716
+Visited nodes: 1617714
+Found solution at depth: 13
+
+Expanded nodes: 961397
+Visited nodes: 961396
+Found solution at depth: 13
+
+Expanded nodes: 1916246
+Visited nodes: 1916248
+Found solution at depth: 13
+
+Expanded nodes: 953967
+Visited nodes: 953962
+Found solution at depth: 13
+
+Expanded nodes: 1850370
+Visited nodes: 1850373
+Found solution at depth: 13
+
+Expanded nodes: 751748
+Visited nodes: 751743
+Found solution at depth: 13
+
+Expanded nodes: 900068
+Visited nodes: 900068
+Found solution at depth: 13
+
+Expanded nodes: 1549596
+Visited nodes: 1549593
+Found solution at depth: 13
+
+Expanded nodes: 787213
+Visited nodes: 787206
+Found solution at depth: 13
+
+------------
+idfs improved descedants at depth 12: 
+Expanded nodes: 20071
+Visited nodes: 20080
+Found solution at depth: 13
+
+Expanded nodes: 12064
+Visited nodes: 12067
+Found solution at depth: 13
+
+Expanded nodes: 14912
+Visited nodes: 14918
+Found solution at depth: 13
+
+Expanded nodes: 18481
+Visited nodes: 18484
+Found solution at depth: 13
+
+Expanded nodes: 12965
+Visited nodes: 12970
+Found solution at depth: 13
+
+Expanded nodes: 19683
+Visited nodes: 19688
+Found solution at depth: 13
+
+Expanded nodes: 12879
+Visited nodes: 12886
+Found solution at depth: 13
+
+Expanded nodes: 11852
+Visited nodes: 11856
+Found solution at depth: 13
+
+Expanded nodes: 19275
+Visited nodes: 19283
+Found solution at depth: 13
+
+Expanded nodes: 20964
+Visited nodes: 20973
+Found solution at depth: 13
+
+idfs normal descedants at depth 11: 
+Expanded nodes: 180689
+Visited nodes: 180684
+Found solution at depth: 11
+
+Expanded nodes: 143035
+Visited nodes: 143036
+Found solution at depth: 11
+
+Expanded nodes: 159051
+Visited nodes: 159050
+Found solution at depth: 11
+
+Expanded nodes: 134193
+Visited nodes: 134196
+Found solution at depth: 11
+
+Expanded nodes: 164276
+Visited nodes: 164273
+Found solution at depth: 11
+
+Expanded nodes: 163456
+Visited nodes: 163456
+Found solution at depth: 11
+
+Expanded nodes: 179701
+Visited nodes: 179703
+Found solution at depth: 11
+
+Expanded nodes: 129583
+Visited nodes: 129585
+Found solution at depth: 11
+
+Expanded nodes: 184166
+Visited nodes: 184163
+Found solution at depth: 11
+
+Expanded nodes: 90358
+Visited nodes: 90358
+Found solution at depth: 11
+
+------------
+idfs improved descedants at depth 11: 
+Expanded nodes: 3967
+Visited nodes: 3966
+Found solution at depth: 11
+
+Expanded nodes: 5989
+Visited nodes: 5990
+Found solution at depth: 11
+
+Expanded nodes: 4450
+Visited nodes: 4455
+Found solution at depth: 11
+
+Expanded nodes: 4826
+Visited nodes: 4832
+Found solution at depth: 11
+
+Expanded nodes: 4809
+Visited nodes: 4813
+Found solution at depth: 11
+
+Expanded nodes: 4069
+Visited nodes: 4069
+Found solution at depth: 11
+
+Expanded nodes: 5104
+Visited nodes: 5104
+Found solution at depth: 11
+
+Expanded nodes: 5919
+Visited nodes: 5923
+Found solution at depth: 11
+
+Expanded nodes: 3855
+Visited nodes: 3858
+Found solution at depth: 11
+
+Expanded nodes: 5296
+Visited nodes: 5301
+Found solution at depth: 11
+
+idfs normal descedants at depth 10: 
+Expanded nodes: 40366
+Visited nodes: 40363
+Found solution at depth: 10
+
+Expanded nodes: 31943
+Visited nodes: 31945
+Found solution at depth: 10
+
+Expanded nodes: 60932
+Visited nodes: 60935
+Found solution at depth: 10
+
+Expanded nodes: 68671
+Visited nodes: 68678
+Found solution at depth: 10
+
+Expanded nodes: 65673
+Visited nodes: 65677
+Found solution at depth: 10
+
+Expanded nodes: 48410
+Visited nodes: 48411
+Found solution at depth: 10
+
+Expanded nodes: 47779
+Visited nodes: 47780
+Found solution at depth: 10
+
+Expanded nodes: 50282
+Visited nodes: 50282
+Found solution at depth: 10
+
+Expanded nodes: 42961
+Visited nodes: 42959
+Found solution at depth: 10
+
+Expanded nodes: 42117
+Visited nodes: 42118
+Found solution at depth: 10
+
+------------
+idfs improved descedants at depth 10: 
+Expanded nodes: 1727
+Visited nodes: 1730
+Found solution at depth: 10
+
+Expanded nodes: 2783
+Visited nodes: 2790
+Found solution at depth: 10
+
+Expanded nodes: 1764
+Visited nodes: 1768
+Found solution at depth: 10
+
+Expanded nodes: 2379
+Visited nodes: 2385
+Found solution at depth: 10
+
+Expanded nodes: 2379
+Visited nodes: 2385
+Found solution at depth: 10
+
+Expanded nodes: 2461
+Visited nodes: 2466
+Found solution at depth: 10
+
+Expanded nodes: 2895
+Visited nodes: 2901
+Found solution at depth: 10
+
+Expanded nodes: 2919
+Visited nodes: 2926
+Found solution at depth: 10
+
+Expanded nodes: 2783
+Visited nodes: 2789
+Found solution at depth: 10
+
+Expanded nodes: 2188
+Visited nodes: 2193
+Found solution at depth: 10
+
+idfs normal descedants at depth 9: 
+Expanded nodes: 12227
+Visited nodes: 12228
+Found solution at depth: 9
+
+Expanded nodes: 12451
+Visited nodes: 12452
+Found solution at depth: 9
+
+Expanded nodes: 8708
+Visited nodes: 8704
+Found solution at depth: 9
+
+Expanded nodes: 9371
+Visited nodes: 9373
+Found solution at depth: 9
+
+Expanded nodes: 13551
+Visited nodes: 13548
+Found solution at depth: 9
+
+Expanded nodes: 12341
+Visited nodes: 12339
+Found solution at depth: 9
+
+Expanded nodes: 12015
+Visited nodes: 12012
+Found solution at depth: 9
+
+Expanded nodes: 12044
+Visited nodes: 12044
+Found solution at depth: 9
+
+Expanded nodes: 11535
+Visited nodes: 11532
+Found solution at depth: 9
+
+Expanded nodes: 9665
+Visited nodes: 9662
+Found solution at depth: 9
+
+------------
+idfs improved descedants at depth 9: 
+Expanded nodes: 903
+Visited nodes: 903
+Found solution at depth: 9
+
+Expanded nodes: 918
+Visited nodes: 921
+Found solution at depth: 9
+
+Expanded nodes: 1133
+Visited nodes: 1136
+Found solution at depth: 9
+
+Expanded nodes: 1210
+Visited nodes: 1215
+Found solution at depth: 9
+
+Expanded nodes: 1058
+Visited nodes: 1061
+Found solution at depth: 9
+
+Expanded nodes: 918
+Visited nodes: 920
+Found solution at depth: 9
+
+Expanded nodes: 1135
+Visited nodes: 1140
+Found solution at depth: 9
+
+Expanded nodes: 959
+Visited nodes: 962
+Found solution at depth: 9
+
+Expanded nodes: 991
+Visited nodes: 996
+Found solution at depth: 9
+
+Expanded nodes: 913
+Visited nodes: 916
+Found solution at depth: 9
+
+idfs normal descedants at depth 8: 
+Expanded nodes: 5942
+Visited nodes: 5944
+Found solution at depth: 8
+
+Expanded nodes: 6077
+Visited nodes: 6081
+Found solution at depth: 8
+
+Expanded nodes: 6595
+Visited nodes: 6596
+Found solution at depth: 8
+
+Expanded nodes: 4853
+Visited nodes: 4850
+Found solution at depth: 8
+
+Expanded nodes: 4041
+Visited nodes: 4043
+Found solution at depth: 8
+
+Expanded nodes: 5299
+Visited nodes: 5297
+Found solution at depth: 8
+
+Expanded nodes: 5584
+Visited nodes: 5584
+Found solution at depth: 8
+
+Expanded nodes: 5920
+Visited nodes: 5920
+Found solution at depth: 8
+
+Expanded nodes: 5623
+Visited nodes: 5623
+Found solution at depth: 8
+
+Expanded nodes: 5581
+Visited nodes: 5579
+Found solution at depth: 8
+
+------------
+idfs improved descedants at depth 8: 
+Expanded nodes: 788
+Visited nodes: 793
+Found solution at depth: 8
+
+Expanded nodes: 639
+Visited nodes: 641
+Found solution at depth: 8
+
+Expanded nodes: 632
+Visited nodes: 636
+Found solution at depth: 8
+
+Expanded nodes: 752
+Visited nodes: 759
+Found solution at depth: 8
+
+Expanded nodes: 583
+Visited nodes: 587
+Found solution at depth: 8
+
+Expanded nodes: 591
+Visited nodes: 596
+Found solution at depth: 8
+
+Expanded nodes: 714
+Visited nodes: 718
+Found solution at depth: 8
+
+Expanded nodes: 582
+Visited nodes: 584
+Found solution at depth: 8
+
+Expanded nodes: 743
+Visited nodes: 747
+Found solution at depth: 8
+
+Expanded nodes: 582
+Visited nodes: 584
+Found solution at depth: 8
+
+idfs normal descedants at depth 7: 
+Expanded nodes: 1567
+Visited nodes: 1565
+Found solution at depth: 7
+
+Expanded nodes: 1343
+Visited nodes: 1345
+Found solution at depth: 7
+
+Expanded nodes: 1014
+Visited nodes: 1009
+Found solution at depth: 7
+
+Expanded nodes: 1740
+Visited nodes: 1742
+Found solution at depth: 7
+
+Expanded nodes: 1405
+Visited nodes: 1408
+Found solution at depth: 7
+
+Expanded nodes: 1240
+Visited nodes: 1240
+Found solution at depth: 7
+
+Expanded nodes: 1207
+Visited nodes: 1206
+Found solution at depth: 7
+
+Expanded nodes: 1073
+Visited nodes: 1067
+Found solution at depth: 7
+
+Expanded nodes: 1479
+Visited nodes: 1479
+Found solution at depth: 7
+
+Expanded nodes: 949
+Visited nodes: 944
+Found solution at depth: 7
+
+------------
+idfs improved descedants at depth 7: 
+Expanded nodes: 292
+Visited nodes: 295
+Found solution at depth: 7
+
+Expanded nodes: 289
+Visited nodes: 292
+Found solution at depth: 7
+
+Expanded nodes: 277
+Visited nodes: 277
+Found solution at depth: 7
+
+Expanded nodes: 261
+Visited nodes: 261
+Found solution at depth: 7
+
+Expanded nodes: 293
+Visited nodes: 298
+Found solution at depth: 7
+
+Expanded nodes: 366
+Visited nodes: 371
+Found solution at depth: 7
+
+Expanded nodes: 352
+Visited nodes: 356
+Found solution at depth: 7
+
+Expanded nodes: 292
+Visited nodes: 294
+Found solution at depth: 7
+
+Expanded nodes: 247
+Visited nodes: 248
+Found solution at depth: 7
+
+Expanded nodes: 244
+Visited nodes: 244
+Found solution at depth: 7
+
+idfs normal descedants at depth 6: 
+Expanded nodes: 605
+Visited nodes: 604
+Found solution at depth: 6
+
+Expanded nodes: 1083
+Visited nodes: 1086
+Found solution at depth: 6
+
+Expanded nodes: 553
+Visited nodes: 552
+Found solution at depth: 6
+
+Expanded nodes: 1402
+Visited nodes: 1405
+Found solution at depth: 6
+
+Expanded nodes: 577
+Visited nodes: 576
+Found solution at depth: 6
+
+Expanded nodes: 1364
+Visited nodes: 1364
+Found solution at depth: 6
+
+Expanded nodes: 742
+Visited nodes: 742
+Found solution at depth: 6
+
+Expanded nodes: 914
+Visited nodes: 913
+Found solution at depth: 6
+
+Expanded nodes: 1562
+Visited nodes: 1566
+Found solution at depth: 6
+
+Expanded nodes: 1189
+Visited nodes: 1190
+Found solution at depth: 6
+
+------------
+idfs improved descedants at depth 6: 
+Expanded nodes: 236
+Visited nodes: 238
+Found solution at depth: 6
+
+Expanded nodes: 224
+Visited nodes: 227
+Found solution at depth: 6
+
+Expanded nodes: 194
+Visited nodes: 194
+Found solution at depth: 6
+
+Expanded nodes: 309
+Visited nodes: 312
+Found solution at depth: 6
+
+Expanded nodes: 266
+Visited nodes: 267
+Found solution at depth: 6
+
+Expanded nodes: 170
+Visited nodes: 170
+Found solution at depth: 6
+
+Expanded nodes: 213
+Visited nodes: 214
+Found solution at depth: 6
+
+Expanded nodes: 278
+Visited nodes: 281
+Found solution at depth: 6
+
+Expanded nodes: 309
+Visited nodes: 312
+Found solution at depth: 6
+
+Expanded nodes: 171
+Visited nodes: 173
+Found solution at depth: 6
+
+idfs normal descedants at depth 5: 
+Expanded nodes: 169
+Visited nodes: 168
+Found solution at depth: 5
+
+Expanded nodes: 150
+Visited nodes: 153
+Found solution at depth: 5
+
+Expanded nodes: 150
+Visited nodes: 150
+Found solution at depth: 5
+
+Expanded nodes: 214
+Visited nodes: 215
+Found solution at depth: 5
+
+Expanded nodes: 148
+Visited nodes: 147
+Found solution at depth: 5
+
+Expanded nodes: 112
+Visited nodes: 109
+Found solution at depth: 5
+
+Expanded nodes: 121
+Visited nodes: 119
+Found solution at depth: 5
+
+Expanded nodes: 142
+Visited nodes: 144
+Found solution at depth: 5
+
+Expanded nodes: 151
+Visited nodes: 152
+Found solution at depth: 5
+
+Expanded nodes: 133
+Visited nodes: 133
+Found solution at depth: 5
+
+------------
+idfs improved descedants at depth 5: 
+Expanded nodes: 73
+Visited nodes: 75
+Found solution at depth: 5
+
+Expanded nodes: 87
+Visited nodes: 90
+Found solution at depth: 5
+
+Expanded nodes: 71
+Visited nodes: 73
+Found solution at depth: 5
+
+Expanded nodes: 69
+Visited nodes: 70
+Found solution at depth: 5
+
+Expanded nodes: 58
+Visited nodes: 58
+Found solution at depth: 5
+
+Expanded nodes: 58
+Visited nodes: 60
+Found solution at depth: 5
+
+Expanded nodes: 77
+Visited nodes: 78
+Found solution at depth: 5
+
+Expanded nodes: 63
+Visited nodes: 65
+Found solution at depth: 5
+
+Expanded nodes: 85
+Visited nodes: 87
+Found solution at depth: 5
+
+Expanded nodes: 68
+Visited nodes: 70
+Found solution at depth: 5
+
+idfs normal descedants at depth 4: 
+Expanded nodes: 50
+Visited nodes: 49
+Found solution at depth: 4
+
+Expanded nodes: 66
+Visited nodes: 65
+Found solution at depth: 4
+
+Expanded nodes: 58
+Visited nodes: 58
+Found solution at depth: 4
+
+Expanded nodes: 91
+Visited nodes: 91
+Found solution at depth: 4
+
+Expanded nodes: 48
+Visited nodes: 47
+Found solution at depth: 4
+
+Expanded nodes: 117
+Visited nodes: 120
+Found solution at depth: 4
+
+Expanded nodes: 56
+Visited nodes: 53
+Found solution at depth: 4
+
+Expanded nodes: 115
+Visited nodes: 114
+Found solution at depth: 4
+
+Expanded nodes: 92
+Visited nodes: 93
+Found solution at depth: 4
+
+Expanded nodes: 76
+Visited nodes: 76
+Found solution at depth: 4
+
+------------
+idfs improved descedants at depth 4: 
+Expanded nodes: 44
+Visited nodes: 46
+Found solution at depth: 4
+
+Expanded nodes: 52
+Visited nodes: 53
+Found solution at depth: 4
+
+Expanded nodes: 53
+Visited nodes: 56
+Found solution at depth: 4
+
+Expanded nodes: 63
+Visited nodes: 64
+Found solution at depth: 4
+
+Expanded nodes: 52
+Visited nodes: 53
+Found solution at depth: 4
+
+Expanded nodes: 64
+Visited nodes: 68
+Found solution at depth: 4
+
+Expanded nodes: 52
+Visited nodes: 52
+Found solution at depth: 4
+
+Expanded nodes: 34
+Visited nodes: 35
+Found solution at depth: 4
+
+Expanded nodes: 44
+Visited nodes: 46
+Found solution at depth: 4
+
+Expanded nodes: 64
+Visited nodes: 68
+Found solution at depth: 4
+
+idfs normal descedants at depth 3: 
+Expanded nodes: 17
+Visited nodes: 18
+Found solution at depth: 3
+
+Expanded nodes: 17
+Visited nodes: 15
+Found solution at depth: 3
+
+Expanded nodes: 18
+Visited nodes: 16
+Found solution at depth: 3
+
+Expanded nodes: 23
+Visited nodes: 23
+Found solution at depth: 3
+
+Expanded nodes: 20
+Visited nodes: 21
+Found solution at depth: 3
+
+Expanded nodes: 18
+Visited nodes: 17
+Found solution at depth: 3
+
+Expanded nodes: 21
+Visited nodes: 22
+Found solution at depth: 3
+
+Expanded nodes: 17
+Visited nodes: 16
+Found solution at depth: 3
+
+Expanded nodes: 19
+Visited nodes: 21
+Found solution at depth: 3
+
+Expanded nodes: 19
+Visited nodes: 18
+Found solution at depth: 3
+
+------------
+idfs improved descedants at depth 3: 
+Expanded nodes: 16
+Visited nodes: 16
+Found solution at depth: 3
+
+Expanded nodes: 14
+Visited nodes: 13
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 14
+Found solution at depth: 3
+
+Expanded nodes: 16
+Visited nodes: 18
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 15
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 13
+Found solution at depth: 3
+
+Expanded nodes: 16
+Visited nodes: 17
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 15
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 13
+Found solution at depth: 3
+
+Expanded nodes: 14
+Visited nodes: 14
+Found solution at depth: 3
+
+idfs normal descedants at depth 2: 
+Expanded nodes: 13
+Visited nodes: 11
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 15
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 16
+Found solution at depth: 2
+
+Expanded nodes: 13
+Visited nodes: 14
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 13
+Visited nodes: 14
+Found solution at depth: 2
+
+------------
+idfs improved descedants at depth 2: 
+Expanded nodes: 9
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 14
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 11
+Found solution at depth: 2
+
+Expanded nodes: 11
+Visited nodes: 11
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 9
+Found solution at depth: 2
+
+idfs normal descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 5
+Found solution at depth: 1
+
+------------
+idfs improved descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 4
+Found solution at depth: 1
+
+BFS normal descedants at depth 14: 
+It took more than 15 min
+Expanded nodes: 2907800
+Visited nodes: 981716
+
+It took more than 15 min
+Expanded nodes: 2914824
+Visited nodes: 984214
+
+It took more than 15 min
+Expanded nodes: 2882320
+Visited nodes: 972659
+
+It took more than 15 min
+Expanded nodes: 2554348
+Visited nodes: 855838
+------------
+BFS improved descedants at depth 14: 
+Expanded nodes: 25974
+Visited nodes: 13707
+Found solution at depth: 14
+
+Expanded nodes: 33058
+Visited nodes: 17039
+Found solution at depth: 14
+
+Expanded nodes: 22800
+Visited nodes: 12224
+Found solution at depth: 14
+
+Expanded nodes: 23816
+Visited nodes: 12715
+Found solution at depth: 14
+
+Expanded nodes: 33304
+Visited nodes: 17155
+Found solution at depth: 14
+
+Expanded nodes: 24359
+Visited nodes: 12958
+Found solution at depth: 14
+
+Expanded nodes: 20588
+Visited nodes: 11207
+Found solution at depth: 14
+
+Expanded nodes: 21369
+Visited nodes: 11569
+Found solution at depth: 14
+
+Expanded nodes: 33825
+Visited nodes: 17401
+Found solution at depth: 14
+
+Expanded nodes: 26518
+Visited nodes: 13962
+Found solution at depth: 14
+
+BFS normal descedants at depth 13: 
+Expanded nodes: 1700221
+Visited nodes: 551518
+Found solution at depth: 13
+
+It took more than 15 min
+Expanded nodes: 2354221
+Visited nodes: 784554
+
+It took more than 15 min
+Expanded nodes: 2336921
+Visited nodes: 778364
+
+It took more than 15 min
+Expanded nodes: 2207596
+Visited nodes: 732255
+
+Expanded nodes: 2109394
+Visited nodes: 697262
+Found solution at depth: 13
+
+Expanded nodes: 1799120
+Visited nodes: 586775
+Found solution at depth: 13
+
+It took more than 15 min
+Expanded nodes: 2330467
+Visited nodes: 776086
+------------
+BFS improved descedants at depth 13: 
+Expanded nodes: 11465
+Visited nodes: 5850
+Found solution at depth: 13
+
+Expanded nodes: 18025
+Visited nodes: 9757
+Found solution at depth: 13
+
+Expanded nodes: 19394
+Visited nodes: 10587
+Found solution at depth: 13
+
+Expanded nodes: 13584
+Visited nodes: 7124
+Found solution at depth: 13
+
+Expanded nodes: 13283
+Visited nodes: 6942
+Found solution at depth: 13
+
+Expanded nodes: 19881
+Visited nodes: 10869
+Found solution at depth: 13
+
+Expanded nodes: 16134
+Visited nodes: 8643
+Found solution at depth: 13
+
+Expanded nodes: 17471
+Visited nodes: 9425
+Found solution at depth: 13
+
+Expanded nodes: 17283
+Visited nodes: 9320
+Found solution at depth: 13
+
+Expanded nodes: 14677
+Visited nodes: 7769
+Found solution at depth: 13
+
+BFS normal descedants at depth 12: 
+It took more than 15 min
+Expanded nodes: 2316622
+Visited nodes: 771108
+
+Expanded nodes: 1581204
+Visited nodes: 509107
+Found solution at depth: 13
+
+It took more than 15 min
+Expanded nodes: 2470506
+Visited nodes: 825960
+
+Expanded nodes: 1557835
+Visited nodes: 500797
+Found solution at depth: 13
+
+It took more than 15 min
+Expanded nodes: 1841068
+Visited nodes: 601704
+
+It took more than 15 min
+Expanded nodes: 1803478
+Visited nodes: 588289
+------------
+BFS improved descedants at depth 12: 
+Expanded nodes: 17356
+Visited nodes: 9379
+Found solution at depth: 13
+
+Expanded nodes: 18499
+Visited nodes: 10038
+Found solution at depth: 13
+
+Expanded nodes: 11156
+Visited nodes: 5678
+Found solution at depth: 13
+
+Expanded nodes: 13739
+Visited nodes: 7207
+Found solution at depth: 13
+
+Expanded nodes: 17043
+Visited nodes: 9187
+Found solution at depth: 13
+
+Expanded nodes: 18533
+Visited nodes: 10060
+Found solution at depth: 13
+
+Expanded nodes: 12016
+Visited nodes: 6192
+Found solution at depth: 13
+
+Expanded nodes: 10932
+Visited nodes: 5544
+Found solution at depth: 13
+
+Expanded nodes: 12367
+Visited nodes: 6397
+Found solution at depth: 13
+
+Expanded nodes: 13004
+Visited nodes: 6767
+Found solution at depth: 13
+
+BFS normal descedants at depth 11: 
+Expanded nodes: 317415
+Visited nodes: 107208
+Found solution at depth: 11
+
+Expanded nodes: 150386
+Visited nodes: 47692
+Found solution at depth: 11
+
+Expanded nodes: 163702
+Visited nodes: 52439
+Found solution at depth: 11
+
+Expanded nodes: 401586
+Visited nodes: 137190
+Found solution at depth: 11
+
+Expanded nodes: 324967
+Visited nodes: 109901
+Found solution at depth: 11
+
+Expanded nodes: 400713
+Visited nodes: 136885
+Found solution at depth: 11
+
+Expanded nodes: 181942
+Visited nodes: 58931
+Found solution at depth: 11
+
+Expanded nodes: 278289
+Visited nodes: 93250
+Found solution at depth: 11
+
+Expanded nodes: 426854
+Visited nodes: 146196
+Found solution at depth: 11
+
+Expanded nodes: 245570
+Visited nodes: 81609
+Found solution at depth: 11
+
+------------
+BFS improved descedants at depth 11: 
+Expanded nodes: 4494
+Visited nodes: 2411
+Found solution at depth: 11
+
+Expanded nodes: 3023
+Visited nodes: 1543
+Found solution at depth: 11
+
+Expanded nodes: 3735
+Visited nodes: 1963
+Found solution at depth: 11
+
+Expanded nodes: 5460
+Visited nodes: 2982
+Found solution at depth: 11
+
+Expanded nodes: 4068
+Visited nodes: 2162
+Found solution at depth: 11
+
+Expanded nodes: 3646
+Visited nodes: 1906
+Found solution at depth: 11
+
+Expanded nodes: 3561
+Visited nodes: 1858
+Found solution at depth: 11
+
+Expanded nodes: 4425
+Visited nodes: 2369
+Found solution at depth: 11
+
+Expanded nodes: 4405
+Visited nodes: 2355
+Found solution at depth: 11
+
+Expanded nodes: 3752
+Visited nodes: 1976
+Found solution at depth: 11
+
+BFS normal descedants at depth 10: 
+Expanded nodes: 86965
+Visited nodes: 28339
+Found solution at depth: 10
+
+Expanded nodes: 129522
+Visited nodes: 41325
+Found solution at depth: 10
+
+Expanded nodes: 80730
+Visited nodes: 26439
+Found solution at depth: 10
+
+Expanded nodes: 81912
+Visited nodes: 26801
+Found solution at depth: 10
+
+Expanded nodes: 91522
+Visited nodes: 29729
+Found solution at depth: 10
+
+Expanded nodes: 48399
+Visited nodes: 16575
+Found solution at depth: 10
+
+Expanded nodes: 126830
+Visited nodes: 40499
+Found solution at depth: 10
+
+Expanded nodes: 98789
+Visited nodes: 31947
+Found solution at depth: 10
+
+Expanded nodes: 75003
+Visited nodes: 24689
+Found solution at depth: 10
+
+Expanded nodes: 120959
+Visited nodes: 38712
+Found solution at depth: 10
+
+------------
+BFS improved descedants at depth 10: 
+Expanded nodes: 1572
+Visited nodes: 857
+Found solution at depth: 10
+
+Expanded nodes: 2154
+Visited nodes: 1131
+Found solution at depth: 10
+
+Expanded nodes: 2119
+Visited nodes: 1113
+Found solution at depth: 10
+
+Expanded nodes: 2381
+Visited nodes: 1241
+Found solution at depth: 10
+
+Expanded nodes: 1979
+Visited nodes: 1049
+Found solution at depth: 10
+
+Expanded nodes: 1953
+Visited nodes: 1036
+Found solution at depth: 10
+
+Expanded nodes: 1559
+Visited nodes: 851
+Found solution at depth: 10
+
+Expanded nodes: 2259
+Visited nodes: 1185
+Found solution at depth: 10
+
+Expanded nodes: 1682
+Visited nodes: 904
+Found solution at depth: 10
+
+Expanded nodes: 2119
+Visited nodes: 1113
+Found solution at depth: 10
+
+BFS normal descedants at depth 9: 
+Expanded nodes: 22575
+Visited nodes: 7410
+Found solution at depth: 9
+
+Expanded nodes: 20305
+Visited nodes: 6597
+Found solution at depth: 9
+
+Expanded nodes: 18340
+Visited nodes: 5900
+Found solution at depth: 9
+
+Expanded nodes: 22622
+Visited nodes: 7427
+Found solution at depth: 9
+
+Expanded nodes: 29121
+Visited nodes: 9734
+Found solution at depth: 9
+
+Expanded nodes: 27014
+Visited nodes: 8987
+Found solution at depth: 9
+
+Expanded nodes: 20442
+Visited nodes: 6651
+Found solution at depth: 9
+
+Expanded nodes: 17465
+Visited nodes: 5588
+Found solution at depth: 9
+
+Expanded nodes: 18664
+Visited nodes: 6015
+Found solution at depth: 9
+
+Expanded nodes: 19965
+Visited nodes: 6480
+Found solution at depth: 9
+
+------------
+BFS improved descedants at depth 9: 
+Expanded nodes: 1217
+Visited nodes: 649
+Found solution at depth: 9
+
+Expanded nodes: 1123
+Visited nodes: 588
+Found solution at depth: 9
+
+Expanded nodes: 1212
+Visited nodes: 645
+Found solution at depth: 9
+
+Expanded nodes: 1189
+Visited nodes: 631
+Found solution at depth: 9
+
+Expanded nodes: 1247
+Visited nodes: 665
+Found solution at depth: 9
+
+Expanded nodes: 1098
+Visited nodes: 572
+Found solution at depth: 9
+
+Expanded nodes: 1018
+Visited nodes: 530
+Found solution at depth: 9
+
+Expanded nodes: 1035
+Visited nodes: 540
+Found solution at depth: 9
+
+Expanded nodes: 950
+Visited nodes: 485
+Found solution at depth: 9
+
+Expanded nodes: 875
+Visited nodes: 441
+Found solution at depth: 9
+
+BFS normal descedants at depth 8: 
+Expanded nodes: 6427
+Visited nodes: 2163
+Found solution at depth: 8
+
+Expanded nodes: 14030
+Visited nodes: 4483
+Found solution at depth: 8
+
+Expanded nodes: 11634
+Visited nodes: 3752
+Found solution at depth: 8
+
+Expanded nodes: 10801
+Visited nodes: 3497
+Found solution at depth: 8
+
+Expanded nodes: 11116
+Visited nodes: 3592
+Found solution at depth: 8
+
+Expanded nodes: 10659
+Visited nodes: 3453
+Found solution at depth: 8
+
+Expanded nodes: 9919
+Visited nodes: 3227
+Found solution at depth: 8
+
+Expanded nodes: 10821
+Visited nodes: 3503
+Found solution at depth: 8
+
+Expanded nodes: 8766
+Visited nodes: 2876
+Found solution at depth: 8
+
+Expanded nodes: 7932
+Visited nodes: 2621
+Found solution at depth: 8
+
+------------
+BFS improved descedants at depth 8: 
+Expanded nodes: 822
+Visited nodes: 412
+Found solution at depth: 8
+
+Expanded nodes: 430
+Visited nodes: 235
+Found solution at depth: 8
+
+Expanded nodes: 584
+Visited nodes: 305
+Found solution at depth: 8
+
+Expanded nodes: 657
+Visited nodes: 337
+Found solution at depth: 8
+
+Expanded nodes: 699
+Visited nodes: 356
+Found solution at depth: 8
+
+Expanded nodes: 464
+Visited nodes: 251
+Found solution at depth: 8
+
+Expanded nodes: 545
+Visited nodes: 288
+Found solution at depth: 8
+
+Expanded nodes: 432
+Visited nodes: 236
+Found solution at depth: 8
+
+Expanded nodes: 628
+Visited nodes: 324
+Found solution at depth: 8
+
+Expanded nodes: 548
+Visited nodes: 289
+Found solution at depth: 8
+
+BFS normal descedants at depth 7: 
+Expanded nodes: 2380
+Visited nodes: 783
+Found solution at depth: 7
+
+Expanded nodes: 2694
+Visited nodes: 895
+Found solution at depth: 7
+
+Expanded nodes: 2417
+Visited nodes: 796
+Found solution at depth: 7
+
+Expanded nodes: 2052
+Visited nodes: 665
+Found solution at depth: 7
+
+Expanded nodes: 2356
+Visited nodes: 773
+Found solution at depth: 7
+
+Expanded nodes: 2169
+Visited nodes: 707
+Found solution at depth: 7
+
+Expanded nodes: 2761
+Visited nodes: 919
+Found solution at depth: 7
+
+Expanded nodes: 3061
+Visited nodes: 1023
+Found solution at depth: 7
+
+Expanded nodes: 2790
+Visited nodes: 927
+Found solution at depth: 7
+
+Expanded nodes: 2194
+Visited nodes: 717
+Found solution at depth: 7
+
+------------
+BFS improved descedants at depth 7: 
+Expanded nodes: 283
+Visited nodes: 152
+Found solution at depth: 7
+
+Expanded nodes: 264
+Visited nodes: 140
+Found solution at depth: 7
+
+Expanded nodes: 275
+Visited nodes: 147
+Found solution at depth: 7
+
+Expanded nodes: 269
+Visited nodes: 144
+Found solution at depth: 7
+
+Expanded nodes: 313
+Visited nodes: 170
+Found solution at depth: 7
+
+Expanded nodes: 256
+Visited nodes: 137
+Found solution at depth: 7
+
+Expanded nodes: 271
+Visited nodes: 145
+Found solution at depth: 7
+
+Expanded nodes: 242
+Visited nodes: 127
+Found solution at depth: 7
+
+Expanded nodes: 290
+Visited nodes: 155
+Found solution at depth: 7
+
+Expanded nodes: 326
+Visited nodes: 177
+Found solution at depth: 7
+
+BFS normal descedants at depth 6: 
+Expanded nodes: 1744
+Visited nodes: 580
+Found solution at depth: 6
+
+Expanded nodes: 1750
+Visited nodes: 583
+Found solution at depth: 6
+
+Expanded nodes: 1169
+Visited nodes: 375
+Found solution at depth: 6
+
+Expanded nodes: 2497
+Visited nodes: 850
+Found solution at depth: 6
+
+Expanded nodes: 1418
+Visited nodes: 464
+Found solution at depth: 6
+
+Expanded nodes: 2676
+Visited nodes: 913
+Found solution at depth: 6
+
+Expanded nodes: 1821
+Visited nodes: 607
+Found solution at depth: 6
+
+Expanded nodes: 1793
+Visited nodes: 597
+Found solution at depth: 6
+
+Expanded nodes: 2872
+Visited nodes: 983
+Found solution at depth: 6
+
+Expanded nodes: 1472
+Visited nodes: 482
+Found solution at depth: 6
+
+------------
+BFS improved descedants at depth 6: 
+Expanded nodes: 216
+Visited nodes: 116
+Found solution at depth: 6
+
+Expanded nodes: 237
+Visited nodes: 129
+Found solution at depth: 6
+
+Expanded nodes: 200
+Visited nodes: 105
+Found solution at depth: 6
+
+Expanded nodes: 246
+Visited nodes: 134
+Found solution at depth: 6
+
+Expanded nodes: 202
+Visited nodes: 107
+Found solution at depth: 6
+
+Expanded nodes: 283
+Visited nodes: 154
+Found solution at depth: 6
+
+Expanded nodes: 225
+Visited nodes: 121
+Found solution at depth: 6
+
+Expanded nodes: 298
+Visited nodes: 164
+Found solution at depth: 6
+
+Expanded nodes: 286
+Visited nodes: 155
+Found solution at depth: 6
+
+Expanded nodes: 262
+Visited nodes: 141
+Found solution at depth: 6
+
+BFS normal descedants at depth 5: 
+Expanded nodes: 351
+Visited nodes: 120
+Found solution at depth: 5
+
+Expanded nodes: 221
+Visited nodes: 74
+Found solution at depth: 5
+
+Expanded nodes: 345
+Visited nodes: 118
+Found solution at depth: 5
+
+Expanded nodes: 248
+Visited nodes: 84
+Found solution at depth: 5
+
+Expanded nodes: 251
+Visited nodes: 84
+Found solution at depth: 5
+
+Expanded nodes: 279
+Visited nodes: 95
+Found solution at depth: 5
+
+Expanded nodes: 321
+Visited nodes: 110
+Found solution at depth: 5
+
+Expanded nodes: 320
+Visited nodes: 109
+Found solution at depth: 5
+
+Expanded nodes: 337
+Visited nodes: 116
+Found solution at depth: 5
+
+Expanded nodes: 253
+Visited nodes: 86
+Found solution at depth: 5
+
+------------
+BFS improved descedants at depth 5: 
+Expanded nodes: 74
+Visited nodes: 38
+Found solution at depth: 5
+
+Expanded nodes: 82
+Visited nodes: 42
+Found solution at depth: 5
+
+Expanded nodes: 78
+Visited nodes: 40
+Found solution at depth: 5
+
+Expanded nodes: 65
+Visited nodes: 32
+Found solution at depth: 5
+
+Expanded nodes: 93
+Visited nodes: 49
+Found solution at depth: 5
+
+Expanded nodes: 66
+Visited nodes: 32
+Found solution at depth: 5
+
+Expanded nodes: 62
+Visited nodes: 30
+Found solution at depth: 5
+
+Expanded nodes: 82
+Visited nodes: 42
+Found solution at depth: 5
+
+Expanded nodes: 75
+Visited nodes: 38
+Found solution at depth: 5
+
+Expanded nodes: 80
+Visited nodes: 41
+Found solution at depth: 5
+
+BFS normal descedants at depth 4: 
+Expanded nodes: 121
+Visited nodes: 41
+Found solution at depth: 4
+
+Expanded nodes: 133
+Visited nodes: 45
+Found solution at depth: 4
+
+Expanded nodes: 169
+Visited nodes: 58
+Found solution at depth: 4
+
+Expanded nodes: 154
+Visited nodes: 52
+Found solution at depth: 4
+
+Expanded nodes: 138
+Visited nodes: 47
+Found solution at depth: 4
+
+Expanded nodes: 224
+Visited nodes: 77
+Found solution at depth: 4
+
+Expanded nodes: 138
+Visited nodes: 47
+Found solution at depth: 4
+
+Expanded nodes: 90
+Visited nodes: 30
+Found solution at depth: 4
+
+Expanded nodes: 165
+Visited nodes: 56
+Found solution at depth: 4
+
+Expanded nodes: 143
+Visited nodes: 49
+Found solution at depth: 4
+
+------------
+BFS improved descedants at depth 4: 
+Expanded nodes: 72
+Visited nodes: 40
+Found solution at depth: 4
+
+Expanded nodes: 54
+Visited nodes: 27
+Found solution at depth: 4
+
+Expanded nodes: 40
+Visited nodes: 18
+Found solution at depth: 4
+
+Expanded nodes: 72
+Visited nodes: 40
+Found solution at depth: 4
+
+Expanded nodes: 51
+Visited nodes: 26
+Found solution at depth: 4
+
+Expanded nodes: 41
+Visited nodes: 19
+Found solution at depth: 4
+
+Expanded nodes: 45
+Visited nodes: 21
+Found solution at depth: 4
+
+Expanded nodes: 52
+Visited nodes: 27
+Found solution at depth: 4
+
+Expanded nodes: 45
+Visited nodes: 21
+Found solution at depth: 4
+
+Expanded nodes: 40
+Visited nodes: 18
+Found solution at depth: 4
+
+BFS normal descedants at depth 3: 
+Expanded nodes: 22
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 31
+Visited nodes: 12
+Found solution at depth: 3
+
+Expanded nodes: 34
+Visited nodes: 13
+Found solution at depth: 3
+
+Expanded nodes: 45
+Visited nodes: 17
+Found solution at depth: 3
+
+Expanded nodes: 32
+Visited nodes: 13
+Found solution at depth: 3
+
+Expanded nodes: 42
+Visited nodes: 16
+Found solution at depth: 3
+
+Expanded nodes: 39
+Visited nodes: 15
+Found solution at depth: 3
+
+Expanded nodes: 24
+Visited nodes: 10
+Found solution at depth: 3
+
+Expanded nodes: 42
+Visited nodes: 16
+Found solution at depth: 3
+
+Expanded nodes: 31
+Visited nodes: 12
+Found solution at depth: 3
+
+------------
+BFS improved descedants at depth 3: 
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 3
+
+Expanded nodes: 14
+Visited nodes: 8
+Found solution at depth: 3
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 3
+
+BFS normal descedants at depth 2: 
+Expanded nodes: 19
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 2
+
+Expanded nodes: 33
+Visited nodes: 12
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 2
+
+Expanded nodes: 30
+Visited nodes: 11
+Found solution at depth: 2
+
+Expanded nodes: 17
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 26
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 22
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 23
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 28
+Visited nodes: 11
+Found solution at depth: 2
+
+------------
+BFS improved descedants at depth 2: 
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 14
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 2
+
+Expanded nodes: 14
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 2
+
+BFS normal descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 13
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 13
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 13
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 13
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+------------
+BFS improved descedants at depth 1: 
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 1
+
+
+
+
+
+BFS graph normal descedants at depth 14: 
+Expanded nodes: 2157
+Visited nodes: 1539
+Found solution at depth: 14
+
+Expanded nodes: 1874
+Visited nodes: 1354
+Found solution at depth: 14
+
+Expanded nodes: 2318
+Visited nodes: 1683
+Found solution at depth: 14
+
+Expanded nodes: 2325
+Visited nodes: 1652
+Found solution at depth: 14
+
+Expanded nodes: 2574
+Visited nodes: 1847
+Found solution at depth: 14
+
+Expanded nodes: 2409
+Visited nodes: 1738
+Found solution at depth: 14
+
+Expanded nodes: 2283
+Visited nodes: 1662
+Found solution at depth: 14
+
+Expanded nodes: 2380
+Visited nodes: 1717
+Found solution at depth: 14
+
+Expanded nodes: 2196
+Visited nodes: 1604
+Found solution at depth: 14
+
+Expanded nodes: 1855
+Visited nodes: 1342
+Found solution at depth: 14
+
+------------
+BFS graph improved descedants at depth 14: 
+Expanded nodes: 2512
+Visited nodes: 1806
+Found solution at depth: 14
+
+Expanded nodes: 2272
+Visited nodes: 1615
+Found solution at depth: 14
+
+Expanded nodes: 2211
+Visited nodes: 1578
+Found solution at depth: 14
+
+Expanded nodes: 2489
+Visited nodes: 1796
+Found solution at depth: 14
+
+Expanded nodes: 2357
+Visited nodes: 1709
+Found solution at depth: 14
+
+Expanded nodes: 2288
+Visited nodes: 1664
+Found solution at depth: 14
+
+Expanded nodes: 2199
+Visited nodes: 1564
+Found solution at depth: 14
+
+Expanded nodes: 2291
+Visited nodes: 1630
+Found solution at depth: 14
+
+Expanded nodes: 2018
+Visited nodes: 1445
+Found solution at depth: 14
+
+Expanded nodes: 2208
+Visited nodes: 1614
+Found solution at depth: 14
+
+BFS graph normal descedants at depth 13: 
+Expanded nodes: 1878
+Visited nodes: 1405
+Found solution at depth: 13
+
+Expanded nodes: 2100
+Visited nodes: 1591
+Found solution at depth: 13
+
+Expanded nodes: 1969
+Visited nodes: 1504
+Found solution at depth: 13
+
+Expanded nodes: 1874
+Visited nodes: 1401
+Found solution at depth: 13
+
+Expanded nodes: 1812
+Visited nodes: 1332
+Found solution at depth: 13
+
+Expanded nodes: 1803
+Visited nodes: 1320
+Found solution at depth: 13
+
+Expanded nodes: 2111
+Visited nodes: 1613
+Found solution at depth: 13
+
+Expanded nodes: 2118
+Visited nodes: 1624
+Found solution at depth: 13
+
+Expanded nodes: 2123
+Visited nodes: 1637
+Found solution at depth: 13
+
+Expanded nodes: 1915
+Visited nodes: 1436
+Found solution at depth: 13
+
+------------
+BFS graph improved descedants at depth 13: 
+Expanded nodes: 2096
+Visited nodes: 1593
+Found solution at depth: 13
+
+Expanded nodes: 1819
+Visited nodes: 1342
+Found solution at depth: 13
+
+Expanded nodes: 2202
+Visited nodes: 1727
+Found solution at depth: 13
+
+Expanded nodes: 1890
+Visited nodes: 1419
+Found solution at depth: 13
+
+Expanded nodes: 1944
+Visited nodes: 1473
+Found solution at depth: 13
+
+Expanded nodes: 1834
+Visited nodes: 1358
+Found solution at depth: 13
+
+Expanded nodes: 2195
+Visited nodes: 1715
+Found solution at depth: 13
+
+Expanded nodes: 1879
+Visited nodes: 1396
+Found solution at depth: 13
+
+Expanded nodes: 2196
+Visited nodes: 1706
+Found solution at depth: 13
+
+Expanded nodes: 1830
+Visited nodes: 1350
+Found solution at depth: 13
+
+BFS graph normal descedants at depth 12: 
+Expanded nodes: 1268
+Visited nodes: 912
+Found solution at depth: 13
+
+Expanded nodes: 1387
+Visited nodes: 1007
+Found solution at depth: 13
+
+Expanded nodes: 1270
+Visited nodes: 902
+Found solution at depth: 13
+
+Expanded nodes: 1280
+Visited nodes: 910
+Found solution at depth: 13
+
+Expanded nodes: 1353
+Visited nodes: 987
+Found solution at depth: 13
+
+Expanded nodes: 1286
+Visited nodes: 929
+Found solution at depth: 13
+
+Expanded nodes: 1432
+Visited nodes: 1056
+Found solution at depth: 13
+
+Expanded nodes: 1295
+Visited nodes: 923
+Found solution at depth: 13
+
+Expanded nodes: 1519
+Visited nodes: 1144
+Found solution at depth: 13
+
+Expanded nodes: 1530
+Visited nodes: 1153
+Found solution at depth: 13
+
+------------
+BFS graph improved descedants at depth 12: 
+Expanded nodes: 1220
+Visited nodes: 859
+Found solution at depth: 13
+
+Expanded nodes: 1268
+Visited nodes: 909
+Found solution at depth: 13
+
+Expanded nodes: 1381
+Visited nodes: 1021
+Found solution at depth: 13
+
+Expanded nodes: 1556
+Visited nodes: 1182
+Found solution at depth: 13
+
+Expanded nodes: 1276
+Visited nodes: 918
+Found solution at depth: 13
+
+Expanded nodes: 1415
+Visited nodes: 1053
+Found solution at depth: 13
+
+Expanded nodes: 1543
+Visited nodes: 1165
+Found solution at depth: 13
+
+Expanded nodes: 1224
+Visited nodes: 864
+Found solution at depth: 13
+
+Expanded nodes: 1420
+Visited nodes: 1042
+Found solution at depth: 13
+
+Expanded nodes: 1401
+Visited nodes: 1037
+Found solution at depth: 13
+
+BFS graph normal descedants at depth 11: 
+Expanded nodes: 1027
+Visited nodes: 688
+Found solution at depth: 11
+
+Expanded nodes: 1228
+Visited nodes: 880
+Found solution at depth: 11
+
+Expanded nodes: 1125
+Visited nodes: 792
+Found solution at depth: 11
+
+Expanded nodes: 1261
+Visited nodes: 913
+Found solution at depth: 11
+
+Expanded nodes: 1200
+Visited nodes: 848
+Found solution at depth: 11
+
+Expanded nodes: 1242
+Visited nodes: 894
+Found solution at depth: 11
+
+Expanded nodes: 1153
+Visited nodes: 804
+Found solution at depth: 11
+
+Expanded nodes: 1125
+Visited nodes: 792
+Found solution at depth: 11
+
+Expanded nodes: 1212
+Visited nodes: 857
+Found solution at depth: 11
+
+Expanded nodes: 1284
+Visited nodes: 936
+Found solution at depth: 11
+
+------------
+BFS graph improved descedants at depth 11: 
+Expanded nodes: 1086
+Visited nodes: 757
+Found solution at depth: 11
+
+Expanded nodes: 1075
+Visited nodes: 742
+Found solution at depth: 11
+
+Expanded nodes: 1266
+Visited nodes: 917
+Found solution at depth: 11
+
+Expanded nodes: 1284
+Visited nodes: 936
+Found solution at depth: 11
+
+Expanded nodes: 1135
+Visited nodes: 787
+Found solution at depth: 11
+
+Expanded nodes: 1006
+Visited nodes: 684
+Found solution at depth: 11
+
+Expanded nodes: 1080
+Visited nodes: 752
+Found solution at depth: 11
+
+Expanded nodes: 1128
+Visited nodes: 794
+Found solution at depth: 11
+
+Expanded nodes: 1055
+Visited nodes: 720
+Found solution at depth: 11
+
+Expanded nodes: 1071
+Visited nodes: 738
+Found solution at depth: 11
+
+BFS graph normal descedants at depth 10: 
+Expanded nodes: 565
+Visited nodes: 386
+Found solution at depth: 10
+
+Expanded nodes: 505
+Visited nodes: 344
+Found solution at depth: 10
+
+Expanded nodes: 577
+Visited nodes: 394
+Found solution at depth: 10
+
+Expanded nodes: 561
+Visited nodes: 384
+Found solution at depth: 10
+
+Expanded nodes: 593
+Visited nodes: 405
+Found solution at depth: 10
+
+Expanded nodes: 587
+Visited nodes: 402
+Found solution at depth: 10
+
+Expanded nodes: 543
+Visited nodes: 371
+Found solution at depth: 10
+
+Expanded nodes: 545
+Visited nodes: 372
+Found solution at depth: 10
+
+Expanded nodes: 558
+Visited nodes: 383
+Found solution at depth: 10
+
+Expanded nodes: 562
+Visited nodes: 385
+Found solution at depth: 10
+
+------------
+BFS graph improved descedants at depth 10: 
+Expanded nodes: 577
+Visited nodes: 393
+Found solution at depth: 10
+
+Expanded nodes: 565
+Visited nodes: 386
+Found solution at depth: 10
+
+Expanded nodes: 589
+Visited nodes: 401
+Found solution at depth: 10
+
+Expanded nodes: 543
+Visited nodes: 373
+Found solution at depth: 10
+
+Expanded nodes: 655
+Visited nodes: 448
+Found solution at depth: 10
+
+Expanded nodes: 581
+Visited nodes: 395
+Found solution at depth: 10
+
+Expanded nodes: 659
+Visited nodes: 450
+Found solution at depth: 10
+
+Expanded nodes: 587
+Visited nodes: 398
+Found solution at depth: 10
+
+Expanded nodes: 527
+Visited nodes: 362
+Found solution at depth: 10
+
+Expanded nodes: 573
+Visited nodes: 393
+Found solution at depth: 10
+
+BFS graph normal descedants at depth 9: 
+Expanded nodes: 304
+Visited nodes: 175
+Found solution at depth: 9
+
+Expanded nodes: 449
+Visited nodes: 294
+Found solution at depth: 9
+
+Expanded nodes: 335
+Visited nodes: 197
+Found solution at depth: 9
+
+Expanded nodes: 453
+Visited nodes: 296
+Found solution at depth: 9
+
+Expanded nodes: 440
+Visited nodes: 283
+Found solution at depth: 9
+
+Expanded nodes: 377
+Visited nodes: 233
+Found solution at depth: 9
+
+Expanded nodes: 328
+Visited nodes: 192
+Found solution at depth: 9
+
+Expanded nodes: 310
+Visited nodes: 179
+Found solution at depth: 9
+
+Expanded nodes: 331
+Visited nodes: 192
+Found solution at depth: 9
+
+Expanded nodes: 339
+Visited nodes: 198
+Found solution at depth: 9
+
+------------
+BFS graph improved descedants at depth 9: 
+Expanded nodes: 374
+Visited nodes: 233
+Found solution at depth: 9
+
+Expanded nodes: 378
+Visited nodes: 234
+Found solution at depth: 9
+
+Expanded nodes: 386
+Visited nodes: 244
+Found solution at depth: 9
+
+Expanded nodes: 320
+Visited nodes: 184
+Found solution at depth: 9
+
+Expanded nodes: 450
+Visited nodes: 292
+Found solution at depth: 9
+
+Expanded nodes: 338
+Visited nodes: 198
+Found solution at depth: 9
+
+Expanded nodes: 398
+Visited nodes: 251
+Found solution at depth: 9
+
+Expanded nodes: 436
+Visited nodes: 281
+Found solution at depth: 9
+
+Expanded nodes: 446
+Visited nodes: 290
+Found solution at depth: 9
+
+Expanded nodes: 338
+Visited nodes: 197
+Found solution at depth: 9
+
+BFS graph normal descedants at depth 8: 
+Expanded nodes: 465
+Visited nodes: 282
+Found solution at depth: 8
+
+Expanded nodes: 392
+Visited nodes: 238
+Found solution at depth: 8
+
+Expanded nodes: 438
+Visited nodes: 263
+Found solution at depth: 8
+
+Expanded nodes: 452
+Visited nodes: 275
+Found solution at depth: 8
+
+Expanded nodes: 346
+Visited nodes: 213
+Found solution at depth: 8
+
+Expanded nodes: 492
+Visited nodes: 297
+Found solution at depth: 8
+
+Expanded nodes: 390
+Visited nodes: 237
+Found solution at depth: 8
+
+Expanded nodes: 390
+Visited nodes: 240
+Found solution at depth: 8
+
+Expanded nodes: 392
+Visited nodes: 238
+Found solution at depth: 8
+
+Expanded nodes: 326
+Visited nodes: 203
+Found solution at depth: 8
+
+------------
+BFS graph improved descedants at depth 8: 
+Expanded nodes: 312
+Visited nodes: 194
+Found solution at depth: 8
+
+Expanded nodes: 339
+Visited nodes: 210
+Found solution at depth: 8
+
+Expanded nodes: 363
+Visited nodes: 223
+Found solution at depth: 8
+
+Expanded nodes: 436
+Visited nodes: 262
+Found solution at depth: 8
+
+Expanded nodes: 385
+Visited nodes: 238
+Found solution at depth: 8
+
+Expanded nodes: 449
+Visited nodes: 274
+Found solution at depth: 8
+
+Expanded nodes: 431
+Visited nodes: 258
+Found solution at depth: 8
+
+Expanded nodes: 365
+Visited nodes: 227
+Found solution at depth: 8
+
+Expanded nodes: 495
+Visited nodes: 298
+Found solution at depth: 8
+
+Expanded nodes: 392
+Visited nodes: 238
+Found solution at depth: 8
+
+BFS graph normal descedants at depth 7: 
+Expanded nodes: 122
+Visited nodes: 73
+Found solution at depth: 7
+
+Expanded nodes: 148
+Visited nodes: 89
+Found solution at depth: 7
+
+Expanded nodes: 165
+Visited nodes: 101
+Found solution at depth: 7
+
+Expanded nodes: 123
+Visited nodes: 73
+Found solution at depth: 7
+
+Expanded nodes: 122
+Visited nodes: 73
+Found solution at depth: 7
+
+Expanded nodes: 129
+Visited nodes: 77
+Found solution at depth: 7
+
+Expanded nodes: 131
+Visited nodes: 78
+Found solution at depth: 7
+
+Expanded nodes: 176
+Visited nodes: 110
+Found solution at depth: 7
+
+Expanded nodes: 153
+Visited nodes: 95
+Found solution at depth: 7
+
+Expanded nodes: 116
+Visited nodes: 69
+Found solution at depth: 7
+
+------------
+BFS graph improved descedants at depth 7: 
+Expanded nodes: 119
+Visited nodes: 72
+Found solution at depth: 7
+
+Expanded nodes: 145
+Visited nodes: 88
+Found solution at depth: 7
+
+Expanded nodes: 163
+Visited nodes: 101
+Found solution at depth: 7
+
+Expanded nodes: 176
+Visited nodes: 110
+Found solution at depth: 7
+
+Expanded nodes: 148
+Visited nodes: 89
+Found solution at depth: 7
+
+Expanded nodes: 128
+Visited nodes: 77
+Found solution at depth: 7
+
+Expanded nodes: 133
+Visited nodes: 78
+Found solution at depth: 7
+
+Expanded nodes: 176
+Visited nodes: 110
+Found solution at depth: 7
+
+Expanded nodes: 176
+Visited nodes: 110
+Found solution at depth: 7
+
+Expanded nodes: 132
+Visited nodes: 79
+Found solution at depth: 7
+
+BFS graph normal descedants at depth 6: 
+Expanded nodes: 126
+Visited nodes: 78
+Found solution at depth: 6
+
+Expanded nodes: 108
+Visited nodes: 68
+Found solution at depth: 6
+
+Expanded nodes: 135
+Visited nodes: 87
+Found solution at depth: 6
+
+Expanded nodes: 123
+Visited nodes: 77
+Found solution at depth: 6
+
+Expanded nodes: 123
+Visited nodes: 78
+Found solution at depth: 6
+
+Expanded nodes: 99
+Visited nodes: 60
+Found solution at depth: 6
+
+Expanded nodes: 108
+Visited nodes: 68
+Found solution at depth: 6
+
+Expanded nodes: 151
+Visited nodes: 97
+Found solution at depth: 6
+
+Expanded nodes: 143
+Visited nodes: 88
+Found solution at depth: 6
+
+Expanded nodes: 115
+Visited nodes: 70
+Found solution at depth: 6
+
+------------
+BFS graph improved descedants at depth 6: 
+Expanded nodes: 112
+Visited nodes: 69
+Found solution at depth: 6
+
+Expanded nodes: 135
+Visited nodes: 86
+Found solution at depth: 6
+
+Expanded nodes: 120
+Visited nodes: 77
+Found solution at depth: 6
+
+Expanded nodes: 115
+Visited nodes: 70
+Found solution at depth: 6
+
+Expanded nodes: 148
+Visited nodes: 96
+Found solution at depth: 6
+
+Expanded nodes: 105
+Visited nodes: 67
+Found solution at depth: 6
+
+Expanded nodes: 126
+Visited nodes: 79
+Found solution at depth: 6
+
+Expanded nodes: 99
+Visited nodes: 60
+Found solution at depth: 6
+
+Expanded nodes: 138
+Visited nodes: 88
+Found solution at depth: 6
+
+Expanded nodes: 138
+Visited nodes: 88
+Found solution at depth: 6
+
+BFS graph normal descedants at depth 5: 
+Expanded nodes: 36
+Visited nodes: 19
+Found solution at depth: 5
+
+Expanded nodes: 49
+Visited nodes: 27
+Found solution at depth: 5
+
+Expanded nodes: 49
+Visited nodes: 27
+Found solution at depth: 5
+
+Expanded nodes: 48
+Visited nodes: 26
+Found solution at depth: 5
+
+Expanded nodes: 45
+Visited nodes: 25
+Found solution at depth: 5
+
+Expanded nodes: 38
+Visited nodes: 19
+Found solution at depth: 5
+
+Expanded nodes: 63
+Visited nodes: 36
+Found solution at depth: 5
+
+Expanded nodes: 45
+Visited nodes: 25
+Found solution at depth: 5
+
+Expanded nodes: 52
+Visited nodes: 28
+Found solution at depth: 5
+
+Expanded nodes: 39
+Visited nodes: 20
+Found solution at depth: 5
+
+------------
+BFS graph improved descedants at depth 5: 
+Expanded nodes: 62
+Visited nodes: 35
+Found solution at depth: 5
+
+Expanded nodes: 46
+Visited nodes: 26
+Found solution at depth: 5
+
+Expanded nodes: 59
+Visited nodes: 34
+Found solution at depth: 5
+
+Expanded nodes: 59
+Visited nodes: 34
+Found solution at depth: 5
+
+Expanded nodes: 35
+Visited nodes: 18
+Found solution at depth: 5
+
+Expanded nodes: 50
+Visited nodes: 28
+Found solution at depth: 5
+
+Expanded nodes: 36
+Visited nodes: 19
+Found solution at depth: 5
+
+Expanded nodes: 53
+Visited nodes: 29
+Found solution at depth: 5
+
+Expanded nodes: 35
+Visited nodes: 18
+Found solution at depth: 5
+
+Expanded nodes: 35
+Visited nodes: 18
+Found solution at depth: 5
+
+BFS graph normal descedants at depth 4: 
+Expanded nodes: 50
+Visited nodes: 30
+Found solution at depth: 4
+
+Expanded nodes: 46
+Visited nodes: 27
+Found solution at depth: 4
+
+Expanded nodes: 47
+Visited nodes: 28
+Found solution at depth: 4
+
+Expanded nodes: 47
+Visited nodes: 28
+Found solution at depth: 4
+
+Expanded nodes: 56
+Visited nodes: 37
+Found solution at depth: 4
+
+Expanded nodes: 49
+Visited nodes: 27
+Found solution at depth: 4
+
+Expanded nodes: 40
+Visited nodes: 20
+Found solution at depth: 4
+
+Expanded nodes: 56
+Visited nodes: 36
+Found solution at depth: 4
+
+Expanded nodes: 59
+Visited nodes: 38
+Found solution at depth: 4
+
+Expanded nodes: 49
+Visited nodes: 28
+Found solution at depth: 4
+
+------------
+BFS graph improved descedants at depth 4: 
+Expanded nodes: 56
+Visited nodes: 37
+Found solution at depth: 4
+
+Expanded nodes: 37
+Visited nodes: 19
+Found solution at depth: 4
+
+Expanded nodes: 59
+Visited nodes: 38
+Found solution at depth: 4
+
+Expanded nodes: 49
+Visited nodes: 28
+Found solution at depth: 4
+
+Expanded nodes: 59
+Visited nodes: 38
+Found solution at depth: 4
+
+Expanded nodes: 50
+Visited nodes: 30
+Found solution at depth: 4
+
+Expanded nodes: 40
+Visited nodes: 20
+Found solution at depth: 4
+
+Expanded nodes: 47
+Visited nodes: 29
+Found solution at depth: 4
+
+Expanded nodes: 49
+Visited nodes: 28
+Found solution at depth: 4
+
+Expanded nodes: 46
+Visited nodes: 27
+Found solution at depth: 4
+
+BFS graph normal descedants at depth 3: 
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 3
+
+------------
+BFS graph improved descedants at depth 3: 
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 3
+
+BFS graph normal descedants at depth 2: 
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 7
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 2
+
+------------
+BFS graph improved descedants at depth 2: 
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 2
+
+Expanded nodes: 12
+Visited nodes: 8
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 2
+
+BFS graph normal descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 1
+
+------------
+BFS graph improved descedants at depth 1: 
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 5
+Visited nodes: 3
+Found solution at depth: 1
+
+
+
+DFS 15 normal descedants at depth 14: 
+Expanded nodes: 5846060
+Visited nodes: 5846048
+Found solution at depth: 15
+
+Expanded nodes: 2569304
+Visited nodes: 2569294
+Found solution at depth: 14
+
+Expanded nodes: 7468270
+Visited nodes: 7468259
+Found solution at depth: 15
+
+Expanded nodes: 529167
+Visited nodes: 529153
+Found solution at depth: 14
+
+Expanded nodes: 588058
+Visited nodes: 588038
+Found solution at depth: 15
+
+Expanded nodes: 2552236
+Visited nodes: 2552217
+Found solution at depth: 15
+
+Expanded nodes: 786930
+Visited nodes: 786916
+Found solution at depth: 15
+
+Expanded nodes: 2315676
+Visited nodes: 2315659
+Found solution at depth: 15
+
+Expanded nodes: 6117431
+Visited nodes: 6117418
+Found solution at depth: 15
+
+Expanded nodes: 2598218
+Visited nodes: 2598200
+Found solution at depth: 14
+
+------------
+DFS 15 improved descedants at depth 14: 
+Expanded nodes: 22940
+Visited nodes: 22935
+Found solution at depth: 15
+
+Expanded nodes: 4261
+Visited nodes: 4255
+Found solution at depth: 14
+
+Expanded nodes: 13184
+Visited nodes: 13179
+Found solution at depth: 15
+
+Expanded nodes: 10114
+Visited nodes: 10109
+Found solution at depth: 15
+
+Expanded nodes: 651
+Visited nodes: 641
+Found solution at depth: 15
+
+Expanded nodes: 658
+Visited nodes: 649
+Found solution at depth: 14
+
+Expanded nodes: 2441
+Visited nodes: 2435
+Found solution at depth: 15
+
+Expanded nodes: 1810
+Visited nodes: 1800
+Found solution at depth: 15
+
+Expanded nodes: 3164
+Visited nodes: 3157
+Found solution at depth: 15
+
+Expanded nodes: 5949
+Visited nodes: 5941
+Found solution at depth: 14
+
+DFS 15 normal descedants at depth 13: 
+Expanded nodes: 1036198
+Visited nodes: 1036184
+Found solution at depth: 15
+
+Expanded nodes: 1785372
+Visited nodes: 1785358
+Found solution at depth: 15
+
+Expanded nodes: 602044
+Visited nodes: 602029
+Found solution at depth: 15
+
+Expanded nodes: 811260
+Visited nodes: 811248
+Found solution at depth: 15
+
+Expanded nodes: 628480
+Visited nodes: 628467
+Found solution at depth: 15
+
+Expanded nodes: 3928703
+Visited nodes: 3928694
+Found solution at depth: 15
+
+Expanded nodes: 17905
+Visited nodes: 17882
+Found solution at depth: 15
+
+Expanded nodes: 953086
+Visited nodes: 953069
+Found solution at depth: 15
+
+Expanded nodes: 366860
+Visited nodes: 366848
+Found solution at depth: 15
+
+Expanded nodes: 25590
+Visited nodes: 25573
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 13: 
+Expanded nodes: 23198
+Visited nodes: 23190
+Found solution at depth: 15
+
+Expanded nodes: 18078
+Visited nodes: 18067
+Found solution at depth: 15
+
+Expanded nodes: 19061
+Visited nodes: 19054
+Found solution at depth: 15
+
+Expanded nodes: 40
+Visited nodes: 29
+Found solution at depth: 15
+
+Expanded nodes: 3804
+Visited nodes: 3795
+Found solution at depth: 15
+
+Expanded nodes: 23156
+Visited nodes: 23148
+Found solution at depth: 15
+
+Expanded nodes: 15324
+Visited nodes: 15312
+Found solution at depth: 15
+
+Expanded nodes: 15703
+Visited nodes: 15697
+Found solution at depth: 15
+
+Expanded nodes: 25340
+Visited nodes: 25336
+Found solution at depth: 13
+
+Expanded nodes: 26093
+Visited nodes: 26083
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 12: 
+Expanded nodes: 323747
+Visited nodes: 323730
+Found solution at depth: 15
+
+Expanded nodes: 1172854
+Visited nodes: 1172842
+Found solution at depth: 15
+
+Expanded nodes: 1042300
+Visited nodes: 1042279
+Found solution at depth: 15
+
+Expanded nodes: 289302
+Visited nodes: 289290
+Found solution at depth: 15
+
+Expanded nodes: 173533
+Visited nodes: 173520
+Found solution at depth: 15
+
+Expanded nodes: 1084403
+Visited nodes: 1084386
+Found solution at depth: 15
+
+Expanded nodes: 167096
+Visited nodes: 167073
+Found solution at depth: 15
+
+Expanded nodes: 219738
+Visited nodes: 219719
+Found solution at depth: 15
+
+Expanded nodes: 3909503
+Visited nodes: 3909489
+Found solution at depth: 15
+
+Expanded nodes: 410642
+Visited nodes: 410625
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 12: 
+Expanded nodes: 26237
+Visited nodes: 26230
+Found solution at depth: 15
+
+Expanded nodes: 25450
+Visited nodes: 25441
+Found solution at depth: 15
+
+Expanded nodes: 2091
+Visited nodes: 2080
+Found solution at depth: 15
+
+Expanded nodes: 25281
+Visited nodes: 25273
+Found solution at depth: 15
+
+Expanded nodes: 26265
+Visited nodes: 26258
+Found solution at depth: 15
+
+Expanded nodes: 327
+Visited nodes: 317
+Found solution at depth: 15
+
+Expanded nodes: 27312
+Visited nodes: 27304
+Found solution at depth: 15
+
+Expanded nodes: 24020
+Visited nodes: 24009
+Found solution at depth: 15
+
+Expanded nodes: 2827
+Visited nodes: 2822
+Found solution at depth: 15
+
+Expanded nodes: 2563
+Visited nodes: 2557
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 11: 
+Expanded nodes: 88703
+Visited nodes: 88688
+Found solution at depth: 15
+
+Expanded nodes: 466392
+Visited nodes: 466378
+Found solution at depth: 15
+
+Expanded nodes: 3092106
+Visited nodes: 3092092
+Found solution at depth: 15
+
+Expanded nodes: 3148059
+Visited nodes: 3148048
+Found solution at depth: 15
+
+Expanded nodes: 50278
+Visited nodes: 50265
+Found solution at depth: 15
+
+Expanded nodes: 239461
+Visited nodes: 239441
+Found solution at depth: 15
+
+Expanded nodes: 22257
+Visited nodes: 22236
+Found solution at depth: 15
+
+Expanded nodes: 41440
+Visited nodes: 41417
+Found solution at depth: 15
+
+Expanded nodes: 124017
+Visited nodes: 123999
+Found solution at depth: 15
+
+Expanded nodes: 72104
+Visited nodes: 72084
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 11: 
+Expanded nodes: 15261
+Visited nodes: 15254
+Found solution at depth: 11
+
+Expanded nodes: 137
+Visited nodes: 124
+Found solution at depth: 13
+
+Expanded nodes: 129
+Visited nodes: 118
+Found solution at depth: 15
+
+Expanded nodes: 354
+Visited nodes: 343
+Found solution at depth: 15
+
+Expanded nodes: 15334
+Visited nodes: 15323
+Found solution at depth: 15
+
+Expanded nodes: 17214
+Visited nodes: 17204
+Found solution at depth: 15
+
+Expanded nodes: 23620
+Visited nodes: 23611
+Found solution at depth: 13
+
+Expanded nodes: 1964
+Visited nodes: 1955
+Found solution at depth: 15
+
+Expanded nodes: 1619
+Visited nodes: 1610
+Found solution at depth: 13
+
+Expanded nodes: 9136
+Visited nodes: 9122
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 10: 
+Expanded nodes: 86116
+Visited nodes: 86097
+Found solution at depth: 14
+
+Expanded nodes: 51373
+Visited nodes: 51351
+Found solution at depth: 15
+
+Expanded nodes: 213786
+Visited nodes: 213768
+Found solution at depth: 15
+
+Expanded nodes: 102610
+Visited nodes: 102596
+Found solution at depth: 14
+
+Expanded nodes: 959400
+Visited nodes: 959385
+Found solution at depth: 14
+
+Expanded nodes: 87535
+Visited nodes: 87517
+Found solution at depth: 14
+
+Expanded nodes: 85802
+Visited nodes: 85785
+Found solution at depth: 15
+
+Expanded nodes: 247700
+Visited nodes: 247684
+Found solution at depth: 15
+
+Expanded nodes: 51405
+Visited nodes: 51384
+Found solution at depth: 15
+
+Expanded nodes: 16529
+Visited nodes: 16508
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 10: 
+Expanded nodes: 2365
+Visited nodes: 2355
+Found solution at depth: 13
+
+Expanded nodes: 162
+Visited nodes: 156
+Found solution at depth: 12
+
+Expanded nodes: 10689
+Visited nodes: 10684
+Found solution at depth: 14
+
+Expanded nodes: 3574
+Visited nodes: 3566
+Found solution at depth: 15
+
+Expanded nodes: 3452
+Visited nodes: 3443
+Found solution at depth: 13
+
+Expanded nodes: 7116
+Visited nodes: 7108
+Found solution at depth: 15
+
+Expanded nodes: 3784
+Visited nodes: 3772
+Found solution at depth: 15
+
+Expanded nodes: 3421
+Visited nodes: 3410
+Found solution at depth: 15
+
+Expanded nodes: 9793
+Visited nodes: 9788
+Found solution at depth: 14
+
+Expanded nodes: 2793
+Visited nodes: 2786
+Found solution at depth: 12
+
+DFS 15 normal descedants at depth 9: 
+Expanded nodes: 6433
+Visited nodes: 6417
+Found solution at depth: 15
+
+Expanded nodes: 2015
+Visited nodes: 1987
+Found solution at depth: 15
+
+Expanded nodes: 4616
+Visited nodes: 4588
+Found solution at depth: 15
+
+Expanded nodes: 7060
+Visited nodes: 7043
+Found solution at depth: 15
+
+Expanded nodes: 9941
+Visited nodes: 9922
+Found solution at depth: 15
+
+Expanded nodes: 160
+Visited nodes: 133
+Found solution at depth: 15
+
+Expanded nodes: 5662
+Visited nodes: 5642
+Found solution at depth: 15
+
+Expanded nodes: 2668
+Visited nodes: 2643
+Found solution at depth: 15
+
+Expanded nodes: 2445
+Visited nodes: 2423
+Found solution at depth: 15
+
+Expanded nodes: 5589
+Visited nodes: 5568
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 9: 
+Expanded nodes: 543
+Visited nodes: 529
+Found solution at depth: 15
+
+Expanded nodes: 179
+Visited nodes: 166
+Found solution at depth: 15
+
+Expanded nodes: 360
+Visited nodes: 349
+Found solution at depth: 15
+
+Expanded nodes: 651
+Visited nodes: 640
+Found solution at depth: 15
+
+Expanded nodes: 267
+Visited nodes: 253
+Found solution at depth: 15
+
+Expanded nodes: 1064
+Visited nodes: 1053
+Found solution at depth: 15
+
+Expanded nodes: 220
+Visited nodes: 207
+Found solution at depth: 14
+
+Expanded nodes: 364
+Visited nodes: 353
+Found solution at depth: 14
+
+Expanded nodes: 40
+Visited nodes: 27
+Found solution at depth: 14
+
+Expanded nodes: 147
+Visited nodes: 134
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 8: 
+Expanded nodes: 17689
+Visited nodes: 17669
+Found solution at depth: 14
+
+Expanded nodes: 190838
+Visited nodes: 190821
+Found solution at depth: 14
+
+Expanded nodes: 1826
+Visited nodes: 1806
+Found solution at depth: 14
+
+Expanded nodes: 13448
+Visited nodes: 13434
+Found solution at depth: 14
+
+Expanded nodes: 2940
+Visited nodes: 2922
+Found solution at depth: 14
+
+Expanded nodes: 649
+Visited nodes: 630
+Found solution at depth: 14
+
+Expanded nodes: 14407
+Visited nodes: 14390
+Found solution at depth: 14
+
+Expanded nodes: 210
+Visited nodes: 190
+Found solution at depth: 14
+
+Expanded nodes: 21709
+Visited nodes: 21690
+Found solution at depth: 14
+
+Expanded nodes: 33854
+Visited nodes: 33834
+Found solution at depth: 14
+
+------------
+DFS 15 improved descedants at depth 8: 
+Expanded nodes: 14934
+Visited nodes: 14925
+Found solution at depth: 14
+
+Expanded nodes: 11191
+Visited nodes: 11187
+Found solution at depth: 10
+
+Expanded nodes: 17038
+Visited nodes: 17032
+Found solution at depth: 14
+
+Expanded nodes: 5453
+Visited nodes: 5444
+Found solution at depth: 14
+
+Expanded nodes: 11006
+Visited nodes: 10997
+Found solution at depth: 15
+
+Expanded nodes: 14547
+Visited nodes: 14545
+Found solution at depth: 10
+
+Expanded nodes: 244
+Visited nodes: 232
+Found solution at depth: 13
+
+Expanded nodes: 16507
+Visited nodes: 16500
+Found solution at depth: 14
+
+Expanded nodes: 14259
+Visited nodes: 14256
+Found solution at depth: 10
+
+Expanded nodes: 11104
+Visited nodes: 11096
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 7: 
+Expanded nodes: 709
+Visited nodes: 690
+Found solution at depth: 15
+
+Expanded nodes: 76
+Visited nodes: 52
+Found solution at depth: 15
+
+Expanded nodes: 397
+Visited nodes: 375
+Found solution at depth: 15
+
+Expanded nodes: 1008
+Visited nodes: 986
+Found solution at depth: 15
+
+Expanded nodes: 311
+Visited nodes: 286
+Found solution at depth: 15
+
+Expanded nodes: 411
+Visited nodes: 385
+Found solution at depth: 15
+
+Expanded nodes: 1038
+Visited nodes: 1016
+Found solution at depth: 15
+
+Expanded nodes: 627
+Visited nodes: 599
+Found solution at depth: 15
+
+Expanded nodes: 3408
+Visited nodes: 3385
+Found solution at depth: 15
+
+Expanded nodes: 293
+Visited nodes: 272
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 7: 
+Expanded nodes: 1057
+Visited nodes: 1044
+Found solution at depth: 15
+
+Expanded nodes: 899
+Visited nodes: 891
+Found solution at depth: 15
+
+Expanded nodes: 225
+Visited nodes: 213
+Found solution at depth: 15
+
+Expanded nodes: 433
+Visited nodes: 424
+Found solution at depth: 15
+
+Expanded nodes: 1161
+Visited nodes: 1153
+Found solution at depth: 15
+
+Expanded nodes: 502
+Visited nodes: 492
+Found solution at depth: 15
+
+Expanded nodes: 1321
+Visited nodes: 1310
+Found solution at depth: 14
+
+Expanded nodes: 51
+Visited nodes: 38
+Found solution at depth: 15
+
+Expanded nodes: 2007
+Visited nodes: 1998
+Found solution at depth: 13
+
+Expanded nodes: 119
+Visited nodes: 108
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 6: 
+Expanded nodes: 1044
+Visited nodes: 1026
+Found solution at depth: 14
+
+Expanded nodes: 3663
+Visited nodes: 3650
+Found solution at depth: 14
+
+Expanded nodes: 22700
+Visited nodes: 22682
+Found solution at depth: 14
+
+Expanded nodes: 1845
+Visited nodes: 1824
+Found solution at depth: 14
+
+Expanded nodes: 804
+Visited nodes: 777
+Found solution at depth: 14
+
+Expanded nodes: 183
+Visited nodes: 162
+Found solution at depth: 14
+
+Expanded nodes: 7942
+Visited nodes: 7927
+Found solution at depth: 14
+
+Expanded nodes: 69
+Visited nodes: 48
+Found solution at depth: 14
+
+Expanded nodes: 1090
+Visited nodes: 1064
+Found solution at depth: 14
+
+Expanded nodes: 11742
+Visited nodes: 11722
+Found solution at depth: 14
+
+------------
+DFS 15 improved descedants at depth 6: 
+Expanded nodes: 9613
+Visited nodes: 9601
+Found solution at depth: 15
+
+Expanded nodes: 216
+Visited nodes: 208
+Found solution at depth: 14
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 6
+
+Expanded nodes: 5670
+Visited nodes: 5664
+Found solution at depth: 14
+
+Expanded nodes: 5580
+Visited nodes: 5573
+Found solution at depth: 12
+
+Expanded nodes: 961
+Visited nodes: 949
+Found solution at depth: 15
+
+Expanded nodes: 1955
+Visited nodes: 1943
+Found solution at depth: 14
+
+Expanded nodes: 5971
+Visited nodes: 5964
+Found solution at depth: 14
+
+Expanded nodes: 5714
+Visited nodes: 5708
+Found solution at depth: 14
+
+Expanded nodes: 135
+Visited nodes: 122
+Found solution at depth: 14
+
+DFS 15 normal descedants at depth 5: 
+Expanded nodes: 137
+Visited nodes: 115
+Found solution at depth: 15
+
+Expanded nodes: 55
+Visited nodes: 32
+Found solution at depth: 15
+
+Expanded nodes: 757
+Visited nodes: 735
+Found solution at depth: 15
+
+Expanded nodes: 21
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 155
+Visited nodes: 130
+Found solution at depth: 15
+
+Expanded nodes: 1396
+Visited nodes: 1374
+Found solution at depth: 15
+
+Expanded nodes: 285
+Visited nodes: 262
+Found solution at depth: 15
+
+Expanded nodes: 910
+Visited nodes: 890
+Found solution at depth: 15
+
+Expanded nodes: 68
+Visited nodes: 46
+Found solution at depth: 15
+
+Expanded nodes: 42
+Visited nodes: 23
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 5: 
+Expanded nodes: 274
+Visited nodes: 267
+Found solution at depth: 13
+
+Expanded nodes: 308
+Visited nodes: 296
+Found solution at depth: 15
+
+Expanded nodes: 679
+Visited nodes: 669
+Found solution at depth: 13
+
+Expanded nodes: 83
+Visited nodes: 72
+Found solution at depth: 15
+
+Expanded nodes: 54
+Visited nodes: 41
+Found solution at depth: 13
+
+Expanded nodes: 81
+Visited nodes: 70
+Found solution at depth: 15
+
+Expanded nodes: 85
+Visited nodes: 78
+Found solution at depth: 13
+
+Expanded nodes: 211
+Visited nodes: 206
+Found solution at depth: 9
+
+Expanded nodes: 10
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 139
+Visited nodes: 132
+Found solution at depth: 13
+
+DFS 15 normal descedants at depth 4: 
+Expanded nodes: 56477
+Visited nodes: 56456
+Found solution at depth: 14
+
+Expanded nodes: 154
+Visited nodes: 126
+Found solution at depth: 15
+
+Expanded nodes: 1871
+Visited nodes: 1854
+Found solution at depth: 14
+
+Expanded nodes: 27
+Visited nodes: 11
+Found solution at depth: 10
+
+Expanded nodes: 12172
+Visited nodes: 12153
+Found solution at depth: 14
+
+Expanded nodes: 630
+Visited nodes: 603
+Found solution at depth: 14
+
+Expanded nodes: 496
+Visited nodes: 475
+Found solution at depth: 14
+
+Expanded nodes: 47
+Visited nodes: 26
+Found solution at depth: 14
+
+Expanded nodes: 35
+Visited nodes: 13
+Found solution at depth: 12
+
+Expanded nodes: 2586
+Visited nodes: 2569
+Found solution at depth: 14
+
+------------
+DFS 15 improved descedants at depth 4: 
+Expanded nodes: 18
+Visited nodes: 11
+Found solution at depth: 10
+
+Expanded nodes: 400
+Visited nodes: 391
+Found solution at depth: 14
+
+Expanded nodes: 317
+Visited nodes: 308
+Found solution at depth: 13
+
+Expanded nodes: 1260
+Visited nodes: 1251
+Found solution at depth: 14
+
+Expanded nodes: 6297
+Visited nodes: 6290
+Found solution at depth: 14
+
+Expanded nodes: 263
+Visited nodes: 255
+Found solution at depth: 14
+
+Expanded nodes: 1893
+Visited nodes: 1884
+Found solution at depth: 12
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 11
+Visited nodes: 7
+Found solution at depth: 6
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+DFS 15 normal descedants at depth 3: 
+Expanded nodes: 63
+Visited nodes: 34
+Found solution at depth: 15
+
+Expanded nodes: 764
+Visited nodes: 736
+Found solution at depth: 15
+
+Expanded nodes: 156
+Visited nodes: 134
+Found solution at depth: 14
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 55
+Visited nodes: 37
+Found solution at depth: 15
+
+Expanded nodes: 203
+Visited nodes: 182
+Found solution at depth: 15
+
+Expanded nodes: 108
+Visited nodes: 95
+Found solution at depth: 15
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 131
+Visited nodes: 108
+Found solution at depth: 15
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+------------
+DFS 15 improved descedants at depth 3: 
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 928
+Visited nodes: 911
+Found solution at depth: 15
+
+Expanded nodes: 1842
+Visited nodes: 1834
+Found solution at depth: 13
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 27
+Visited nodes: 18
+Found solution at depth: 15
+
+Expanded nodes: 376
+Visited nodes: 363
+Found solution at depth: 15
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 137
+Visited nodes: 124
+Found solution at depth: 14
+
+Expanded nodes: 69
+Visited nodes: 57
+Found solution at depth: 15
+
+DFS 15 normal descedants at depth 2: 
+Expanded nodes: 34
+Visited nodes: 13
+Found solution at depth: 12
+
+Expanded nodes: 8455
+Visited nodes: 8433
+Found solution at depth: 14
+
+Expanded nodes: 121
+Visited nodes: 91
+Found solution at depth: 14
+
+Expanded nodes: 116
+Visited nodes: 94
+Found solution at depth: 14
+
+Expanded nodes: 114
+Visited nodes: 86
+Found solution at depth: 14
+
+Expanded nodes: 571
+Visited nodes: 546
+Found solution at depth: 14
+
+Expanded nodes: 45
+Visited nodes: 23
+Found solution at depth: 14
+
+Expanded nodes: 29
+Visited nodes: 11
+Found solution at depth: 10
+
+Expanded nodes: 2770
+Visited nodes: 2745
+Found solution at depth: 15
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+------------
+DFS 15 improved descedants at depth 2: 
+Expanded nodes: 255
+Visited nodes: 245
+Found solution at depth: 14
+
+Expanded nodes: 103
+Visited nodes: 90
+Found solution at depth: 14
+
+Expanded nodes: 589
+Visited nodes: 577
+Found solution at depth: 15
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 78
+Visited nodes: 67
+Found solution at depth: 15
+
+Expanded nodes: 700
+Visited nodes: 689
+Found solution at depth: 13
+
+Expanded nodes: 67
+Visited nodes: 56
+Found solution at depth: 15
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 87
+Visited nodes: 72
+Found solution at depth: 14
+
+Expanded nodes: 879
+Visited nodes: 864
+Found solution at depth: 13
+
+DFS 15 normal descedants at depth 1: 
+Expanded nodes: 72
+Visited nodes: 44
+Found solution at depth: 15
+
+Expanded nodes: 47
+Visited nodes: 16
+Found solution at depth: 15
+
+Expanded nodes: 43
+Visited nodes: 18
+Found solution at depth: 15
+
+Expanded nodes: 66
+Visited nodes: 39
+Found solution at depth: 15
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 92
+Visited nodes: 62
+Found solution at depth: 15
+
+Expanded nodes: 11
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 2000
+Visited nodes: 1975
+Found solution at depth: 15
+
+------------
+DFS 15 improved descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 213
+Visited nodes: 198
+Found solution at depth: 14
+
+Expanded nodes: 444
+Visited nodes: 436
+Found solution at depth: 15
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 645
+Visited nodes: 636
+Found solution at depth: 13
+
+Expanded nodes: 634
+Visited nodes: 623
+Found solution at depth: 15
+
+Expanded nodes: 36
+Visited nodes: 22
+Found solution at depth: 15
+
+Expanded nodes: 455
+Visited nodes: 443
+Found solution at depth: 15
+
+Expanded nodes: 94
+Visited nodes: 85
+Found solution at depth: 13
+
+
+DFS 18 normal descedants at depth 14: 
+Expanded nodes: 991980
+Visited nodes: 991956
+Found solution at depth: 18
+
+Expanded nodes: 50407835
+Visited nodes: 50407815
+Found solution at depth: 17
+
+Expanded nodes: 13654530
+Visited nodes: 13654510
+Found solution at depth: 18
+
+Expanded nodes: 2562922
+Visited nodes: 2562897
+Found solution at depth: 18
+
+Expanded nodes: 255123
+Visited nodes: 255095
+Found solution at depth: 18
+
+Expanded nodes: 315848
+Visited nodes: 315825
+Found solution at depth: 18
+
+Expanded nodes: 10919392
+Visited nodes: 10919375
+Found solution at depth: 18
+
+Expanded nodes: 13921258
+Visited nodes: 13921243
+Found solution at depth: 18
+
+Expanded nodes: 17372045
+Visited nodes: 17372024
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 14: 
+Expanded nodes: 8555
+Visited nodes: 8544
+Found solution at depth: 15
+
+Expanded nodes: 46549
+Visited nodes: 46538
+Found solution at depth: 17
+
+Expanded nodes: 3209
+Visited nodes: 3194
+Found solution at depth: 18
+
+Expanded nodes: 39
+Visited nodes: 23
+Found solution at depth: 18
+
+Expanded nodes: 84788
+Visited nodes: 84775
+Found solution at depth: 17
+
+Expanded nodes: 6970
+Visited nodes: 6959
+Found solution at depth: 15
+
+Expanded nodes: 9117
+Visited nodes: 9112
+Found solution at depth: 15
+
+Expanded nodes: 8947
+Visited nodes: 8938
+Found solution at depth: 16
+
+Expanded nodes: 4725
+Visited nodes: 4714
+Found solution at depth: 18
+
+Expanded nodes: 3650
+Visited nodes: 3640
+Found solution at depth: 15
+
+DFS 18 normal descedants at depth 13: 
+Expanded nodes: 3045360
+Visited nodes: 3045344
+Found solution at depth: 17
+
+Expanded nodes: 151887
+Visited nodes: 151864
+Found solution at depth: 18
+
+Expanded nodes: 4316
+Visited nodes: 4289
+Found solution at depth: 17
+
+Expanded nodes: 346676
+Visited nodes: 346655
+Found solution at depth: 17
+
+Expanded nodes: 1374144
+Visited nodes: 1374122
+Found solution at depth: 17
+
+Expanded nodes: 682678
+Visited nodes: 682659
+Found solution at depth: 17
+
+Expanded nodes: 13548927
+Visited nodes: 13548913
+Found solution at depth: 17
+
+Expanded nodes: 24240874
+Visited nodes: 24240860
+Found solution at depth: 17
+
+Expanded nodes: 851
+Visited nodes: 827
+Found solution at depth: 17
+
+Expanded nodes: 12970867
+Visited nodes: 12970852
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 13: 
+Expanded nodes: 104377
+Visited nodes: 104368
+Found solution at depth: 17
+
+Expanded nodes: 100655
+Visited nodes: 100642
+Found solution at depth: 17
+
+Expanded nodes: 151865
+Visited nodes: 151854
+Found solution at depth: 17
+
+Expanded nodes: 114205
+Visited nodes: 114196
+Found solution at depth: 17
+
+Expanded nodes: 163248
+Visited nodes: 163241
+Found solution at depth: 17
+
+Expanded nodes: 5649
+Visited nodes: 5639
+Found solution at depth: 17
+
+Expanded nodes: 53114
+Visited nodes: 53104
+Found solution at depth: 17
+
+Expanded nodes: 152774
+Visited nodes: 152766
+Found solution at depth: 15
+
+Expanded nodes: 154969
+Visited nodes: 154962
+Found solution at depth: 17
+
+Expanded nodes: 61173
+Visited nodes: 61163
+Found solution at depth: 15
+
+DFS 18 normal descedants at depth 12: 
+Expanded nodes: 11596887
+Visited nodes: 11596872
+Found solution at depth: 17
+
+Expanded nodes: 584912
+Visited nodes: 584894
+Found solution at depth: 17
+
+Expanded nodes: 94501086
+Visited nodes: 94501070
+Found solution at depth: 17
+
+Expanded nodes: 325191
+Visited nodes: 325166
+Found solution at depth: 17
+
+Expanded nodes: 591206
+Visited nodes: 591188
+Found solution at depth: 17
+
+Expanded nodes: 707856
+Visited nodes: 707837
+Found solution at depth: 17
+
+Expanded nodes: 598623
+Visited nodes: 598603
+Found solution at depth: 17
+
+Expanded nodes: 19280655
+Visited nodes: 19280634
+Found solution at depth: 17
+
+Expanded nodes: 939399
+Visited nodes: 939384
+Found solution at depth: 17
+
+Expanded nodes: 14197008
+Visited nodes: 14196994
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 12: 
+Expanded nodes: 2567
+Visited nodes: 2555
+Found solution at depth: 17
+
+Expanded nodes: 161211
+Visited nodes: 161202
+Found solution at depth: 17
+
+Expanded nodes: 2111
+Visited nodes: 2097
+Found solution at depth: 17
+
+Expanded nodes: 9575
+Visited nodes: 9559
+Found solution at depth: 17
+
+Expanded nodes: 164904
+Visited nodes: 164895
+Found solution at depth: 17
+
+Expanded nodes: 158667
+Visited nodes: 158653
+Found solution at depth: 16
+
+Expanded nodes: 171172
+Visited nodes: 171158
+Found solution at depth: 18
+
+Expanded nodes: 14579
+Visited nodes: 14565
+Found solution at depth: 18
+
+Expanded nodes: 6826
+Visited nodes: 6816
+Found solution at depth: 15
+
+Expanded nodes: 161052
+Visited nodes: 161044
+Found solution at depth: 17
+
+DFS 18 normal descedants at depth 11: 
+Expanded nodes: 232935
+Visited nodes: 232917
+Found solution at depth: 17
+
+Expanded nodes: 654711
+Visited nodes: 654677
+Found solution at depth: 17
+
+Expanded nodes: 6070
+Visited nodes: 6045
+Found solution at depth: 17
+
+Expanded nodes: 1147392
+Visited nodes: 1147368
+Found solution at depth: 17
+
+Expanded nodes: 890681
+Visited nodes: 890659
+Found solution at depth: 17
+
+Expanded nodes: 326
+Visited nodes: 303
+Found solution at depth: 17
+
+Expanded nodes: 15010
+Visited nodes: 14991
+Found solution at depth: 17
+
+Expanded nodes: 322829
+Visited nodes: 322804
+Found solution at depth: 17
+
+Expanded nodes: 490053
+Visited nodes: 490031
+Found solution at depth: 17
+
+Expanded nodes: 2045
+Visited nodes: 2015
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 11: 
+Expanded nodes: 19679
+Visited nodes: 19670
+Found solution at depth: 17
+
+Expanded nodes: 7367
+Visited nodes: 7351
+Found solution at depth: 18
+
+Expanded nodes: 21735
+Visited nodes: 21727
+Found solution at depth: 17
+
+Expanded nodes: 2131
+Visited nodes: 2118
+Found solution at depth: 17
+
+Expanded nodes: 69877
+Visited nodes: 69871
+Found solution at depth: 17
+
+Expanded nodes: 23941
+Visited nodes: 23935
+Found solution at depth: 17
+
+Expanded nodes: 1531
+Visited nodes: 1520
+Found solution at depth: 18
+
+Expanded nodes: 69864
+Visited nodes: 69855
+Found solution at depth: 17
+
+Expanded nodes: 13467
+Visited nodes: 13457
+Found solution at depth: 17
+
+Expanded nodes: 11605
+Visited nodes: 11596
+Found solution at depth: 17
+
+DFS 18 normal descedants at depth 10: 
+Expanded nodes: 36418
+Visited nodes: 36390
+Found solution at depth: 18
+
+Expanded nodes: 34483
+Visited nodes: 34457
+Found solution at depth: 18
+
+Expanded nodes: 3600
+Visited nodes: 3579
+Found solution at depth: 18
+
+Expanded nodes: 15355
+Visited nodes: 15334
+Found solution at depth: 18
+
+Expanded nodes: 15907
+Visited nodes: 15888
+Found solution at depth: 18
+
+Expanded nodes: 8400
+Visited nodes: 8372
+Found solution at depth: 18
+
+Expanded nodes: 1185
+Visited nodes: 1161
+Found solution at depth: 18
+
+Expanded nodes: 467433
+Visited nodes: 467408
+Found solution at depth: 18
+
+Expanded nodes: 28367
+Visited nodes: 28347
+Found solution at depth: 18
+
+Expanded nodes: 96790
+Visited nodes: 96767
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 10: 
+Expanded nodes: 11018
+Visited nodes: 11008
+Found solution at depth: 18
+
+Expanded nodes: 700
+Visited nodes: 686
+Found solution at depth: 18
+
+Expanded nodes: 26372
+Visited nodes: 26360
+Found solution at depth: 16
+
+Expanded nodes: 545
+Visited nodes: 536
+Found solution at depth: 18
+
+Expanded nodes: 1693
+Visited nodes: 1681
+Found solution at depth: 18
+
+Expanded nodes: 9028
+Visited nodes: 9016
+Found solution at depth: 18
+
+Expanded nodes: 20657
+Visited nodes: 20652
+Found solution at depth: 18
+
+Expanded nodes: 2426
+Visited nodes: 2417
+Found solution at depth: 16
+
+Expanded nodes: 19061
+Visited nodes: 19052
+Found solution at depth: 18
+
+Expanded nodes: 7711
+Visited nodes: 7699
+Found solution at depth: 18
+
+DFS 18 normal descedants at depth 9: 
+Expanded nodes: 8450
+Visited nodes: 8417
+Found solution at depth: 18
+
+Expanded nodes: 17963
+Visited nodes: 17939
+Found solution at depth: 17
+
+Expanded nodes: 74750
+Visited nodes: 74724
+Found solution at depth: 17
+
+Expanded nodes: 10597
+Visited nodes: 10571
+Found solution at depth: 18
+
+Expanded nodes: 1824
+Visited nodes: 1798
+Found solution at depth: 17
+
+Expanded nodes: 314669
+Visited nodes: 314643
+Found solution at depth: 17
+
+Expanded nodes: 11404
+Visited nodes: 11380
+Found solution at depth: 18
+
+Expanded nodes: 58106
+Visited nodes: 58077
+Found solution at depth: 17
+
+Expanded nodes: 318
+Visited nodes: 287
+Found solution at depth: 17
+
+Expanded nodes: 2541
+Visited nodes: 2511
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 9: 
+Expanded nodes: 6408
+Visited nodes: 6394
+Found solution at depth: 17
+
+Expanded nodes: 3014
+Visited nodes: 2999
+Found solution at depth: 17
+
+Expanded nodes: 59
+Visited nodes: 41
+Found solution at depth: 17
+
+Expanded nodes: 780
+Visited nodes: 771
+Found solution at depth: 17
+
+Expanded nodes: 190
+Visited nodes: 172
+Found solution at depth: 18
+
+Expanded nodes: 2907
+Visited nodes: 2891
+Found solution at depth: 17
+
+Expanded nodes: 1709
+Visited nodes: 1695
+Found solution at depth: 17
+
+Expanded nodes: 795
+Visited nodes: 783
+Found solution at depth: 18
+
+Expanded nodes: 239
+Visited nodes: 224
+Found solution at depth: 17
+
+Expanded nodes: 2020
+Visited nodes: 2004
+Found solution at depth: 18
+
+DFS 18 normal descedants at depth 8: 
+Expanded nodes: 149405
+Visited nodes: 149379
+Found solution at depth: 18
+
+Expanded nodes: 15698
+Visited nodes: 15669
+Found solution at depth: 18
+
+Expanded nodes: 18349
+Visited nodes: 18332
+Found solution at depth: 18
+
+Expanded nodes: 3814
+Visited nodes: 3795
+Found solution at depth: 18
+
+Expanded nodes: 91082
+Visited nodes: 91063
+Found solution at depth: 18
+
+Expanded nodes: 86
+Visited nodes: 54
+Found solution at depth: 18
+
+Expanded nodes: 190
+Visited nodes: 165
+Found solution at depth: 18
+
+Expanded nodes: 60577
+Visited nodes: 60556
+Found solution at depth: 18
+
+Expanded nodes: 3269
+Visited nodes: 3249
+Found solution at depth: 18
+
+Expanded nodes: 20363
+Visited nodes: 20341
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 8: 
+Expanded nodes: 3249
+Visited nodes: 3237
+Found solution at depth: 18
+
+Expanded nodes: 8936
+Visited nodes: 8922
+Found solution at depth: 18
+
+Expanded nodes: 1091
+Visited nodes: 1080
+Found solution at depth: 17
+
+Expanded nodes: 10709
+Visited nodes: 10698
+Found solution at depth: 16
+
+Expanded nodes: 177
+Visited nodes: 163
+Found solution at depth: 17
+
+Expanded nodes: 214
+Visited nodes: 199
+Found solution at depth: 17
+
+Expanded nodes: 2244
+Visited nodes: 2230
+Found solution at depth: 18
+
+Expanded nodes: 1101
+Visited nodes: 1091
+Found solution at depth: 17
+
+Expanded nodes: 1309
+Visited nodes: 1298
+Found solution at depth: 18
+
+Expanded nodes: 2574
+Visited nodes: 2562
+Found solution at depth: 17
+
+DFS 18 normal descedants at depth 7: 
+Expanded nodes: 1649
+Visited nodes: 1626
+Found solution at depth: 17
+
+Expanded nodes: 32822
+Visited nodes: 32801
+Found solution at depth: 17
+
+Expanded nodes: 155
+Visited nodes: 116
+Found solution at depth: 18
+
+Expanded nodes: 720
+Visited nodes: 687
+Found solution at depth: 18
+
+Expanded nodes: 703
+Visited nodes: 672
+Found solution at depth: 17
+
+Expanded nodes: 665
+Visited nodes: 637
+Found solution at depth: 18
+
+Expanded nodes: 1098
+Visited nodes: 1075
+Found solution at depth: 17
+
+Expanded nodes: 1410
+Visited nodes: 1383
+Found solution at depth: 17
+
+Expanded nodes: 134
+Visited nodes: 104
+Found solution at depth: 17
+
+Expanded nodes: 9799
+Visited nodes: 9777
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 7: 
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 9
+
+Expanded nodes: 737
+Visited nodes: 724
+Found solution at depth: 16
+
+Expanded nodes: 78
+Visited nodes: 63
+Found solution at depth: 18
+
+Expanded nodes: 629
+Visited nodes: 617
+Found solution at depth: 16
+
+Expanded nodes: 7991
+Visited nodes: 7976
+Found solution at depth: 18
+
+Expanded nodes: 3743
+Visited nodes: 3731
+Found solution at depth: 18
+
+Expanded nodes: 153
+Visited nodes: 136
+Found solution at depth: 17
+
+Expanded nodes: 912
+Visited nodes: 900
+Found solution at depth: 16
+
+Expanded nodes: 273
+Visited nodes: 260
+Found solution at depth: 13
+
+Expanded nodes: 267
+Visited nodes: 250
+Found solution at depth: 17
+
+DFS 18 normal descedants at depth 6: 
+Expanded nodes: 35
+Visited nodes: 13
+Found solution at depth: 12
+
+Expanded nodes: 150
+Visited nodes: 124
+Found solution at depth: 18
+
+Expanded nodes: 44686
+Visited nodes: 44664
+Found solution at depth: 18
+
+Expanded nodes: 1787
+Visited nodes: 1765
+Found solution at depth: 18
+
+Expanded nodes: 4570
+Visited nodes: 4546
+Found solution at depth: 18
+
+Expanded nodes: 1125
+Visited nodes: 1101
+Found solution at depth: 18
+
+Expanded nodes: 194
+Visited nodes: 172
+Found solution at depth: 18
+
+Expanded nodes: 38
+Visited nodes: 15
+Found solution at depth: 14
+
+Expanded nodes: 4033
+Visited nodes: 4008
+Found solution at depth: 18
+
+Expanded nodes: 20249
+Visited nodes: 20220
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 6: 
+Expanded nodes: 73
+Visited nodes: 58
+Found solution at depth: 14
+
+Expanded nodes: 287
+Visited nodes: 275
+Found solution at depth: 18
+
+Expanded nodes: 937
+Visited nodes: 924
+Found solution at depth: 18
+
+Expanded nodes: 267
+Visited nodes: 255
+Found solution at depth: 18
+
+Expanded nodes: 155
+Visited nodes: 139
+Found solution at depth: 18
+
+Expanded nodes: 4212
+Visited nodes: 4197
+Found solution at depth: 18
+
+Expanded nodes: 15
+Visited nodes: 9
+Found solution at depth: 8
+
+Expanded nodes: 1339
+Visited nodes: 1330
+Found solution at depth: 18
+
+Expanded nodes: 817
+Visited nodes: 807
+Found solution at depth: 18
+
+Expanded nodes: 100
+Visited nodes: 89
+Found solution at depth: 18
+
+DFS 18 normal descedants at depth 5: 
+Expanded nodes: 41
+Visited nodes: 16
+Found solution at depth: 15
+
+Expanded nodes: 25
+Visited nodes: 10
+Found solution at depth: 9
+
+Expanded nodes: 36129
+Visited nodes: 36106
+Found solution at depth: 17
+
+Expanded nodes: 5565
+Visited nodes: 5540
+Found solution at depth: 17
+
+Expanded nodes: 121
+Visited nodes: 88
+Found solution at depth: 17
+
+Expanded nodes: 91
+Visited nodes: 67
+Found solution at depth: 17
+
+Expanded nodes: 14
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 168
+Visited nodes: 140
+Found solution at depth: 17
+
+Expanded nodes: 13128
+Visited nodes: 13103
+Found solution at depth: 17
+
+Expanded nodes: 153
+Visited nodes: 131
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 5: 
+Expanded nodes: 846
+Visited nodes: 835
+Found solution at depth: 17
+
+Expanded nodes: 1230
+Visited nodes: 1222
+Found solution at depth: 13
+
+Expanded nodes: 2070
+Visited nodes: 2059
+Found solution at depth: 13
+
+Expanded nodes: 45
+Visited nodes: 27
+Found solution at depth: 18
+
+Expanded nodes: 40
+Visited nodes: 29
+Found solution at depth: 17
+
+Expanded nodes: 8022
+Visited nodes: 8005
+Found solution at depth: 18
+
+Expanded nodes: 849
+Visited nodes: 840
+Found solution at depth: 17
+
+Expanded nodes: 1682
+Visited nodes: 1673
+Found solution at depth: 18
+
+Expanded nodes: 1603
+Visited nodes: 1595
+Found solution at depth: 13
+
+Expanded nodes: 2076
+Visited nodes: 2061
+Found solution at depth: 17
+
+DFS 18 normal descedants at depth 4: 
+Expanded nodes: 123
+Visited nodes: 92
+Found solution at depth: 18
+
+Expanded nodes: 58
+Visited nodes: 28
+Found solution at depth: 18
+
+Expanded nodes: 97
+Visited nodes: 63
+Found solution at depth: 18
+
+Expanded nodes: 49
+Visited nodes: 26
+Found solution at depth: 18
+
+Expanded nodes: 1195
+Visited nodes: 1165
+Found solution at depth: 18
+
+Expanded nodes: 58
+Visited nodes: 19
+Found solution at depth: 18
+
+Expanded nodes: 337
+Visited nodes: 309
+Found solution at depth: 18
+
+Expanded nodes: 116
+Visited nodes: 78
+Found solution at depth: 17
+
+Expanded nodes: 620
+Visited nodes: 595
+Found solution at depth: 18
+
+Expanded nodes: 7129
+Visited nodes: 7106
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 4: 
+Expanded nodes: 3750
+Visited nodes: 3733
+Found solution at depth: 18
+
+Expanded nodes: 1493
+Visited nodes: 1481
+Found solution at depth: 18
+
+Expanded nodes: 2058
+Visited nodes: 2048
+Found solution at depth: 16
+
+Expanded nodes: 4743
+Visited nodes: 4731
+Found solution at depth: 18
+
+Expanded nodes: 153
+Visited nodes: 139
+Found solution at depth: 18
+
+Expanded nodes: 10982
+Visited nodes: 10972
+Found solution at depth: 18
+
+Expanded nodes: 1066
+Visited nodes: 1054
+Found solution at depth: 18
+
+Expanded nodes: 1657
+Visited nodes: 1648
+Found solution at depth: 18
+
+Expanded nodes: 187
+Visited nodes: 173
+Found solution at depth: 18
+
+Expanded nodes: 1856
+Visited nodes: 1841
+Found solution at depth: 18
+
+DFS 18 normal descedants at depth 3: 
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 605
+Visited nodes: 584
+Found solution at depth: 17
+
+Expanded nodes: 1011
+Visited nodes: 988
+Found solution at depth: 17
+
+Expanded nodes: 118
+Visited nodes: 88
+Found solution at depth: 17
+
+Expanded nodes: 105
+Visited nodes: 72
+Found solution at depth: 17
+
+Expanded nodes: 293
+Visited nodes: 262
+Found solution at depth: 17
+
+Expanded nodes: 9661
+Visited nodes: 9634
+Found solution at depth: 17
+
+Expanded nodes: 158
+Visited nodes: 128
+Found solution at depth: 17
+
+Expanded nodes: 425
+Visited nodes: 398
+Found solution at depth: 17
+
+Expanded nodes: 24
+Visited nodes: 10
+Found solution at depth: 9
+
+------------
+DFS 18 improved descedants at depth 3: 
+Expanded nodes: 581
+Visited nodes: 570
+Found solution at depth: 15
+
+Expanded nodes: 378
+Visited nodes: 365
+Found solution at depth: 18
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 1732
+Visited nodes: 1723
+Found solution at depth: 17
+
+Expanded nodes: 456
+Visited nodes: 443
+Found solution at depth: 17
+
+Expanded nodes: 723
+Visited nodes: 706
+Found solution at depth: 18
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 3865
+Visited nodes: 3852
+Found solution at depth: 18
+
+Expanded nodes: 1878
+Visited nodes: 1865
+Found solution at depth: 16
+
+DFS 18 normal descedants at depth 2: 
+Expanded nodes: 51
+Visited nodes: 28
+Found solution at depth: 18
+
+Expanded nodes: 7761
+Visited nodes: 7737
+Found solution at depth: 18
+
+Expanded nodes: 384
+Visited nodes: 350
+Found solution at depth: 18
+
+Expanded nodes: 736
+Visited nodes: 702
+Found solution at depth: 18
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 164
+Visited nodes: 130
+Found solution at depth: 18
+
+Expanded nodes: 826
+Visited nodes: 799
+Found solution at depth: 18
+
+Expanded nodes: 995
+Visited nodes: 960
+Found solution at depth: 18
+
+Expanded nodes: 885
+Visited nodes: 848
+Found solution at depth: 18
+
+------------
+DFS 18 improved descedants at depth 2: 
+Expanded nodes: 3047
+Visited nodes: 3035
+Found solution at depth: 15
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 843
+Visited nodes: 827
+Found solution at depth: 18
+
+Expanded nodes: 130
+Visited nodes: 120
+Found solution at depth: 14
+
+Expanded nodes: 334
+Visited nodes: 324
+Found solution at depth: 18
+
+Expanded nodes: 8
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 162
+Visited nodes: 147
+Found solution at depth: 17
+
+Expanded nodes: 116
+Visited nodes: 97
+Found solution at depth: 18
+
+Expanded nodes: 74
+Visited nodes: 56
+Found solution at depth: 18
+
+DFS 18 normal descedants at depth 1: 
+Expanded nodes: 1209
+Visited nodes: 1182
+Found solution at depth: 17
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 142
+Visited nodes: 104
+Found solution at depth: 17
+
+Expanded nodes: 179
+Visited nodes: 148
+Found solution at depth: 17
+
+Expanded nodes: 69
+Visited nodes: 43
+Found solution at depth: 17
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 378
+Visited nodes: 346
+Found solution at depth: 17
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 285
+Visited nodes: 254
+Found solution at depth: 17
+
+------------
+DFS 18 improved descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 209
+Visited nodes: 191
+Found solution at depth: 16
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 3592
+Visited nodes: 3577
+Found solution at depth: 17
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+

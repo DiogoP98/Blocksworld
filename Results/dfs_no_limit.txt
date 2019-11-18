@@ -1,0 +1,1890 @@
+DFS no limit graph search normal descedants at depth 15: 
+Expanded nodes: 10327
+Found solution at depth: 4925
+
+Expanded nodes: 6313
+Found solution at depth: 3135
+
+Expanded nodes: 10375
+Found solution at depth: 4931
+
+Expanded nodes: 7104
+Found solution at depth: 3566
+
+Expanded nodes: 6828
+Found solution at depth: 3403
+
+Expanded nodes: 1842
+Found solution at depth: 958
+
+Expanded nodes: 8050
+Found solution at depth: 3967
+
+Expanded nodes: 13498
+Found solution at depth: 5301
+
+Expanded nodes: 8099
+Found solution at depth: 4002
+
+Expanded nodes: 10542
+Found solution at depth: 4871
+
+------------
+DFS no limit graph search improved descedants at depth 15: 
+Expanded nodes: 8774
+Found solution at depth: 4210
+
+Expanded nodes: 8649
+Found solution at depth: 4133
+
+Expanded nodes: 8666
+Found solution at depth: 4149
+
+Expanded nodes: 2620
+Found solution at depth: 1321
+
+Expanded nodes: 6645
+Found solution at depth: 3355
+
+Expanded nodes: 10488
+Found solution at depth: 4892
+
+Expanded nodes: 7607
+Found solution at depth: 3805
+
+Expanded nodes: 7584
+Found solution at depth: 3747
+
+Expanded nodes: 1978
+Found solution at depth: 983
+
+Expanded nodes: 2933
+Found solution at depth: 1515
+
+DFS no limit graph search normal descedants at depth 14: 
+Expanded nodes: 10402
+Found solution at depth: 4874
+
+Expanded nodes: 5709
+Found solution at depth: 2841
+
+Expanded nodes: 583
+Found solution at depth: 299
+
+Expanded nodes: 11039
+Found solution at depth: 4959
+
+Expanded nodes: 253
+Found solution at depth: 129
+
+Expanded nodes: 5642
+Found solution at depth: 2791
+
+Expanded nodes: 11061
+Found solution at depth: 5159
+
+Expanded nodes: 5485
+Found solution at depth: 2789
+
+Expanded nodes: 1942
+Found solution at depth: 979
+
+Expanded nodes: 10727
+Found solution at depth: 4916
+
+------------
+DFS no limit graph search improved descedants at depth 14: 
+Expanded nodes: 13485
+Found solution at depth: 5313
+
+Expanded nodes: 1238
+Found solution at depth: 641
+
+Expanded nodes: 9952
+Found solution at depth: 4723
+
+Expanded nodes: 675
+Found solution at depth: 345
+
+Expanded nodes: 958
+Found solution at depth: 486
+
+Expanded nodes: 7546
+Found solution at depth: 3754
+
+Expanded nodes: 1283
+Found solution at depth: 661
+
+Expanded nodes: 6713
+Found solution at depth: 3299
+
+Expanded nodes: 10412
+Found solution at depth: 4831
+
+Expanded nodes: 4620
+Found solution at depth: 2331
+
+DFS no limit graph search normal descedants at depth 13: 
+Expanded nodes: 12316
+Found solution at depth: 5164
+
+Expanded nodes: 606
+Found solution at depth: 298
+
+Expanded nodes: 15491
+Found solution at depth: 4459
+
+Expanded nodes: 16420
+Found solution at depth: 3161
+
+Expanded nodes: 13190
+Found solution at depth: 5330
+
+Expanded nodes: 9174
+Found solution at depth: 4401
+
+Expanded nodes: 10307
+Found solution at depth: 4807
+
+Expanded nodes: 7958
+Found solution at depth: 3935
+
+Expanded nodes: 13583
+Found solution at depth: 5357
+
+Expanded nodes: 3238
+Found solution at depth: 1648
+
+------------
+DFS no limit graph search improved descedants at depth 13: 
+Expanded nodes: 3712
+Found solution at depth: 1917
+
+Expanded nodes: 4835
+Found solution at depth: 2397
+
+Expanded nodes: 10528
+Found solution at depth: 4961
+
+Expanded nodes: 14030
+Found solution at depth: 5011
+
+Expanded nodes: 14809
+Found solution at depth: 5062
+
+Expanded nodes: 250
+Found solution at depth: 123
+
+Expanded nodes: 1360
+Found solution at depth: 691
+
+Expanded nodes: 2076
+Found solution at depth: 1071
+
+Expanded nodes: 4211
+Found solution at depth: 2109
+
+Expanded nodes: 13427
+Found solution at depth: 5388
+
+DFS no limit graph search normal descedants at depth 12: 
+Expanded nodes: 4318
+Found solution at depth: 2199
+
+Expanded nodes: 4649
+Found solution at depth: 2346
+
+Expanded nodes: 37
+Found solution at depth: 19
+
+Expanded nodes: 591
+Found solution at depth: 288
+
+Expanded nodes: 11850
+Found solution at depth: 5192
+
+Expanded nodes: 10159
+Found solution at depth: 4862
+
+Expanded nodes: 1282
+Found solution at depth: 671
+
+Expanded nodes: 13963
+Found solution at depth: 5135
+
+Expanded nodes: 8045
+Found solution at depth: 3958
+
+Expanded nodes: 8390
+Found solution at depth: 4069
+
+------------
+DFS no limit graph search improved descedants at depth 12: 
+Expanded nodes: 14565
+Found solution at depth: 5069
+
+Expanded nodes: 2992
+Found solution at depth: 1491
+
+Expanded nodes: 8328
+Found solution at depth: 4098
+
+Expanded nodes: 6376
+Found solution at depth: 3193
+
+Expanded nodes: 176
+Found solution at depth: 96
+
+Expanded nodes: 5560
+Found solution at depth: 2765
+
+Expanded nodes: 2155
+Found solution at depth: 1097
+
+Expanded nodes: 3186
+Found solution at depth: 1613
+
+Expanded nodes: 2258
+Found solution at depth: 1153
+
+Expanded nodes: 11727
+Found solution at depth: 5264
+
+DFS no limit graph search normal descedants at depth 11: 
+Expanded nodes: 3057
+Found solution at depth: 1545
+
+Expanded nodes: 7959
+Found solution at depth: 3891
+
+Expanded nodes: 9513
+Found solution at depth: 4510
+
+Expanded nodes: 359
+Found solution at depth: 181
+
+Expanded nodes: 10715
+Found solution at depth: 5058
+
+Expanded nodes: 14236
+Found solution at depth: 5079
+
+Expanded nodes: 7497
+Found solution at depth: 3675
+
+Expanded nodes: 1446
+Found solution at depth: 747
+
+Expanded nodes: 9883
+Found solution at depth: 4603
+
+Expanded nodes: 12602
+Found solution at depth: 5325
+
+------------
+DFS no limit graph search improved descedants at depth 11: 
+Expanded nodes: 27
+Found solution at depth: 13
+
+Expanded nodes: 12076
+Found solution at depth: 5283
+
+Expanded nodes: 6376
+Found solution at depth: 3111
+
+Expanded nodes: 1581
+Found solution at depth: 795
+
+Expanded nodes: 5652
+Found solution at depth: 2891
+
+Expanded nodes: 3631
+Found solution at depth: 1794
+
+Expanded nodes: 643
+Found solution at depth: 319
+
+Expanded nodes: 561
+Found solution at depth: 275
+
+Expanded nodes: 12740
+Found solution at depth: 5501
+
+Expanded nodes: 6773
+Found solution at depth: 3407
+
+DFS no limit graph search normal descedants at depth 10: 
+Expanded nodes: 11697
+Found solution at depth: 5278
+
+Expanded nodes: 8579
+Found solution at depth: 4200
+
+Expanded nodes: 10046
+Found solution at depth: 4653
+
+Expanded nodes: 7548
+Found solution at depth: 3709
+
+Expanded nodes: 994
+Found solution at depth: 513
+
+Expanded nodes: 10156
+Found solution at depth: 4757
+
+Expanded nodes: 2531
+Found solution at depth: 1281
+
+Expanded nodes: 12287
+Found solution at depth: 5357
+
+Expanded nodes: 3770
+Found solution at depth: 1917
+
+Expanded nodes: 4529
+Found solution at depth: 2307
+
+------------
+DFS no limit graph search improved descedants at depth 10: 
+Expanded nodes: 9120
+Found solution at depth: 4396
+
+Expanded nodes: 3790
+Found solution at depth: 1941
+
+Expanded nodes: 8617
+Found solution at depth: 4211
+
+Expanded nodes: 2701
+Found solution at depth: 1365
+
+Expanded nodes: 7517
+Found solution at depth: 3731
+
+Expanded nodes: 3466
+Found solution at depth: 1742
+
+Expanded nodes: 13764
+Found solution at depth: 5399
+
+Expanded nodes: 4854
+Found solution at depth: 2473
+
+Expanded nodes: 6494
+Found solution at depth: 3283
+
+Expanded nodes: 4594
+Found solution at depth: 2321
+
+DFS no limit graph search normal descedants at depth 9: 
+Expanded nodes: 8968
+Found solution at depth: 4381
+
+Expanded nodes: 13588
+Found solution at depth: 5216
+
+Expanded nodes: 4659
+Found solution at depth: 2359
+
+Expanded nodes: 5384
+Found solution at depth: 2663
+
+Expanded nodes: 8578
+Found solution at depth: 4131
+
+Expanded nodes: 5479
+Found solution at depth: 2803
+
+Expanded nodes: 902
+Found solution at depth: 453
+
+Expanded nodes: 2646
+Found solution at depth: 1367
+
+Expanded nodes: 2297
+Found solution at depth: 1192
+
+Expanded nodes: 6770
+Found solution at depth: 3337
+
+------------
+DFS no limit graph search improved descedants at depth 9: 
+Expanded nodes: 10467
+Found solution at depth: 4869
+
+Expanded nodes: 2721
+Found solution at depth: 1385
+
+Expanded nodes: 9738
+Found solution at depth: 4672
+
+Expanded nodes: 8228
+Found solution at depth: 4100
+
+Expanded nodes: 3015
+Found solution at depth: 1548
+
+Expanded nodes: 11197
+Found solution at depth: 5209
+
+Expanded nodes: 4021
+Found solution at depth: 2047
+
+Expanded nodes: 3608
+Found solution at depth: 1853
+
+Expanded nodes: 13180
+Found solution at depth: 5408
+
+Expanded nodes: 8516
+Found solution at depth: 4242
+
+DFS no limit graph search normal descedants at depth 8: 
+Expanded nodes: 10994
+Found solution at depth: 5140
+
+Expanded nodes: 428
+Found solution at depth: 215
+
+Expanded nodes: 10409
+Found solution at depth: 4896
+
+Expanded nodes: 13329
+Found solution at depth: 5511
+
+Expanded nodes: 3005
+Found solution at depth: 1533
+
+Expanded nodes: 13700
+Found solution at depth: 5404
+
+Expanded nodes: 10131
+Found solution at depth: 4744
+
+Expanded nodes: 5050
+Found solution at depth: 2555
+
+Expanded nodes: 4132
+Found solution at depth: 2103
+
+Expanded nodes: 6858
+Found solution at depth: 3399
+
+------------
+DFS no limit graph search improved descedants at depth 8: 
+Expanded nodes: 12285
+Found solution at depth: 5359
+
+Expanded nodes: 2845
+Found solution at depth: 1441
+
+Expanded nodes: 2785
+Found solution at depth: 1395
+
+Expanded nodes: 11593
+Found solution at depth: 5325
+
+Expanded nodes: 2537
+Found solution at depth: 1249
+
+Expanded nodes: 7246
+Found solution at depth: 3521
+
+Expanded nodes: 197
+Found solution at depth: 100
+
+Expanded nodes: 2938
+Found solution at depth: 1505
+
+Expanded nodes: 1082
+Found solution at depth: 548
+
+Expanded nodes: 13059
+Found solution at depth: 5301
+
+DFS no limit graph search normal descedants at depth 7: 
+Expanded nodes: 3779
+Found solution at depth: 1880
+
+Expanded nodes: 1119
+Found solution at depth: 557
+
+Expanded nodes: 14442
+Found solution at depth: 5185
+
+Expanded nodes: 12268
+Found solution at depth: 5322
+
+Expanded nodes: 12418
+Found solution at depth: 5325
+
+Expanded nodes: 2936
+Found solution at depth: 1487
+
+Expanded nodes: 15
+Found solution at depth: 7
+
+Expanded nodes: 11760
+Found solution at depth: 5289
+
+Expanded nodes: 4642
+Found solution at depth: 2372
+
+Expanded nodes: 11849
+Found solution at depth: 5115
+
+------------
+DFS no limit graph search improved descedants at depth 7: 
+Expanded nodes: 9481
+Found solution at depth: 4574
+
+Expanded nodes: 4847
+Found solution at depth: 2400
+
+Expanded nodes: 7865
+Found solution at depth: 3909
+
+Expanded nodes: 8432
+Found solution at depth: 4035
+
+Expanded nodes: 8385
+Found solution at depth: 4020
+
+Expanded nodes: 61
+Found solution at depth: 25
+
+Expanded nodes: 563
+Found solution at depth: 283
+
+Expanded nodes: 12417
+Found solution at depth: 5305
+
+Expanded nodes: 53
+Found solution at depth: 24
+
+Expanded nodes: 6175
+Found solution at depth: 3133
+
+DFS no limit graph search normal descedants at depth 6: 
+Expanded nodes: 1488
+Found solution at depth: 738
+
+Expanded nodes: 13652
+Found solution at depth: 5398
+
+Expanded nodes: 9078
+Found solution at depth: 4403
+
+Expanded nodes: 13539
+Found solution at depth: 5560
+
+Expanded nodes: 297
+Found solution at depth: 148
+
+Expanded nodes: 12643
+Found solution at depth: 5204
+
+Expanded nodes: 3509
+Found solution at depth: 1771
+
+Expanded nodes: 2703
+Found solution at depth: 1381
+
+Expanded nodes: 11610
+Found solution at depth: 5260
+
+Expanded nodes: 2684
+Found solution at depth: 1372
+
+------------
+DFS no limit graph search improved descedants at depth 6: 
+Expanded nodes: 9719
+Found solution at depth: 4606
+
+Expanded nodes: 6890
+Found solution at depth: 3412
+
+Expanded nodes: 1350
+Found solution at depth: 690
+
+Expanded nodes: 5283
+Found solution at depth: 2670
+
+Expanded nodes: 13
+Found solution at depth: 6
+
+Expanded nodes: 5068
+Found solution at depth: 2530
+
+Expanded nodes: 10605
+Found solution at depth: 4952
+
+Expanded nodes: 13
+Found solution at depth: 6
+
+Expanded nodes: 2198
+Found solution at depth: 1117
+
+Expanded nodes: 10904
+Found solution at depth: 5050
+
+DFS no limit graph search normal descedants at depth 5: 
+Expanded nodes: 4072
+Found solution at depth: 2069
+
+Expanded nodes: 2125
+Found solution at depth: 1095
+
+Expanded nodes: 7272
+Found solution at depth: 3623
+
+Expanded nodes: 5090
+Found solution at depth: 2573
+
+Expanded nodes: 770
+Found solution at depth: 408
+
+Expanded nodes: 39
+Found solution at depth: 21
+
+Expanded nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 10241
+Found solution at depth: 4806
+
+Expanded nodes: 13297
+Found solution at depth: 5609
+
+Expanded nodes: 2965
+Found solution at depth: 1483
+
+------------
+DFS no limit graph search improved descedants at depth 5: 
+Expanded nodes: 1776
+Found solution at depth: 900
+
+Expanded nodes: 9706
+Found solution at depth: 4653
+
+Expanded nodes: 13722
+Found solution at depth: 5274
+
+Expanded nodes: 9522
+Found solution at depth: 4491
+
+Expanded nodes: 6708
+Found solution at depth: 3307
+
+Expanded nodes: 2317
+Found solution at depth: 1196
+
+Expanded nodes: 13956
+Found solution at depth: 5258
+
+Expanded nodes: 9316
+Found solution at depth: 4516
+
+Expanded nodes: 8126
+Found solution at depth: 3907
+
+Expanded nodes: 11821
+Found solution at depth: 5348
+
+DFS no limit graph search normal descedants at depth 4: 
+Expanded nodes: 901
+Found solution at depth: 459
+
+Expanded nodes: 10679
+Found solution at depth: 5016
+
+Expanded nodes: 8183
+Found solution at depth: 4050
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+Expanded nodes: 11647
+Found solution at depth: 5230
+
+Expanded nodes: 1175
+Found solution at depth: 598
+
+Expanded nodes: 3828
+Found solution at depth: 1922
+
+Expanded nodes: 4734
+Found solution at depth: 2366
+
+Expanded nodes: 3359
+Found solution at depth: 1720
+
+Expanded nodes: 1871
+Found solution at depth: 942
+
+------------
+DFS no limit graph search improved descedants at depth 4: 
+Expanded nodes: 5074
+Found solution at depth: 2604
+
+Expanded nodes: 7001
+Found solution at depth: 3521
+
+Expanded nodes: 969
+Found solution at depth: 490
+
+Expanded nodes: 11442
+Found solution at depth: 5332
+
+Expanded nodes: 1975
+Found solution at depth: 988
+
+Expanded nodes: 4810
+Found solution at depth: 2470
+
+Expanded nodes: 9697
+Found solution at depth: 4606
+
+Expanded nodes: 9659
+Found solution at depth: 4489
+
+Expanded nodes: 6150
+Found solution at depth: 3116
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+DFS no limit graph search normal descedants at depth 3: 
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 5090
+Found solution at depth: 2565
+
+Expanded nodes: 5600
+Found solution at depth: 2803
+
+Expanded nodes: 4433
+Found solution at depth: 2205
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 123
+Found solution at depth: 61
+
+Expanded nodes: 756
+Found solution at depth: 365
+
+Expanded nodes: 11224
+Found solution at depth: 5075
+
+------------
+DFS no limit graph search improved descedants at depth 3: 
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 7217
+Found solution at depth: 3613
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 8130
+Found solution at depth: 3901
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 594
+Found solution at depth: 294
+
+Expanded nodes: 5
+Found solution at depth: 3
+
+DFS no limit graph search normal descedants at depth 2: 
+Expanded nodes: 13859
+Found solution at depth: 5539
+
+Expanded nodes: 3071
+Found solution at depth: 1546
+
+Expanded nodes: 3957
+Found solution at depth: 2005
+
+Expanded nodes: 3050
+Found solution at depth: 1568
+
+Expanded nodes: 5392
+Found solution at depth: 2749
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 12681
+Found solution at depth: 5429
+
+Expanded nodes: 9835
+Found solution at depth: 4776
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 2072
+Found solution at depth: 1045
+
+------------
+DFS no limit graph search improved descedants at depth 2: 
+Expanded nodes: 4397
+Found solution at depth: 2216
+
+Expanded nodes: 9925
+Found solution at depth: 4698
+
+Expanded nodes: 437
+Found solution at depth: 209
+
+Expanded nodes: 8762
+Found solution at depth: 4280
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 5116
+Found solution at depth: 2589
+
+Expanded nodes: 11485
+Found solution at depth: 5205
+
+Expanded nodes: 14693
+Found solution at depth: 4874
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+DFS no limit graph search normal descedants at depth 1: 
+Expanded nodes: 8349
+Found solution at depth: 4082
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 3482
+Found solution at depth: 1706
+
+Expanded nodes: 5
+Found solution at depth: 1
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 1478
+Found solution at depth: 753
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 13819
+Found solution at depth: 5239
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 5719
+Found solution at depth: 2879
+
+------------
+DFS no limit graph search improved descedants at depth 1: 
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 3923
+Found solution at depth: 2001
+
+Expanded nodes: 12413
+Found solution at depth: 5483
+
+Expanded nodes: 3920
+Found solution at depth: 1981
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 13889
+Found solution at depth: 5254
+
+Expanded nodes: 11160
+Found solution at depth: 5175
+
+Expanded nodes: 6965
+Found solution at depth: 3479
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 5
+Found solution at depth: 1
+
+DFS no limit normal descedants at depth 15: 
+Expanded nodes: 16259
+Found solution at depth: 5430
+
+Expanded nodes: 17581
+Found solution at depth: 5819
+
+Expanded nodes: 32398
+Found solution at depth: 10809
+
+Expanded nodes: 200008
+Found solution at depth: 66687
+
+Expanded nodes: 11902
+Found solution at depth: 3981
+
+Expanded nodes: 14821
+Found solution at depth: 4941
+
+Expanded nodes: 31264
+Found solution at depth: 10405
+
+Expanded nodes: 11803
+Found solution at depth: 3929
+
+Expanded nodes: 1314
+Found solution at depth: 445
+
+Expanded nodes: 25502
+Found solution at depth: 8491
+
+------------
+DFS no limit improved descedants at depth 15: 
+Expanded nodes: 8470
+Found solution at depth: 4231
+
+Expanded nodes: 2591
+Found solution at depth: 1291
+
+Expanded nodes: 31733
+Found solution at depth: 15885
+
+Expanded nodes: 9220
+Found solution at depth: 4628
+
+Expanded nodes: 10987
+Found solution at depth: 5487
+
+Expanded nodes: 7698
+Found solution at depth: 3847
+
+Expanded nodes: 19330
+Found solution at depth: 9673
+
+Expanded nodes: 10946
+Found solution at depth: 5464
+
+Expanded nodes: 69528
+Found solution at depth: 34755
+
+Expanded nodes: 4590
+Found solution at depth: 2275
+
+DFS no limit normal descedants at depth 14: 
+Expanded nodes: 1544
+Found solution at depth: 519
+
+Expanded nodes: 46598
+Found solution at depth: 15531
+
+Expanded nodes: 3919
+Found solution at depth: 1315
+
+Expanded nodes: 9216
+Found solution at depth: 3100
+
+Expanded nodes: 84330
+Found solution at depth: 28135
+
+Expanded nodes: 2884
+Found solution at depth: 979
+
+Expanded nodes: 44849
+Found solution at depth: 14959
+
+Expanded nodes: 23936
+Found solution at depth: 8017
+
+Expanded nodes: 37749
+Found solution at depth: 12579
+
+Expanded nodes: 22530
+Found solution at depth: 7557
+
+------------
+DFS no limit improved descedants at depth 14: 
+Expanded nodes: 18759
+Found solution at depth: 9365
+
+Expanded nodes: 14848
+Found solution at depth: 7435
+
+Expanded nodes: 11248
+Found solution at depth: 5625
+
+Expanded nodes: 6638
+Found solution at depth: 3317
+
+Expanded nodes: 19373
+Found solution at depth: 9696
+
+Expanded nodes: 26997
+Found solution at depth: 13499
+
+Expanded nodes: 5529
+Found solution at depth: 2748
+
+Expanded nodes: 164
+Found solution at depth: 80
+
+Expanded nodes: 381
+Found solution at depth: 189
+
+Expanded nodes: 20000
+Found solution at depth: 9980
+
+DFS no limit normal descedants at depth 13: 
+Expanded nodes: 9176
+Found solution at depth: 3074
+
+Expanded nodes: 114774
+Found solution at depth: 38247
+
+Expanded nodes: 54220
+Found solution at depth: 18113
+
+Expanded nodes: 76552
+Found solution at depth: 25529
+
+Expanded nodes: 14533
+Found solution at depth: 4861
+
+Expanded nodes: 55422
+Found solution at depth: 18443
+
+Expanded nodes: 9933
+Found solution at depth: 3305
+
+Expanded nodes: 30040
+Found solution at depth: 10004
+
+Expanded nodes: 75262
+Found solution at depth: 25083
+
+Expanded nodes: 129518
+Found solution at depth: 43209
+
+------------
+DFS no limit improved descedants at depth 13: 
+Expanded nodes: 7593
+Found solution at depth: 3810
+
+Expanded nodes: 1130
+Found solution at depth: 572
+
+Expanded nodes: 1385
+Found solution at depth: 707
+
+Expanded nodes: 6033
+Found solution at depth: 3025
+
+Expanded nodes: 7602
+Found solution at depth: 3795
+
+Expanded nodes: 7866
+Found solution at depth: 3947
+
+Expanded nodes: 1599
+Found solution at depth: 801
+
+Expanded nodes: 4206
+Found solution at depth: 2109
+
+Expanded nodes: 17683
+Found solution at depth: 8807
+
+Expanded nodes: 3640
+Found solution at depth: 1809
+
+DFS no limit normal descedants at depth 12: 
+Expanded nodes: 104719
+Found solution at depth: 34975
+
+Expanded nodes: 62193
+Found solution at depth: 20709
+
+Expanded nodes: 5130
+Found solution at depth: 1714
+
+Expanded nodes: 62160
+Found solution at depth: 20741
+
+Expanded nodes: 65910
+Found solution at depth: 22007
+
+Expanded nodes: 114034
+Found solution at depth: 37956
+
+Expanded nodes: 16679
+Found solution at depth: 5591
+
+Expanded nodes: 65228
+Found solution at depth: 21830
+
+Expanded nodes: 46855
+Found solution at depth: 15653
+
+Expanded nodes: 116850
+Found solution at depth: 38919
+
+------------
+DFS no limit improved descedants at depth 12: 
+Expanded nodes: 15682
+Found solution at depth: 7813
+
+Expanded nodes: 6489
+Found solution at depth: 3229
+
+Expanded nodes: 1045
+Found solution at depth: 531
+
+Expanded nodes: 6852
+Found solution at depth: 3435
+
+Expanded nodes: 5274
+Found solution at depth: 2650
+
+Expanded nodes: 265
+Found solution at depth: 135
+
+Expanded nodes: 7317
+Found solution at depth: 3681
+
+Expanded nodes: 217
+Found solution at depth: 105
+
+Expanded nodes: 18965
+Found solution at depth: 9477
+
+Expanded nodes: 42083
+Found solution at depth: 21061
+
+DFS no limit normal descedants at depth 11: 
+Expanded nodes: 5194
+Found solution at depth: 1734
+
+Expanded nodes: 35277
+Found solution at depth: 11726
+
+Expanded nodes: 3738
+Found solution at depth: 1266
+
+Expanded nodes: 21811
+Found solution at depth: 7241
+
+Expanded nodes: 145688
+Found solution at depth: 48517
+
+Expanded nodes: 28035
+Found solution at depth: 9325
+
+Expanded nodes: 146981
+Found solution at depth: 49115
+
+Expanded nodes: 108107
+Found solution at depth: 36005
+
+Expanded nodes: 1339
+Found solution at depth: 445
+
+Expanded nodes: 53746
+Found solution at depth: 18019
+
+------------
+DFS no limit improved descedants at depth 11: 
+Expanded nodes: 21370
+Found solution at depth: 10699
+
+Expanded nodes: 4378
+Found solution at depth: 2181
+
+Expanded nodes: 435
+Found solution at depth: 223
+
+Expanded nodes: 387
+Found solution at depth: 197
+
+Expanded nodes: 8027
+Found solution at depth: 4017
+
+Expanded nodes: 8916
+Found solution at depth: 4439
+
+Expanded nodes: 32340
+Found solution at depth: 16167
+
+Expanded nodes: 3567
+Found solution at depth: 1782
+
+Expanded nodes: 968
+Found solution at depth: 487
+
+Expanded nodes: 11240
+Found solution at depth: 5634
+
+DFS no limit normal descedants at depth 10: 
+Expanded nodes: 6955
+Found solution at depth: 2313
+
+Expanded nodes: 4106
+Found solution at depth: 1385
+
+Expanded nodes: 73323
+Found solution at depth: 24478
+
+Expanded nodes: 11309
+Found solution at depth: 3753
+
+Expanded nodes: 19240
+Found solution at depth: 6429
+
+Expanded nodes: 57995
+Found solution at depth: 19313
+
+Expanded nodes: 17761
+Found solution at depth: 5935
+
+Expanded nodes: 276601
+Found solution at depth: 92149
+
+Expanded nodes: 54436
+Found solution at depth: 18165
+
+Expanded nodes: 1650
+Found solution at depth: 546
+
+------------
+DFS no limit improved descedants at depth 10: 
+Expanded nodes: 1528
+Found solution at depth: 764
+
+Expanded nodes: 3224
+Found solution at depth: 1605
+
+Expanded nodes: 2109
+Found solution at depth: 1066
+
+Expanded nodes: 6151
+Found solution at depth: 3087
+
+Expanded nodes: 3411
+Found solution at depth: 1694
+
+Expanded nodes: 31524
+Found solution at depth: 15747
+
+Expanded nodes: 19730
+Found solution at depth: 9903
+
+Expanded nodes: 10257
+Found solution at depth: 5155
+
+Expanded nodes: 20275
+Found solution at depth: 10099
+
+Expanded nodes: 49234
+Found solution at depth: 24592
+
+DFS no limit normal descedants at depth 9: 
+Expanded nodes: 24402
+Found solution at depth: 8159
+
+Expanded nodes: 37422
+Found solution at depth: 12492
+
+Expanded nodes: 194
+Found solution at depth: 65
+
+Expanded nodes: 83159
+Found solution at depth: 27731
+
+Expanded nodes: 2049
+Found solution at depth: 676
+
+Expanded nodes: 87437
+Found solution at depth: 29107
+
+Expanded nodes: 3552
+Found solution at depth: 1193
+
+Expanded nodes: 2069
+Found solution at depth: 672
+
+Expanded nodes: 9057
+Found solution at depth: 3021
+
+Expanded nodes: 3132
+Found solution at depth: 1061
+
+------------
+DFS no limit improved descedants at depth 9: 
+Expanded nodes: 1418
+Found solution at depth: 718
+
+Expanded nodes: 36
+Found solution at depth: 16
+
+Expanded nodes: 12319
+Found solution at depth: 6150
+
+Expanded nodes: 1045
+Found solution at depth: 519
+
+Expanded nodes: 41811
+Found solution at depth: 20966
+
+Expanded nodes: 17606
+Found solution at depth: 8817
+
+Expanded nodes: 37496
+Found solution at depth: 18731
+
+Expanded nodes: 777
+Found solution at depth: 383
+
+Expanded nodes: 23
+Found solution at depth: 10
+
+Expanded nodes: 214
+Found solution at depth: 110
+
+DFS no limit normal descedants at depth 8: 
+Expanded nodes: 38153
+Found solution at depth: 12784
+
+Expanded nodes: 10346
+Found solution at depth: 3459
+
+Expanded nodes: 31160
+Found solution at depth: 10403
+
+Expanded nodes: 50980
+Found solution at depth: 16983
+
+Expanded nodes: 35285
+Found solution at depth: 11769
+
+Expanded nodes: 8680
+Found solution at depth: 2938
+
+Expanded nodes: 22244
+Found solution at depth: 7407
+
+Expanded nodes: 31424
+Found solution at depth: 10486
+
+Expanded nodes: 36821
+Found solution at depth: 12301
+
+Expanded nodes: 45973
+Found solution at depth: 15275
+
+------------
+DFS no limit improved descedants at depth 8: 
+Expanded nodes: 15219
+Found solution at depth: 7609
+
+Expanded nodes: 6556
+Found solution at depth: 3303
+
+Expanded nodes: 14518
+Found solution at depth: 7249
+
+Expanded nodes: 17810
+Found solution at depth: 8915
+
+Expanded nodes: 5686
+Found solution at depth: 2847
+
+Expanded nodes: 3385
+Found solution at depth: 1686
+
+Expanded nodes: 17956
+Found solution at depth: 9014
+
+Expanded nodes: 34855
+Found solution at depth: 17435
+
+Expanded nodes: 15069
+Found solution at depth: 7528
+
+Expanded nodes: 4665
+Found solution at depth: 2353
+
+DFS no limit normal descedants at depth 7: 
+Expanded nodes: 12874
+Found solution at depth: 4307
+
+Expanded nodes: 19794
+Found solution at depth: 6569
+
+Expanded nodes: 144953
+Found solution at depth: 48181
+
+Expanded nodes: 233
+Found solution at depth: 81
+
+Expanded nodes: 31360
+Found solution at depth: 10381
+
+Expanded nodes: 13645
+Found solution at depth: 4564
+
+Expanded nodes: 11224
+Found solution at depth: 3724
+
+Expanded nodes: 8372
+Found solution at depth: 2791
+
+Expanded nodes: 3748
+Found solution at depth: 1249
+
+Expanded nodes: 46956
+Found solution at depth: 15612
+
+------------
+DFS no limit improved descedants at depth 7: 
+Expanded nodes: 3062
+Found solution at depth: 1525
+
+Expanded nodes: 22051
+Found solution at depth: 10998
+
+Expanded nodes: 41066
+Found solution at depth: 20578
+
+Expanded nodes: 293
+Found solution at depth: 144
+
+Expanded nodes: 17797
+Found solution at depth: 8913
+
+Expanded nodes: 8776
+Found solution at depth: 4369
+
+Expanded nodes: 15407
+Found solution at depth: 7734
+
+Expanded nodes: 5263
+Found solution at depth: 2633
+
+Expanded nodes: 8454
+Found solution at depth: 4218
+
+Expanded nodes: 14708
+Found solution at depth: 7319
+
+DFS no limit normal descedants at depth 6: 
+Expanded nodes: 17679
+Found solution at depth: 5844
+
+Expanded nodes: 33910
+Found solution at depth: 11270
+
+Expanded nodes: 30741
+Found solution at depth: 10257
+
+Expanded nodes: 105200
+Found solution at depth: 35000
+
+Expanded nodes: 1684
+Found solution at depth: 570
+
+Expanded nodes: 5352
+Found solution at depth: 1783
+
+Expanded nodes: 6208
+Found solution at depth: 2064
+
+Expanded nodes: 38758
+Found solution at depth: 12912
+
+Expanded nodes: 26656
+Found solution at depth: 8875
+
+Expanded nodes: 98515
+Found solution at depth: 32788
+
+------------
+DFS no limit improved descedants at depth 6: 
+Expanded nodes: 22
+Found solution at depth: 12
+
+Expanded nodes: 997
+Found solution at depth: 496
+
+Expanded nodes: 34033
+Found solution at depth: 16994
+
+Expanded nodes: 43546
+Found solution at depth: 21722
+
+Expanded nodes: 63196
+Found solution at depth: 31622
+
+Expanded nodes: 27953
+Found solution at depth: 13990
+
+Expanded nodes: 656
+Found solution at depth: 329
+
+Expanded nodes: 21913
+Found solution at depth: 10930
+
+Expanded nodes: 12747
+Found solution at depth: 6358
+
+Expanded nodes: 24458
+Found solution at depth: 12228
+
+DFS no limit normal descedants at depth 5: 
+Expanded nodes: 26061
+Found solution at depth: 8703
+
+Expanded nodes: 29
+Found solution at depth: 11
+
+Expanded nodes: 34237
+Found solution at depth: 11373
+
+Expanded nodes: 117
+Found solution at depth: 43
+
+Expanded nodes: 73997
+Found solution at depth: 24691
+
+Expanded nodes: 58132
+Found solution at depth: 19419
+
+Expanded nodes: 76
+Found solution at depth: 25
+
+Expanded nodes: 115465
+Found solution at depth: 38537
+
+Expanded nodes: 68380
+Found solution at depth: 22853
+
+Expanded nodes: 25030
+Found solution at depth: 8355
+
+------------
+DFS no limit improved descedants at depth 5: 
+Expanded nodes: 139
+Found solution at depth: 71
+
+Expanded nodes: 14390
+Found solution at depth: 7207
+
+Expanded nodes: 40
+Found solution at depth: 21
+
+Expanded nodes: 20573
+Found solution at depth: 10285
+
+Expanded nodes: 12490
+Found solution at depth: 6296
+
+Expanded nodes: 24026
+Found solution at depth: 12021
+
+Expanded nodes: 4016
+Found solution at depth: 2021
+
+Expanded nodes: 9954
+Found solution at depth: 4948
+
+Expanded nodes: 38914
+Found solution at depth: 19415
+
+Expanded nodes: 32878
+Found solution at depth: 16391
+
+DFS no limit normal descedants at depth 4: 
+Expanded nodes: 96271
+Found solution at depth: 32002
+
+Expanded nodes: 214
+Found solution at depth: 71
+
+Expanded nodes: 47167
+Found solution at depth: 15799
+
+Expanded nodes: 39210
+Found solution at depth: 13094
+
+Expanded nodes: 33210
+Found solution at depth: 11104
+
+Expanded nodes: 75505
+Found solution at depth: 25196
+
+Expanded nodes: 62023
+Found solution at depth: 20622
+
+Expanded nodes: 14010
+Found solution at depth: 4650
+
+Expanded nodes: 17877
+Found solution at depth: 5972
+
+Expanded nodes: 7758
+Found solution at depth: 2532
+
+------------
+DFS no limit improved descedants at depth 4: 
+Expanded nodes: 9
+Found solution at depth: 4
+
+Expanded nodes: 9
+Found solution at depth: 4
+
+Expanded nodes: 25408
+Found solution at depth: 12718
+
+Expanded nodes: 5560
+Found solution at depth: 2768
+
+Expanded nodes: 23200
+Found solution at depth: 11596
+
+Expanded nodes: 6659
+Found solution at depth: 3318
+
+Expanded nodes: 2636
+Found solution at depth: 1304
+
+Expanded nodes: 37359
+Found solution at depth: 18616
+
+Expanded nodes: 11
+Found solution at depth: 6
+
+Expanded nodes: 11
+Found solution at depth: 6
+
+DFS no limit normal descedants at depth 3: 
+Expanded nodes: 93419
+Found solution at depth: 31121
+
+Expanded nodes: 34412
+Found solution at depth: 11444
+
+Expanded nodes: 83947
+Found solution at depth: 27997
+
+Expanded nodes: 28425
+Found solution at depth: 9453
+
+Expanded nodes: 38
+Found solution at depth: 13
+
+Expanded nodes: 12
+Found solution at depth: 5
+
+Expanded nodes: 14
+Found solution at depth: 5
+
+Expanded nodes: 61089
+Found solution at depth: 20353
+
+Expanded nodes: 25289
+Found solution at depth: 8473
+
+Expanded nodes: 2389
+Found solution at depth: 814
+
+------------
+DFS no limit improved descedants at depth 3: 
+Expanded nodes: 17064
+Found solution at depth: 8576
+
+Expanded nodes: 11530
+Found solution at depth: 5763
+
+Expanded nodes: 36887
+Found solution at depth: 18453
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 14652
+Found solution at depth: 7358
+
+Expanded nodes: 6
+Found solution at depth: 3
+
+Expanded nodes: 16672
+Found solution at depth: 8375
+
+Expanded nodes: 19460
+Found solution at depth: 9683
+
+Expanded nodes: 16060
+Found solution at depth: 8039
+
+DFS no limit normal descedants at depth 2: 
+Expanded nodes: 134995
+Found solution at depth: 44968
+
+Expanded nodes: 10623
+Found solution at depth: 3540
+
+Expanded nodes: 54641
+Found solution at depth: 18167
+
+Expanded nodes: 65
+Found solution at depth: 21
+
+Expanded nodes: 2263
+Found solution at depth: 757
+
+Expanded nodes: 15803
+Found solution at depth: 5304
+
+Expanded nodes: 14
+Found solution at depth: 4
+
+Expanded nodes: 32173
+Found solution at depth: 10733
+
+Expanded nodes: 84
+Found solution at depth: 26
+
+Expanded nodes: 110965
+Found solution at depth: 36915
+
+------------
+DFS no limit improved descedants at depth 2: 
+Expanded nodes: 28593
+Found solution at depth: 14304
+
+Expanded nodes: 43607
+Found solution at depth: 21842
+
+Expanded nodes: 38577
+Found solution at depth: 19290
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 14476
+Found solution at depth: 7246
+
+Expanded nodes: 9529
+Found solution at depth: 4778
+
+Expanded nodes: 6
+Found solution at depth: 2
+
+Expanded nodes: 10905
+Found solution at depth: 5440
+
+Expanded nodes: 16950
+Found solution at depth: 8526
+
+Expanded nodes: 1775
+Found solution at depth: 883
+
+DFS no limit normal descedants at depth 1: 
+Expanded nodes: 29
+Found solution at depth: 9
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 196908
+Found solution at depth: 65565
+
+Expanded nodes: 8821
+Found solution at depth: 2945
+
+Expanded nodes: 72126
+Found solution at depth: 24039
+
+Expanded nodes: 50685
+Found solution at depth: 16935
+
+Expanded nodes: 4
+Found solution at depth: 1
+
+Expanded nodes: 76
+Found solution at depth: 26
+
+Expanded nodes: 67512
+Found solution at depth: 22529
+
+Expanded nodes: 93750
+Found solution at depth: 31243
+
+------------
+DFS no limit improved descedants at depth 1: 
+Expanded nodes: 9579
+Found solution at depth: 4765
+
+Expanded nodes: 2057
+Found solution at depth: 1031
+
+Expanded nodes: 16063
+Found solution at depth: 8092
+
+Expanded nodes: 2936
+Found solution at depth: 1461
+
+Expanded nodes: 16576
+Found solution at depth: 8285
+
+Expanded nodes: 11
+Found solution at depth: 5
+
+Expanded nodes: 2088
+Found solution at depth: 1038
+
+Expanded nodes: 13254
+Found solution at depth: 6622
+
+Expanded nodes: 3867
+Found solution at depth: 1927
+
+Expanded nodes: 11840
+Found solution at depth: 5883
+

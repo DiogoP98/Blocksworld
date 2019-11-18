@@ -1,0 +1,1595 @@
+Greedy misplaced normal descedants at depth 14: 
+It took more than 15 min
+Expanded nodes: 3050594
+Visited nodes: 1016866
+------------
+Greedy misplaced improved descedants at depth 14: 
+Expanded nodes: 180
+Visited nodes: 96
+Found solution at depth: 39
+
+Expanded nodes: 150
+Visited nodes: 77
+Found solution at depth: 37
+
+Expanded nodes: 301
+Visited nodes: 160
+Found solution at depth: 57
+
+Expanded nodes: 286
+Visited nodes: 149
+Found solution at depth: 63
+
+Expanded nodes: 220
+Visited nodes: 117
+Found solution at depth: 49
+
+Expanded nodes: 247
+Visited nodes: 128
+Found solution at depth: 57
+
+Expanded nodes: 197
+Visited nodes: 105
+Found solution at depth: 37
+
+Expanded nodes: 205
+Visited nodes: 108
+Found solution at depth: 51
+
+Expanded nodes: 171
+Visited nodes: 90
+Found solution at depth: 37
+
+Expanded nodes: 270
+Visited nodes: 141
+Found solution at depth: 59
+
+------------
+Greedy misplaced boost normal descedants at depth 14: 
+It took more than 15 min
+Expanded nodes: 7073970
+Visited nodes: 2829589
+------------
+Greedy misplaced boost improved descedants at depth 14: 
+It took more than 15 min
+Expanded nodes: 6488030
+Visited nodes: 2780588
+------------
+Greedy misplaced normal descedants at depth 13: 
+It took more than 15 min
+Expanded nodes: 4832043
+Visited nodes: 1610682
+------------
+Greedy misplaced improved descedants at depth 13: 
+Expanded nodes: 31
+Visited nodes: 19
+Found solution at depth: 15
+
+Expanded nodes: 29
+Visited nodes: 18
+Found solution at depth: 13
+
+Expanded nodes: 32
+Visited nodes: 20
+Found solution at depth: 15
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 30
+Visited nodes: 19
+Found solution at depth: 15
+
+Expanded nodes: 32
+Visited nodes: 20
+Found solution at depth: 15
+
+Expanded nodes: 29
+Visited nodes: 17
+Found solution at depth: 15
+
+Expanded nodes: 28
+Visited nodes: 17
+Found solution at depth: 15
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 15
+
+------------
+Greedy misplaced boost normal descedants at depth 13: 
+It took more than 15 min
+Expanded nodes: 6540611
+Visited nodes: 2180205
+------------
+Greedy misplaced boost improved descedants at depth 13: 
+Expanded nodes: 86
+Visited nodes: 41
+Found solution at depth: 17
+
+Expanded nodes: 72
+Visited nodes: 34
+Found solution at depth: 15
+
+Expanded nodes: 34
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 33
+Visited nodes: 19
+Found solution at depth: 13
+
+Expanded nodes: 34
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 36
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 37
+Visited nodes: 21
+Found solution at depth: 13
+
+Expanded nodes: 37
+Visited nodes: 21
+Found solution at depth: 13
+
+Expanded nodes: 66
+Visited nodes: 32
+Found solution at depth: 15
+
+Expanded nodes: 36
+Visited nodes: 20
+Found solution at depth: 13
+
+------------
+Greedy misplaced normal descedants at depth 12: 
+It took more than 15 min
+Expanded nodes: 4696452
+Visited nodes: 1565486
+------------
+Greedy misplaced improved descedants at depth 12: 
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+Expanded nodes: 27
+Visited nodes: 16
+Found solution at depth: 13
+
+------------
+Greedy misplaced boost normal descedants at depth 12: 
+It took more than 15 min
+Expanded nodes: 4262815
+Visited nodes: 1705126
+------------
+Greedy misplaced boost improved descedants at depth 12: 
+Expanded nodes: 31
+Visited nodes: 18
+Found solution at depth: 13
+
+Expanded nodes: 37
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 44
+Visited nodes: 23
+Found solution at depth: 15
+
+Expanded nodes: 31
+Visited nodes: 18
+Found solution at depth: 13
+
+Expanded nodes: 42
+Visited nodes: 23
+Found solution at depth: 15
+
+Expanded nodes: 31
+Visited nodes: 18
+Found solution at depth: 13
+
+Expanded nodes: 36
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 31
+Visited nodes: 18
+Found solution at depth: 13
+
+Expanded nodes: 36
+Visited nodes: 20
+Found solution at depth: 13
+
+Expanded nodes: 37
+Visited nodes: 20
+Found solution at depth: 13
+
+------------
+Greedy misplaced normal descedants at depth 11: 
+It took more than 15 min
+Expanded nodes: 3025566
+Visited nodes: 1008524
+------------
+Greedy misplaced improved descedants at depth 11: 
+Expanded nodes: 20
+Visited nodes: 12
+Found solution at depth: 11
+
+Expanded nodes: 20
+Visited nodes: 12
+Found solution at depth: 11
+
+Expanded nodes: 22
+Visited nodes: 14
+Found solution at depth: 11
+
+Expanded nodes: 23
+Visited nodes: 15
+Found solution at depth: 11
+
+Expanded nodes: 21
+Visited nodes: 13
+Found solution at depth: 11
+
+Expanded nodes: 22
+Visited nodes: 14
+Found solution at depth: 11
+
+Expanded nodes: 22
+Visited nodes: 14
+Found solution at depth: 11
+
+Expanded nodes: 20
+Visited nodes: 12
+Found solution at depth: 11
+
+Expanded nodes: 20
+Visited nodes: 12
+Found solution at depth: 11
+
+Expanded nodes: 23
+Visited nodes: 15
+Found solution at depth: 11
+
+------------
+Greedy misplaced boost normal descedants at depth 11: 
+It took more than 15 min
+Expanded nodes: 8080241
+Visited nodes: 2645420
+------------
+Greedy misplaced boost improved descedants at depth 11: 
+Expanded nodes: 42
+Visited nodes: 21
+Found solution at depth: 11
+
+Expanded nodes: 36
+Visited nodes: 17
+Found solution at depth: 11
+
+Expanded nodes: 78
+Visited nodes: 37
+Found solution at depth: 11
+
+Expanded nodes: 59
+Visited nodes: 27
+Found solution at depth: 11
+
+Expanded nodes: 56
+Visited nodes: 26
+Found solution at depth: 11
+
+Expanded nodes: 82
+Visited nodes: 38
+Found solution at depth: 11
+
+Expanded nodes: 64
+Visited nodes: 30
+Found solution at depth: 11
+
+Expanded nodes: 55
+Visited nodes: 26
+Found solution at depth: 11
+
+Expanded nodes: 56
+Visited nodes: 24
+Found solution at depth: 11
+
+Expanded nodes: 56
+Visited nodes: 27
+Found solution at depth: 11
+
+------------
+Greedy misplaced normal descedants at depth 10: 
+It took more than 15 min
+Expanded nodes: 4219884
+Visited nodes: 1808521
+------------
+Greedy misplaced improved descedants at depth 10: 
+Expanded nodes: 21
+Visited nodes: 12
+Found solution at depth: 10
+
+Expanded nodes: 21
+Visited nodes: 12
+Found solution at depth: 10
+
+It took more than 15 min
+Expanded nodes: 54530
+Visited nodes: 31164
+------------
+Greedy misplaced boost normal descedants at depth 10: 
+It took more than 15 min
+Expanded nodes: 407190
+Visited nodes: 135731
+------------
+Greedy misplaced boost improved descedants at depth 10: 
+Expanded nodes: 32
+Visited nodes: 16
+Found solution at depth: 10
+
+It took more than 15 min
+Expanded nodes: 94706
+Visited nodes: 49043
+------------
+Greedy misplaced normal descedants at depth 9: 
+It took more than 15 min
+Expanded nodes: 106059
+Visited nodes: 35354
+------------
+Greedy misplaced improved descedants at depth 9: 
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+------------
+Greedy misplaced boost normal descedants at depth 9: 
+Expanded nodes: 30
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 34
+Visited nodes: 12
+Found solution at depth: 9
+
+Expanded nodes: 31
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 30
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 31
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 30
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 31
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 30
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 31
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 31
+Visited nodes: 11
+Found solution at depth: 9
+
+------------
+Greedy misplaced boost improved descedants at depth 9: 
+Expanded nodes: 24
+Visited nodes: 12
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 19
+Visited nodes: 10
+Found solution at depth: 9
+
+Expanded nodes: 22
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 24
+Visited nodes: 12
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 24
+Visited nodes: 12
+Found solution at depth: 9
+
+Expanded nodes: 24
+Visited nodes: 12
+Found solution at depth: 9
+
+Expanded nodes: 21
+Visited nodes: 11
+Found solution at depth: 9
+
+Expanded nodes: 19
+Visited nodes: 10
+Found solution at depth: 9
+
+------------
+Greedy misplaced normal descedants at depth 8: 
+Expanded nodes: 27
+Visited nodes: 11
+Found solution at depth: 8
+
+It took more than 15 min
+Expanded nodes: 840561
+Visited nodes: 360240
+------------
+Greedy misplaced improved descedants at depth 8: 
+Expanded nodes: 16
+Visited nodes: 9
+Found solution at depth: 8
+
+It took more than 15 min
+Expanded nodes: 253806
+Visited nodes: 145038
+------------
+Greedy misplaced boost normal descedants at depth 8: 
+It took more than 15 min
+Expanded nodes: 134895
+Visited nodes: 44966
+------------
+Greedy misplaced boost improved descedants at depth 8: 
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 20
+Visited nodes: 11
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 20
+Visited nodes: 11
+Found solution at depth: 8
+
+Expanded nodes: 20
+Visited nodes: 11
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 17
+Visited nodes: 10
+Found solution at depth: 8
+
+------------
+Greedy misplaced normal descedants at depth 7: 
+It took more than 15 min
+Expanded nodes: 94991
+Visited nodes: 37996
+------------
+Greedy misplaced improved descedants at depth 7: 
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 18
+Visited nodes: 9
+Found solution at depth: 7
+
+------------
+Greedy misplaced boost normal descedants at depth 7: 
+Expanded nodes: 23
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 31
+Visited nodes: 10
+Found solution at depth: 7
+
+Expanded nodes: 31
+Visited nodes: 10
+Found solution at depth: 7
+
+Expanded nodes: 23
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 35
+Visited nodes: 11
+Found solution at depth: 8
+
+Expanded nodes: 23
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 35
+Visited nodes: 11
+Found solution at depth: 8
+
+Expanded nodes: 42
+Visited nodes: 13
+Found solution at depth: 7
+
+Expanded nodes: 31
+Visited nodes: 10
+Found solution at depth: 8
+
+Expanded nodes: 27
+Visited nodes: 9
+Found solution at depth: 7
+
+------------
+Greedy misplaced boost improved descedants at depth 7: 
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 17
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+Expanded nodes: 17
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 17
+Visited nodes: 8
+Found solution at depth: 7
+
+Expanded nodes: 20
+Visited nodes: 9
+Found solution at depth: 7
+
+------------
+Greedy misplaced normal descedants at depth 6: 
+It took more than 15 min
+Expanded nodes: 278392
+Visited nodes: 111357
+------------
+Greedy misplaced improved descedants at depth 6: 
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 6
+
+Expanded nodes: 13
+Visited nodes: 7
+Found solution at depth: 6
+
+------------
+Greedy misplaced boost normal descedants at depth 6: 
+Expanded nodes: 127
+Visited nodes: 39
+Found solution at depth: 14
+
+Expanded nodes: 38
+Visited nodes: 13
+Found solution at depth: 8
+
+Expanded nodes: 35
+Visited nodes: 12
+Found solution at depth: 6
+
+Expanded nodes: 52
+Visited nodes: 17
+Found solution at depth: 8
+
+Expanded nodes: 25
+Visited nodes: 9
+Found solution at depth: 6
+
+Expanded nodes: 38
+Visited nodes: 13
+Found solution at depth: 8
+
+Expanded nodes: 83
+Visited nodes: 26
+Found solution at depth: 12
+
+Expanded nodes: 107
+Visited nodes: 33
+Found solution at depth: 14
+
+Expanded nodes: 46
+Visited nodes: 16
+Found solution at depth: 6
+
+Expanded nodes: 48
+Visited nodes: 16
+Found solution at depth: 6
+
+------------
+Greedy misplaced boost improved descedants at depth 6: 
+Expanded nodes: 22
+Visited nodes: 10
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+Expanded nodes: 19
+Visited nodes: 9
+Found solution at depth: 6
+
+Expanded nodes: 19
+Visited nodes: 9
+Found solution at depth: 6
+
+Expanded nodes: 22
+Visited nodes: 10
+Found solution at depth: 6
+
+Expanded nodes: 19
+Visited nodes: 9
+Found solution at depth: 6
+
+Expanded nodes: 22
+Visited nodes: 10
+Found solution at depth: 6
+
+Expanded nodes: 22
+Visited nodes: 10
+Found solution at depth: 6
+
+Expanded nodes: 22
+Visited nodes: 10
+Found solution at depth: 6
+
+Expanded nodes: 16
+Visited nodes: 8
+Found solution at depth: 6
+
+------------
+Greedy misplaced normal descedants at depth 5: 
+It took more than 15 min
+Expanded nodes: 113591
+Visited nodes: 32456
+------------
+Greedy misplaced improved descedants at depth 5: 
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+Expanded nodes: 18
+Visited nodes: 10
+Found solution at depth: 5
+
+Expanded nodes: 17
+Visited nodes: 9
+Found solution at depth: 5
+
+------------
+Greedy misplaced boost normal descedants at depth 5: 
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 15
+Visited nodes: 6
+Found solution at depth: 5
+
+------------
+Greedy misplaced boost improved descedants at depth 5: 
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+Expanded nodes: 11
+Visited nodes: 6
+Found solution at depth: 5
+
+------------
+Greedy misplaced normal descedants at depth 4: 
+It took more than 15 min
+Expanded nodes: 361520
+Visited nodes: 144609
+------------
+Greedy misplaced improved descedants at depth 4: 
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+------------
+Greedy misplaced boost normal descedants at depth 4: 
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 4
+
+------------
+Greedy misplaced boost improved descedants at depth 4: 
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+Expanded nodes: 9
+Visited nodes: 5
+Found solution at depth: 4
+
+------------
+Greedy misplaced normal descedants at depth 3: 
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 12
+Visited nodes: 5
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+------------
+Greedy misplaced improved descedants at depth 3: 
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+------------
+Greedy misplaced boost normal descedants at depth 3: 
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 9
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 3
+
+------------
+Greedy misplaced boost improved descedants at depth 3: 
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 6
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+Expanded nodes: 7
+Visited nodes: 4
+Found solution at depth: 3
+
+------------
+Greedy misplaced normal descedants at depth 2: 
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 10
+Visited nodes: 4
+Found solution at depth: 2
+
+------------
+Greedy misplaced improved descedants at depth 2: 
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 8
+Visited nodes: 4
+Found solution at depth: 2
+
+------------
+Greedy misplaced boost normal descedants at depth 2: 
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 7
+Visited nodes: 3
+Found solution at depth: 2
+
+------------
+Greedy misplaced boost improved descedants at depth 2: 
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+Expanded nodes: 6
+Visited nodes: 3
+Found solution at depth: 2
+
+------------
+Greedy misplaced normal descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+------------
+Greedy misplaced improved descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+------------
+Greedy misplaced boost normal descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+------------
+Greedy misplaced boost improved descedants at depth 1: 
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+Expanded nodes: 4
+Visited nodes: 2
+Found solution at depth: 1
+
+------------
