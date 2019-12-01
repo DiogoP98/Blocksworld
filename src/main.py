@@ -1,7 +1,5 @@
-import numpy as np
 from node import Node
 import methods
-import matplotlib.pyplot as plt
 import sys
 
 #use oned list instead of matrix to optimize space
@@ -11,20 +9,20 @@ initial_state_18 = ([1,0,'A',0,0,0,'C',0,0,0,0,0,'B',0,0,0]) #depth 18
 initial_state_17 = ([0,0,'A',0,0,0,'C',0,1,0,0,0,'B',0,0,0]) #depth 17
 initial_state_16 = ([0,0,'A',0,0,0,'C',0,'B',0,0,0,1,0,0,0]) #depth 16
 initial_state_15 = ([0,0,'A',0,0,0,'C',0,'B',0,0,0,0,0,0,1]) #depth 15
-initial_state_14 = [0,0,'O',0,0,0,0,'O',0,0,0,0,'A','B','C',1] #1 represents the agent
-initial_state_13 = ['A',0,'O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #1 represents the agent
-initial_state_12 = ['A',0,'O',0,0,0,0,'O','B',0,0,0,0,0,'C',1] #1 represents the agent
-initial_state_11 = [0,'A','O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #1 represents the agent
-initial_state_10 = [0,0,'O',0,0,0,'A','O',0,0,0,'B','C',0,0,1] #1 represents the agent
-initial_state_9 = [1,0,'O',0,0,0,'A','O','B',0,0,0,0,0,'C',0] #1 represents the agent
-initial_state_8 = [0,0,'O',0,0,'A',0,'O',0,'C',0,'B',0,0,0,1] #1 represents the agent
-initial_state_7 = [0,0,'O',0,0,0,'A','O','B',0,0,0,0,'C',0,1] #1 represents the agent
-initial_state_6 = [0,0,'O',0,0,0,'A','O',0,'B',0,0,'C',0,1,0] #1 represents the agent
-initial_state_5 = [0,0,'O',0,'A',0,0,'O',0,'B',0,0,0,'C',0,1] #1 represents the agent
-initial_state_4 = [0,0,'O',0,0,0,'A','O',0,'B',0,0,1,'C',0,0] #1 represents the agent
-initial_state_3 = [1,0,'O',0,0,0,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
-initial_state_2 = [0,0,'O',0,1,0,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
-initial_state_1 = [0,0,'O',0,0,1,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
+initial_state_14 = [0,0,'O',0,0,0,0,'O',0,0,0,0,'A','B','C',1] #depth 14
+initial_state_13 = ['A',0,'O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #depth 13
+initial_state_12 = ['A',0,'O',0,0,0,0,'O','B',0,0,0,0,0,'C',1] #depth 12
+initial_state_11 = [0,'A','O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #depth 11
+initial_state_10 = [0,0,'O',0,0,0,'A','O',0,0,0,'B','C',0,0,1] #depth 10
+initial_state_9 = [1,0,'O',0,0,0,'A','O','B',0,0,0,0,0,'C',0] #depth 9
+initial_state_8 = [0,0,'O',0,0,'A',0,'O',0,'C',0,'B',0,0,0,1] #depth 8
+initial_state_7 = [0,0,'O',0,0,0,'A','O','B',0,0,0,0,'C',0,1] #depth 7
+initial_state_6 = [0,0,'O',0,0,0,'A','O',0,'B',0,0,'C',0,1,0] #depth 6
+initial_state_5 = [0,0,'O',0,'A',0,0,'O',0,'B',0,0,0,'C',0,1] #depth 5
+initial_state_4 = [0,0,'O',0,0,0,'A','O',0,'B',0,0,1,'C',0,0] #depth 4
+initial_state_3 = [1,0,'O',0,0,0,'A','O',0,'B',0,0,0,'C',0,0] #depth 3
+initial_state_2 = [0,0,'O',0,1,0,'A','O',0,'B',0,0,0,'C',0,0] #depth 2
+initial_state_1 = [0,0,'O',0,0,1,'A','O',0,'B',0,0,0,'C',0,0] #depth 1
 goal_state = [0,0,0,0,0,'A',0,0,0,'B',0,0,0,'C',0,1] #Agent position doesnt matter
 
 def find_agent(initial, goal):

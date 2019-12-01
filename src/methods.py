@@ -3,7 +3,6 @@ import math
 import matplotlib.pyplot as plt
 from queue import PriorityQueue
 import time
-import os
 
 def print_solution(state1, number_nodes_expanded, state2 = None): 
 	"""When solution is found, this method is called to print the solution path
