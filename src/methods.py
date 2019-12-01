@@ -5,12 +5,23 @@ from queue import PriorityQueue
 import time
 import os
 
-def print_solution(state1, number_nodes_visited, state2 = None): #state2 only used for bidirectional
-	print("Nodes visited ", number_nodes_visited)
+def print_solution(state1, number_nodes_expanded, state2 = None): 
+	"""When solution is found, this method is called to print the solution path
+	
+	Arguments:
+		state1 {Node} -- The final node of the search, where the solution was found
+		number_nodes_visited {int} -- Total number of nodes expanded during search
+	
+	Keyword Arguments:
+		state2 {Node} -- If the search used was Bidirectional search, it returns a second node, correspondent to the final
+		node in the bottom-up search (default: {None})
+	"""		
+
+	print("Expanded nodes: " + str(number_nodes_expanded))
 
 	if state2 != None:
 		total_depth = state1.depth + state2.depth
-		print("Solution found at depth  ", total_depth)
+		print("Solution found at depth  ", state1.depth)
 	else:
 		total_depth = state1.depth
 		print("Solution found at depth  ", total_depth)
@@ -24,78 +35,92 @@ def print_solution(state1, number_nodes_visited, state2 = None): #state2 only us
 	if state2 != None:
 		state2.parent.print_path_reserse(fig, dimensions, state1.depth + 2)
 	
-	plt.savefig('path.png')
-
-def memory_usage_psutil():
-    # return the memory usage in MB
-    import psutil
-    process = psutil.Process(os.getpid())
-    mem = process.memory_info()[0] / float(2 ** 20)
-    return mem
+	plt.savefig('../Results/path.png')
 
 def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = False, improved_descendants = False):
+	"""This method runs depth-first tree search.
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		goal_state {list} -- Goal state, which represents the final layout of the board.
+	
+	Keyword Arguments:
+		limit {int} -- Limits the depth to which DFS goes. (default: {None})
+		iterative {bool} -- When set to True, uses DFS as the search method in iterative deepening search (default: {False})
+		graphSearch {bool} -- When set to True, does DFS graph search, where it doesn't expanded previously expanded noded (default: {False})
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+	
+	Returns:
+		{bool} -- if iterative argument is set to False, Returns True if it was able to find a solution, and False otherwise.
+		{bool, int, int} - if iterative argument is set to True, returns True or False, 
+		depending if it is able to find a solution or not, and number of nodes expanded and depth of solution
+	"""	
 	fringe = [start_node]
-	number_nodes_visited = 0
 	number_nodes_expanded = 0
 
 	t0 = time.time()
 
 	if graphSearch:
-		visited_nodes = set([start_node.build_hash()])
+		visited_nodes = {} #hash_map
+		visited_nodes[start_node.build_hash] = 0
 
-	total = 0
 	while len(fringe) > 0:
-		mem = memory_usage_psutil()
-		total += mem
 		node = fringe.pop()
-		number_nodes_visited += 1
 
-		node.count = number_nodes_visited
+		node.count = number_nodes_expanded + 1
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
 			if iterative:
-				return False, number_nodes_expanded, number_nodes_visited, 0
+				return False, number_nodes_expanded, 0
 			else:
-				return False
+				return False 
 		
 		if node.check_solution(goal_state):
-			#print_solution(node, number_nodes_visited)
+			print_solution(node, number_nodes_expanded)
 			if iterative:
-				return True, number_nodes_expanded, number_nodes_visited, node.depth, total
+				return True, number_nodes_expanded, node.depth
+			return True 
 
-			print("Total memory usage: " + str(total*1.049))
-			# print("Expanded nodes: " + str(number_nodes_expanded))
-			# print("Visited nodes: " + str(number_nodes_visited))
-			# print("Found solution at depth: " + str(node.depth))
-			return True
 
+		number_nodes_expanded += 1
 		if limit == None or node.depth < limit:
 			child_nodes = node.descendants(improved_descendants)
 
 			if graphSearch:
 				for i in range(len(child_nodes)):
-					if child_nodes[i].build_hash() not in visited_nodes:
+					node_hash = child_nodes[i].build_hash()
+					node_depth = child_nodes[i].depth
+					if node_hash not in visited_nodes or visited_nodes[node_hash] > node_depth: #can also had if it's found i at smaller depth. Grants solution every time
 						fringe.append(child_nodes[i])
-						number_nodes_expanded += 1
-						visited_nodes.add(child_nodes[i].build_hash())
+						visited_nodes[node_hash] = node_depth
 			else:
 				for i in range(len(child_nodes)):
-					number_nodes_expanded += 1
 					fringe.append(child_nodes[i])
 	
 	if iterative:
-		return False, number_nodes_expanded, number_nodes_visited, 0, total
+		return False, number_nodes_expanded, 0
 			
 	return False
 
+
 def bfs(start_node, goal_state, graphSearch = False, improved_descendants = False):
+	"""This method runs breadth-first tree search.
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		goal_state {list} -- Goal state, which represents the final layout of the board.
+	
+	Keyword Arguments:
+		graphSearch {bool} -- When set to True, does BFS graph search, where it doesn't expanded previously expanded noded (default: {False})
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+	
+	Returns:
+		{bool} -- Returns True if it was able to find a solution, and False otherwise.
+	"""	
 	fringe = [start_node]
-	number_nodes_visited = 0
 	number_nodes_expanded = 0
 
 	child_nodes = []
@@ -104,32 +129,22 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 		visited_nodes = set([start_node.build_hash()])
 
 	t0 = time.time()
-	total = 0
-	while len(fringe) > 0:
-		mem = memory_usage_psutil()
-		total += mem
-
+	while len(fringe) > 0:		
 		node = fringe.pop(0)
-		number_nodes_visited += 1
 
-		node.count = number_nodes_visited
+		node.count = number_nodes_expanded + 1
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
-			return False
+			return False 
 
 		if node.check_solution(goal_state):
-			#print_solution(node, number_nodes_visited)
-			print("Total memory usage: " + str(total*1.049))
-			# print("Expanded nodes: " + str(number_nodes_expanded))
-			# print("Visited nodes: " + str(number_nodes_visited))
-			# print("Found solution at depth: " + str(node.depth))
-			return True
+			print_solution(node, number_nodes_expanded)
+			return True 
 
+		number_nodes_expanded += 1
 		child_nodes = node.descendants(improved_descendants)
 
 		if graphSearch:
@@ -146,42 +161,56 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 	return False
 
 def idfs(start_node, goal_state, improved_descendants = False):
+	"""[summary]
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		goal_state {list} -- Goal state, which represents the final layout of the board.
+	
+	Keyword Arguments:
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+	
+	Returns:
+		{bool} -- Returns True if it was able to find a solution, and False otherwise.
+	"""	
 	number_nodes_expanded = 0
-	number_nodes_visited = 0
-
 	t0 = time.time()
 
-	total_mem = 0
 	for lim in range(21): #from depth 0 to 20
-		solution, number_nodes_expanded_iter, number_nodes_visited_iter, depth, mem = dfs(start_node, goal_state, lim, True, improved_descendants)
+		solution, number_nodes_expanded_iter, depth = dfs(start_node, goal_state, lim, iterative= True, improved_descendants= improved_descendants)
 		number_nodes_expanded += number_nodes_expanded_iter
-		number_nodes_visited += number_nodes_visited_iter
-		total_mem += mem
+		
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
 			return False
 
 		if solution:
-			print("Total memory usage: " + str(total_mem*1.049))
-			# print("Expanded nodes: " + str(number_nodes_expanded))
-			# print("Visited nodes: " + str(number_nodes_visited))
-			# print("Found solution at depth: " + str(depth))
 			return True
 		
 	return False
 
+
 def BidirectionalSearch(start_node, end_node, improved_descendants = False):
+	"""This method runs Bidirectional Search, with BFS search in each of the directions.
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		end_node {Node} -- Goal state, which is the final node in the search, first on the bottom-up search.
+	
+	Keyword Arguments:
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+	
+	Returns:
+		{bool} -- Returns True if it was able to find a solution, and False otherwise.
+	"""	
 	queue_down = [start_node]
 	queue_up = [end_node]
 
 	visited_nodes_down = set([])
 	visited_nodes_up = set([])
 
-	number_nodes_visited = 0
 	number_nodes_expanded = 0
 
 	child_nodes_down = []
@@ -192,70 +221,91 @@ def BidirectionalSearch(start_node, end_node, improved_descendants = False):
 
 	t0 = time.time()
 
-	total = 0
+	while len(queue_down) > 0 or len(queue_up) > 0:
+		top_expanded = False
+		bottom_expanded = False
 
-	while len(queue_down) > 0 and len(queue_up) > 0:
-		mem = memory_usage_psutil()
-		total += mem
+		if len(queue_down) > 0:
+			node_down = queue_down.pop(0)
+			bottom_expanded = True
+			node_down.count = number_nodes_expanded + 1
 
-		node_down = queue_down.pop(0)
-		node_up = queue_up.pop(0)
+		
+		if len(queue_up) > 0:
+			node_up = queue_up.pop(0)
+			top_expanded = True
+			if bottom_expanded:
+				node_up.count = number_nodes_expanded + 2
+			else:
+				node_down.count = number_nodes_expanded + 1
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
 			return False
 
-		number_nodes_visited += 2
+		if bottom_expanded:
+			node_down_hash = node_down.build_hash()
 
-		node_down.count = number_nodes_visited - 1
-		node_up.count = number_nodes_visited
+			if node_down_hash not in visited_nodes_down:
+				visited_nodes_down.add(node_down_hash)
+				hash_value_down[node_down_hash] = node_down
 
-		node_down_hash = node_down.build_hash()
-		node_up_hash = node_up.build_hash()
+				child_nodes_down = node_down.descendants(improved_descendants)
 
-		if node_down_hash not in visited_nodes_down:
-			visited_nodes_down.add(node_down_hash)
-			hash_value_down[node_down_hash] = node_down
+				for i in range(len(child_nodes_down)):
+					queue_down.append(child_nodes_down[i])
+			else:
+				child_nodes_down = []
 
-			child_nodes_down = node_down.descendants(improved_descendants)
+		if top_expanded:
+			node_up_hash = node_up.build_hash()
+			if node_up_hash not in visited_nodes_up:
+				visited_nodes_up.add(node_up_hash)
+				hash_value_up[node_up_hash] = node_up
 
-			for i in range(len(child_nodes_down)):
-				number_nodes_expanded += 1
-				queue_down.append(child_nodes_down[i])
-		else:
-			child_nodes_down = []
-
-		if node_up_hash not in visited_nodes_up:
-			visited_nodes_up.add(node_up_hash)
-			hash_value_up[node_up_hash] = node_up
-
-			child_nodes_up = node_up.descendants(improved_descendants)
+				child_nodes_up = node_up.descendants(improved_descendants)
 			
-			for i in range(len(child_nodes_up)):
-				number_nodes_expanded += 1
-				queue_up.append(child_nodes_up[i])
+				for i in range(len(child_nodes_up)):
+					queue_up.append(child_nodes_up[i])
+			else:
+				child_nodes_up = []
+
+		if bottom_expanded and top_expanded:
+			number_nodes_expanded += 2
 		else:
-			child_nodes_up = []
+			number_nodes_expanded += 1
 
-		if node_down_hash in visited_nodes_up: #if the node was also visited from the search up then a path was found
-				#print_solution(node_down, number_nodes_visited, hash_value_up[node_down_hash])
-				print("Total memory usage: " + str(total*1.049))
-				print("Expanded nodes: " + str(number_nodes_expanded))
-				print("Visited nodes: " + str(number_nodes_visited))
-				print("Found solution at depth: " + str(node_down.depth + hash_value_up[node_down_hash].depth))
+		if (bottom_expanded and (node_down_hash in visited_nodes_up)) or (top_expanded and (node_up_hash in visited_nodes_down)): #if the node was also visited on other search then a path was found
+				if bottom_expanded and (node_down_hash in visited_nodes_up):
+					print_solution(node_down, number_nodes_expanded, hash_value_up[node_down_hash])
+				else:
+					print_solution(hash_value_down[node_up_hash], number_nodes_expanded, node_up)
+				
 				return True
-
+				
 	return False
 
+
 def Astar(start_node, goal_state, graphSearch = False, improved_descendants = False, improved_heuristic = False):
+	"""Runs A-star tree search.
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		goal_state {list} -- Goal state, which represents the final layout of the board.
+	
+	Keyword Arguments:
+		graphSearch {bool} -- When set to True, does BFS graph search, where it doesn't expanded previously expanded noded (default: {False})
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+		improved_heuristic {bool} -- When set to True, uses the improved version of manhattan distance heuristic (default: {False})
+	
+	Returns:
+		{bool} -- Returns True if it was able to find a solution, and False otherwise.
+	"""	
 	prior_queue = PriorityQueue()
 	prior_queue.put((start_node.heuristic_manhattan(goal_state, improved_heuristic), start_node)) #no need to had f, because depth is 0
 
-	number_nodes_visited = 0
 	number_nodes_expanded = 0
 
 	t0 = time.time()
@@ -263,34 +313,23 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 	if graphSearch:
 			visited_nodes = set([start_node.build_hash()])
 
-	total = 0
 	while not prior_queue.empty():
-		mem = memory_usage_psutil()
-		total += mem
 		node_f, current_node = prior_queue.get()
-		number_nodes_visited += 1
 			
 		t1 = time.time()
 
-		current_node.count = number_nodes_visited
+		current_node.count = number_nodes_expanded + 1
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
 			return False
-
-		current_node.count = number_nodes_visited
 		
 		if current_node.check_solution(goal_state):
-			#print_solution(current_node, number_nodes_visited)
-			#print("Total memory usage: " + str(total*1.049))
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			#print("Visited nodes: " + str(number_nodes_visited))
-			#print("Found solution at depth: " + str(current_node.depth))
+			print_solution(current_node, number_nodes_expanded)
 			return True
 		
-		
+		number_nodes_expanded += 1
+
 		child_nodes = current_node.descendants(improved_descendants)
 
 		if graphSearch:
@@ -298,61 +337,58 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 				if child.build_hash() not in visited_nodes:
 					child_h = child.heuristic_manhattan(goal_state, improved_heuristic)
 					child_f = child_h + child.depth
-					number_nodes_expanded += 1
 					prior_queue.put((child_f, child))
 					visited_nodes.add(child.build_hash())
 		else:
 			for child in child_nodes:
 				child_h = child.heuristic_manhattan(goal_state, improved_heuristic)
 				child_f = child_h + child.depth
-				number_nodes_expanded += 1
 				prior_queue.put((child_f, child))
 
 	return False
 
 def Greedy(start_node, goal_state, improved_descendants = False, improved_heuristic = False):
+	"""Runs Greedy tree search.
+	
+	Arguments:
+		start_node {Node} -- Start node, which describes where the search starts.
+		goal_state {list} -- Goal state, which represents the final layout of the board.
+	
+	Keyword Arguments:
+		improved_descendants {bool} -- When set to True, uses the improved version of descendants function (default: {False})
+		improved_heuristic {bool} -- When set to True, uses the improved version of manhattan distance heuristic (default: {False})
+	
+	Returns:
+		{bool} -- Returns True if it was able to find a solution, and False otherwise.
+	"""	
 	prior_queue = PriorityQueue()
 	prior_queue.put((start_node.heuristic_manhattan(goal_state, improved_heuristic), start_node))
 
-	number_nodes_visited = 0
 	number_nodes_expanded = 0
 
 	t0 = time.time()
 
-	total = 0
 	while not prior_queue.empty():
-		mem = memory_usage_psutil()
-		total += mem
-
 		node_f, current_node = prior_queue.get()
-		number_nodes_visited += 1
 		
-		current_node.count = number_nodes_visited
+		current_node.count = number_nodes_expanded + 1
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-
-			print("Expanded nodes: " + str(number_nodes_expanded))
-			print("Visited nodes: " + str(number_nodes_visited))
 			return False
 		
-		current_node.count = number_nodes_visited
-
 		if current_node.check_solution(goal_state):
-			print("Total memory usage: " + str(total*1.049))
-			#print_solution(current_node, number_nodes_visited)
-			#print("Expanded nodes: " + str(number_nodes_expanded))
-			#print("Visited nodes: " + str(number_nodes_visited))
-			#print("Found solution at depth: " + str(current_node.depth))
+			print_solution(current_node, number_nodes_expanded)
 			return True
+
+		number_nodes_expanded += 1
 		
 		child_nodes = current_node.descendants(improved_descendants)
 
 		for child in child_nodes:
 			child_f = child.heuristic_manhattan(goal_state, improved_heuristic)
-			number_nodes_expanded += 1
 			prior_queue.put((child_f, child))
 
 	return False		

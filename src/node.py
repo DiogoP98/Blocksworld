@@ -5,6 +5,17 @@ import random
 class Node:
 
 	def __init__(self, board, agent, depth, parent = None, move = None):
+		"""Creates a new instance of Node
+		
+		Arguments:
+			board {list} -- Current layout of the board
+			agent {list} -- List with two members, the x and y coordinates of the agent.
+			depth {int} -- Depth of the current node
+		
+		Keyword Arguments:
+			parent {Node} -- Node that generated current node (default: {None})
+			move {tuple} -- Describes the last move that lead to this state (default: {None})
+		"""		
 		self.board = board
 		self.agent = agent
 		self.depth = depth
@@ -12,7 +23,15 @@ class Node:
 		self.parent = parent
 		self.move = move #keeps track of the move made previously, so that doens't make the symmetric move after, we would be going backwards if that happened
 	
-	def __lt__(self, other): #for A*: when they have same value, the tiebracker is the distance at which the agent is to the closest tile 
+	def __lt__(self, other):
+		"""When two nodes have the same herusitic value, this function is the tiebracker
+		
+		Arguments:
+			other {Node} -- Node with the same heuristic value.
+		
+		Returns:
+			[bool] -- True if the current node is better than the other node, False otherwise.
+		"""		
 		letters_list = ['A', 'B', 'C']
 		dist_1 = 10
 		dist_2 = 10
@@ -34,7 +53,15 @@ class Node:
 			return False
 	
 	#find all possible descendants
-	def descendants(self, improved):
+	def descendants(self, improved= False):
+		"""Calculates the descendant nodes of the current node.
+		
+		Keyword Arguments:
+			improved {bool} -- If True, takes into account the last move made, and it does not do the symmetric one (default: {False})
+		
+		Returns:
+			[list] -- List of the descendant nodes.
+		"""		
 		desc = []
 		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] #go up, down, right and left
 
@@ -60,6 +87,7 @@ class Node:
 
 			if(old_value == 'O'): #obstacle, cannot pass
 				continue
+			
 			board[current_y_position * 4 + current_x_position] = old_value
 			board[new_y_position * 4 + new_x_position] = 1
 
@@ -72,7 +100,16 @@ class Node:
 				
 		return desc
 
-	def heuristic_manhattan(self, end_state, boost):
+	def heuristic_manhattan(self, end_state, boost = False):
+		"""Calculates the manhattan heurisitc from the current node.
+		
+		Arguments:
+			end_state {list} -- Represents the final layout of the board.
+		
+		Keyword Arguments:
+			boost {bool} -- When True, calculates a better version of manhattan heurisitc, where it takes into account 
+			the distance of the agent to the further misplaced tile. (default: {False})
+		"""			
 		value = 0
 		letters_accounted = 0
 		agent_distance_to_misplaced_tile = 0
@@ -112,6 +149,14 @@ class Node:
 			return value
 	
 	def get_position(self, end_state):
+		"""Gets position of the tiles in goal state.
+		
+		Arguments:
+			end_state {list} -- Represents the final layout of the board.
+		
+		Returns:
+			[list] -- list with the position of 'A', 'B' and 'C', respectively.
+		"""		
 		list_posi = [None] * 3
 		
 		for tile in range(0,16):
@@ -125,12 +170,25 @@ class Node:
 		return list_posi
 
 	def build_hash(self):
+		"""Builds the hash of current node
+		
+		Returns:
+			[list] -- Hash of current node
+		"""		
 		board_hash = ""
 		for i in range(0,16):
 			board_hash += str(self.board[i])
 		return board_hash
 
 	def check_solution(self, end_state):
+		"""Checks if current node is te solution node
+		
+		Arguments:
+			end_state {list} -- Represents the final layout of the board.
+		
+		Returns:
+			[bool] -- True if it is the solution node, False otherwise.
+		"""		
 		letters = ['A', 'B', 'C']
 		for i in range(16):
 			if self.board[i] != end_state[i]:
@@ -139,6 +197,13 @@ class Node:
 		return True
 
 	def print_board(self, fig, dimensions, count):
+		"""Prints the board.
+		
+		Arguments:
+			fig {matplotlib.pyplot.figure} -- The figure to attach the board to.
+			dimensions {int} -- the dimensions of the subfigure.
+			count {int} -- The number of printed states until now.
+		"""		
 		ax = fig.add_subplot(dimensions, dimensions, count)
 
 		for x in range(5):
@@ -146,11 +211,11 @@ class Node:
 		for y in range(5):
 			ax.plot([0, 4], [y,y], 'k')
 		
-		agent = plt.imread('Images/agent.png')
-		obstacle = plt.imread('Images/block.jpg')
-		A = plt.imread('Images/A_letter.png')
-		B = plt.imread('Images/B_letter.png')
-		C = plt.imread('Images/C_letter.png')
+		agent = plt.imread('../Images/agent.png')
+		obstacle = plt.imread('../Images/block.jpg')
+		A = plt.imread('../Images/A_letter.png')
+		B = plt.imread('../Images/B_letter.png')
+		C = plt.imread('../Images/C_letter.png')
 		extent = np.array([-0.3, 0.3, -0.3, 0.3])
 		ax.set_axis_off()
 
@@ -176,12 +241,26 @@ class Node:
 			ax.set_title("Node: " + str(self.count) + ", Parent: None" + ", Depth: " + str(self.depth))
 
 	def print_path(self, fig, dimensions, count):
+		"""Backtracks the path from the solution to the start node.
+		
+		Arguments:
+			fig {matplotlib.pyplot.figure} -- The figure to attach the board to.
+			dimensions {int} -- the dimensions of the subfigure.
+			count {int} -- The number of nodes backtracked until now.
+		"""		
 		if self.parent != None:
 			self.parent.print_path(fig, dimensions, count = count + 1)
 		
 		self.print_board(fig, dimensions, count)
 
 	def print_path_reserse(self, fig, dimensions, count):
+		"""Backtracks the path for the bottom-up search in Bidirectional search
+		
+		Arguments:
+			fig {matplotlib.pyplot.figure} -- The figure to attach the board to.
+			dimensions {int} -- the dimensions of the subfigure.
+			count {int} -- The number of nodes backtracked until now.
+		"""		
 		self.print_board(fig, dimensions, count)
 
 		if self.parent != None:

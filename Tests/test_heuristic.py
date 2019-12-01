@@ -1,7 +1,10 @@
+import sys
+
+sys.path.insert(1, '../src/')
+
 import numpy as np
 from node import Node
 import methods
-import sys
 import main
 
 states = []
@@ -24,36 +27,33 @@ goal_state = [0,0,'O',0,0,'A',0,'O',0,'B',0,0,0,'C',0,1] #Agent position doesnt 
 
 if __name__ == '__main__':
     #A*
-    
-    for depth in range(15):
-        start_agent, end_agent = main.find_agent(states[depth], goal_state)
-        start_node = Node(states[depth], start_agent, 0)
-        print("A* graph misplaced normal descedants at depth " + str(15-depth) + ": ")
 
-        for _ in range(10):
-            sol = methods.Astar(start_node, goal_state, graphSearch=True)
-
-    # searches = ["A*", "Greedy"]
-    # for search in searches:
-    #     for depth in range(15):
-    #         count_falses = 0
-    #         print(search + " misplaced normal descedants at depth " + str(15-depth) + ": ")
-    #         start_agent, end_agent = main.find_agent(states[depth], goal_state)
-    #         start_node = Node(states[depth], start_agent, 0)
-    #         for i in range(10):
-    #             if search == "A*":
-    #                 sol = methods.Astar(start_node, goal_state)
-    #                 print("")
-    #             else:
-    #                 if (15 - depth) > 5:
-    #                     print("pass")
-    #                     continue
-    #                 sol = methods.Greedy(start_node, goal_state)
-    #                 if sol == False:
-    #                     count_falses += 1
-    #                 if count_falses == 1:
-    #                     break
-    #                 print("")
+    searches = ["A*", "Greedy"]
+    for search in searches:
+        for depth in range(15):
+            count_falses = 0
+            print(search + " misplaced normal descedants at depth " + str(15-depth) + ": ")
+            start_agent, end_agent = main.find_agent(states[depth], goal_state)
+            start_node = Node(states[depth], start_agent, 0)
+            total_mem = 0
+            for i in range(10):
+                if search == "A*":
+                    sol, memory = methods.Astar(start_node, goal_state)
+                    total_mem += memory
+                    print("")
+                else:
+                    if (15 - depth) > 4:
+                        print("pass")
+                        continue
+                    sol, memory = methods.Greedy(start_node, goal_state)
+                    total_mem += memory
+                    if sol == False:
+                        count_falses += 1
+                    if count_falses == 1:
+                        break
+                    print("")
+            total_mem /= 10
+            print("Total memory = " + str(total_mem))
 
 
      

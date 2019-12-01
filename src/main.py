@@ -5,8 +5,12 @@ import matplotlib.pyplot as plt
 import sys
 
 #use oned list instead of matrix to optimize space
-unknown_state = [0,0,'O',0,0,0,0,'O',0,'B',0,0,'A',0,'C',1]
-initial_state_15 = ['A',0,'O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #1 represents the agent
+initial_state_20 = ([0,'A','C',0,0,0,0,0,0,0,1,0,'B',0,0,0]) #depth 20
+initial_state_19 = ([0,'A','C',0,0,0,1,0,0,0,0,0,'B',0,0,0]) #depth 19
+initial_state_18 = ([1,0,'A',0,0,0,'C',0,0,0,0,0,'B',0,0,0]) #depth 18
+initial_state_17 = ([0,0,'A',0,0,0,'C',0,1,0,0,0,'B',0,0,0]) #depth 17
+initial_state_16 = ([0,0,'A',0,0,0,'C',0,'B',0,0,0,1,0,0,0]) #depth 16
+initial_state_15 = ([0,0,'A',0,0,0,'C',0,'B',0,0,0,0,0,0,1]) #depth 15
 initial_state_14 = [0,0,'O',0,0,0,0,'O',0,0,0,0,'A','B','C',1] #1 represents the agent
 initial_state_13 = ['A',0,'O',0,0,0,0,'O',0,'B','C',0,0,0,0,1] #1 represents the agent
 initial_state_12 = ['A',0,'O',0,0,0,0,'O','B',0,0,0,0,0,'C',1] #1 represents the agent
@@ -21,7 +25,7 @@ initial_state_4 = [0,0,'O',0,0,0,'A','O',0,'B',0,0,1,'C',0,0] #1 represents the 
 initial_state_3 = [1,0,'O',0,0,0,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
 initial_state_2 = [0,0,'O',0,1,0,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
 initial_state_1 = [0,0,'O',0,0,1,'A','O',0,'B',0,0,0,'C',0,0] #1 represents the agent
-goal_state = [0,0,'O',0,0,'A',0,'O',0,'B',0,0,0,'C',0,1] #Agent position doesnt matter
+goal_state = [0,0,0,0,0,'A',0,0,0,'B',0,0,0,'C',0,1] #Agent position doesnt matter
 
 def find_agent(initial, goal):
 	start_agent = [None]*2
@@ -37,8 +41,8 @@ def find_agent(initial, goal):
 	return start_agent, end_agent
 
 def main():
-	start_agent, end_agent = find_agent(initial_state_2, goal_state)
-	start_node = Node(initial_state_2, start_agent, 0)
+	start_agent, end_agent = find_agent(initial_state_16, goal_state)
+	start_node = Node(initial_state_16, start_agent, 0)
 	start_node.count = 1
 	end_node = Node(goal_state, end_agent, 0) #used for bidirectional search
 
@@ -47,7 +51,7 @@ def main():
 	sol = False
 
 	if method == "dfs":
-		sol = methods.dfs(start_node, goal_state, 15)
+		sol = methods.dfs(start_node, goal_state, limit= 18)
 	elif method == "bfs":
 		if str(sys.argv[2]) == "normal":
 			print("Normal BFS: ")
