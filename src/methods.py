@@ -367,7 +367,7 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 			return False, number_nodes_expanded, 0, memory_max*1.049
 		
 		if current_node.check_solution(goal_state):
-			print_solution(current_node, number_nodes_expanded, goal_state)
+			x = print_solution(current_node, number_nodes_expanded, goal_state)
 			return True, number_nodes_expanded, current_node.depth, memory_max*1.049 
 		
 		number_nodes_expanded += 1
@@ -424,7 +424,7 @@ def Greedy(start_node, goal_state, improved_descendants = False, improved_heuris
 			return False, number_nodes_expanded, 0, memory_max*1.049
 		
 		if current_node.check_solution(goal_state):
-			print_solution(current_node, number_nodes_expanded, goal_state)
+			x = print_solution(current_node, number_nodes_expanded, goal_state)
 			return True, number_nodes_expanded, current_node.depth, memory_max*1.049 
 
 		number_nodes_expanded += 1

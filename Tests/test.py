@@ -243,7 +243,7 @@ if __name__ == '__main__':
                 true_total = 0
                 for _ in range(10):
                     if depth <= 13:
-                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, goal_state2, improved_descendants=value)
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state2, improved_descendants=value)
                     else:
                         sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, improved_descendants=value)
                     if sol:
