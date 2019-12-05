@@ -38,6 +38,8 @@ if __name__ == '__main__':
     limit = [None, 15, 18]
 
     for depth in range(len(initial_states)):
+        print()
+        print()
         print("Depth " + str(depth + 1))
         start_agent, end_agent = main.find_agent(initial_states[depth], goal_state)
         start_node = Node(initial_states[depth], start_agent, 0)
@@ -49,6 +51,7 @@ if __name__ == '__main__':
         for search in searches:
             if search == "BFS":
                 for value in graph:
+                    print()
                     print(search + " with graph " + str(value))
                     expanded_total = 0
                     depth_total = 0
@@ -73,7 +76,7 @@ if __name__ == '__main__':
                     print("Average depth: " + str(depth_total/(fail_total+true_total)))
                     print("Average memory: " + str(memory_total/(fail_total+true_total)))
                 
-                
+                print()
                 print(search + " with improved descendants")
                 expanded_total = 0
                 depth_total = 0
@@ -101,7 +104,8 @@ if __name__ == '__main__':
             elif search == "DFS":
                 for l in limit:
                     for value in graph:
-                        print(search + " with limit " + str(limit) + " with graph " + str(value))
+                        print()
+                        print(search + " with limit " + str(l) + " with graph " + str(value))
                         expanded_total = 0
                         depth_total = 0
                         memory_total = 0
@@ -125,8 +129,8 @@ if __name__ == '__main__':
                         print("Average depth: " + str(depth_total/(fail_total+true_total)))
                         print("Average memory: " + str(memory_total/(fail_total+true_total)))
                     
-                    
-                    print(search + " with limit " + str(limit) + " with improved descendants ")
+                    print()
+                    print(search + " with limit " + str(l) + " with improved descendants ")
                     expanded_total = 0
                     depth_total = 0
                     memory_total = 0
@@ -151,6 +155,7 @@ if __name__ == '__main__':
                         print("Average memory: " + str(memory_total/(fail_total+true_total)))
 
             elif search == "IDS":
+                print()
                 print(search)
                 expanded_total = 0
                 depth_total = 0
@@ -175,7 +180,7 @@ if __name__ == '__main__':
                 print("Average depth: " + str(depth_total/(fail_total+true_total)))
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
                 
-                
+                print()
                 print(search + " with improved descendants")
                 expanded_total = 0
                 depth_total = 0
@@ -201,6 +206,7 @@ if __name__ == '__main__':
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
             
             elif search == "Bidirec":
+                print()
                 print(search)
                 expanded_total = 0
                 depth_total = 0
@@ -208,7 +214,10 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node)
+                    if depth <= 13:
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state2)
+                    else:
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -225,7 +234,7 @@ if __name__ == '__main__':
                 print("Average depth: " + str(depth_total/(fail_total+true_total)))
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
                 
-                
+                print()
                 print(search + " with improved descendants")
                 expanded_total = 0
                 depth_total = 0
@@ -233,7 +242,10 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, improved_descendants=value)
+                    if depth <= 13:
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, goal_state2, improved_descendants=value)
+                    else:
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, improved_descendants=value)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -252,6 +264,7 @@ if __name__ == '__main__':
 
             elif search == "A*":
                 for value in graph:
+                    print()
                     print(search + " with graph " + str(value))
                     expanded_total = 0
                     depth_total = 0
@@ -276,7 +289,7 @@ if __name__ == '__main__':
                     print("Average depth: " + str(depth_total/(fail_total+true_total)))
                     print("Average memory: " + str(memory_total/(fail_total+true_total)))
                 
-                
+                print()
                 print(search + " with improved descendants")
                 expanded_total = 0
                 depth_total = 0
@@ -301,6 +314,7 @@ if __name__ == '__main__':
                 print("Average depth: " + str(depth_total/(fail_total+true_total)))
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
 
+                print()
                 print(search + " with improved heuristic")
                 expanded_total = 0
                 depth_total = 0
@@ -326,6 +340,7 @@ if __name__ == '__main__':
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
             
             elif search == "Greedy":
+                print()
                 print(search)
                 expanded_total = 0
                 depth_total = 0
@@ -350,7 +365,7 @@ if __name__ == '__main__':
                 print("Average depth: " + str(depth_total/(fail_total+true_total)))
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
                 
-                
+                print()
                 print(search + " with improved descendants")
                 expanded_total = 0
                 depth_total = 0
@@ -375,6 +390,7 @@ if __name__ == '__main__':
                 print("Average depth: " + str(depth_total/(fail_total+true_total)))
                 print("Average memory: " + str(memory_total/(fail_total+true_total)))
 
+                print()
                 print(search + " with improved heuristic")
                 expanded_total = 0
                 depth_total = 0
