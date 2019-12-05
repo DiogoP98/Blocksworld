@@ -38,16 +38,17 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 		found = False
 		while not(found):
 			if state1.check_solution(goal_state):
-				depth += state1.depth
 				found = True
 			else:
 				depth += 1
-				state1 = state1.parent
+				if state1.parent != None:
+					state1 = state1.parent
+				else:
+					break
 
 		state2 = state2.parent
 		while not(found):
 			if state2.check_solution(goal_state):
-				depth += 1
 				found = True
 			else:
 				depth += 1
