@@ -93,8 +93,7 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 	memory_max = 0
 
 	if graphSearch:
-		visited_nodes = {} #hash_map
-		visited_nodes[start_node.build_hash] = 0
+		closed = {} #hash_map
 
 	while len(fringe) > 0:
 		node = fringe.pop()
@@ -119,18 +118,20 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 			return True, number_nodes_expanded, node.depth, memory_max*1.049 
 
 
-		number_nodes_expanded += 1
 		if limit == None or node.depth < limit:
-			child_nodes = node.descendants(improved_descendants)
-
 			if graphSearch:
-				for i in range(len(child_nodes)):
-					node_hash = child_nodes[i].build_hash()
-					node_depth = child_nodes[i].depth
-					if node_hash not in visited_nodes or visited_nodes[node_hash] > node_depth: #can also add if it's found i at smaller depth. Grants solution every time
+				node_hash = node.build_hash()
+				node_depth = node.depth
+				#can also add if it's found i at smaller depth. Grants solution every time
+				if node_hash not in closed or closed[node_hash] > node_depth:
+					closed[node_hash] = node_depth
+					number_nodes_expanded += 1
+					child_nodes = node.descendants(improved_descendants)
+					for i in range(len(child_nodes)):
 						fringe.append(child_nodes[i])
-						visited_nodes[node_hash] = node_depth
 			else:
+				number_nodes_expanded += 1
+				child_nodes = node.descendants(improved_descendants)
 				for i in range(len(child_nodes)):
 					fringe.append(child_nodes[i])
 	
@@ -160,7 +161,7 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 	child_nodes = []
 
 	if graphSearch:
-		visited_nodes = set([start_node.build_hash()])
+		closed = set()
 
 	t0 = time.time()
 	memory_max = 0
@@ -181,18 +182,18 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 			x = print_solution(node, number_nodes_expanded, goal_state)
 			return True, number_nodes_expanded, node.depth, memory_max*1.049 
 
-		number_nodes_expanded += 1
-		child_nodes = node.descendants(improved_descendants)
-
 		if graphSearch:
-			for i in range(len(child_nodes)):
-				if child_nodes[i].build_hash() not in visited_nodes:
-					fringe.append(child_nodes[i])
-					number_nodes_expanded += 1
-					visited_nodes.add(child_nodes[i].build_hash())
-		else:
-			for i in range(len(child_nodes)):
+			if node.build_hash() not in closed:
+				closed.add(node.build_hash())
 				number_nodes_expanded += 1
+				child_nodes = node.descendants(improved_descendants)
+				for i in range(len(child_nodes)):
+					fringe.append(child_nodes[i])
+					
+		else:
+			number_nodes_expanded += 1
+			child_nodes = node.descendants(improved_descendants)
+			for i in range(len(child_nodes)):
 				fringe.append(child_nodes[i])
 
 	return False, number_nodes_expanded, 0, memory_max*1.049
@@ -246,8 +247,8 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 	queue_down = [start_node]
 	queue_up = [end_node]
 
-	visited_nodes_down = set([])
-	visited_nodes_up = set([])
+	visited_nodes_down = set()
+	visited_nodes_up = set()
 
 	number_nodes_expanded = 0
 
@@ -290,9 +291,9 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 			node_down_hash = node_down.build_hash()
 
 			if node_down_hash not in visited_nodes_down:
+				number_nodes_expanded += 1
 				visited_nodes_down.add(node_down_hash)
 				hash_value_down[node_down_hash] = node_down
-
 				child_nodes_down = node_down.descendants(improved_descendants)
 
 				for i in range(len(child_nodes_down)):
@@ -306,6 +307,7 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 				visited_nodes_up.add(node_up_hash)
 				hash_value_up[node_up_hash] = node_up
 
+				number_nodes_expanded += 1
 				child_nodes_up = node_up.descendants(improved_descendants)
 			
 				for i in range(len(child_nodes_up)):
@@ -313,18 +315,12 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 			else:
 				child_nodes_up = []
 
-		if bottom_expanded and top_expanded:
-			number_nodes_expanded += 2
-		else:
-			number_nodes_expanded += 1
-
-		if (bottom_expanded and (node_down_hash in visited_nodes_up)) or (top_expanded and (node_up_hash in visited_nodes_down)): #if the node was also visited on other search then a path was found
-				if bottom_expanded and (node_down_hash in visited_nodes_up):
-					depth_found = print_solution(node_down, number_nodes_expanded, goal_state, hash_value_up[node_down_hash])
-				else:
-					depth_found = print_solution(hash_value_down[node_up_hash], number_nodes_expanded, goal_state, node_up)
-				
-				return True, number_nodes_expanded, depth_found, memory_max*1.049
+		if bottom_expanded and (node_down_hash in visited_nodes_up):
+			depth_found = print_solution(node_down, number_nodes_expanded, goal_state, hash_value_up[node_down_hash])
+			return True, number_nodes_expanded, depth_found, memory_max*1.049
+		elif top_expanded and (node_up_hash in visited_nodes_down):
+			depth_found = print_solution(hash_value_down[node_up_hash], number_nodes_expanded, goal_state, node_up)
+			return True, number_nodes_expanded, depth_found, memory_max*1.049
 				
 	return False, number_nodes_expanded, 0, memory_max*1.049
 
@@ -352,7 +348,7 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 	memory_max = 0
 
 	if graphSearch:
-			visited_nodes = set([start_node.build_hash()])
+			closed = set()
 
 	while not prior_queue.empty():
 		node_f, current_node = prior_queue.get()
@@ -370,19 +366,19 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 		if current_node.check_solution(goal_state):
 			x = print_solution(current_node, number_nodes_expanded, goal_state)
 			return True, number_nodes_expanded, current_node.depth, memory_max*1.049 
-		
-		number_nodes_expanded += 1
-
-		child_nodes = current_node.descendants(improved_descendants)
 
 		if graphSearch:
-			for child in child_nodes:
-				if child.build_hash() not in visited_nodes:
+			if current_node.build_hash() not in closed:
+				closed.add(current_node.build_hash())
+				number_nodes_expanded += 1
+				child_nodes = current_node.descendants(improved_descendants)
+				for child in child_nodes:
 					child_h = child.heuristic_manhattan(goal_state, improved_heuristic)
 					child_f = child_h + child.depth
 					prior_queue.put((child_f, child))
-					visited_nodes.add(child.build_hash())
 		else:
+			number_nodes_expanded += 1
+			child_nodes = current_node.descendants(improved_descendants)
 			for child in child_nodes:
 				child_h = child.heuristic_manhattan(goal_state, improved_heuristic)
 				child_f = child_h + child.depth
@@ -411,6 +407,7 @@ def Greedy(start_node, goal_state, improved_descendants = False, improved_heuris
 
 	t0 = time.time()
 	memory_max = 0
+
 	while not prior_queue.empty():
 		node_f, current_node = prior_queue.get()
 		
