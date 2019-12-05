@@ -51,6 +51,8 @@ if __name__ == '__main__':
         for search in searches:
             if search == "BFS":
                 for value in graph:
+                    if not(value) and depth >= 14:
+                        continue
                     print()
                     print(search + " with graph " + str(value))
                     expanded_total = 0
@@ -72,9 +74,12 @@ if __name__ == '__main__':
                             memory_total += memory
                         if fail_total == 2:
                             break
-                    print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
-                    print("Average depth: " + str(depth_total/(fail_total+true_total)))
-                    print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                    if fail_total+true_total > 0:
+                        print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
+                        print("Average depth: " + str(depth_total/(fail_total+true_total)))
+                        print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                    else:
+                        print("None")
                 
                 print()
                 print(search + " with improved descendants")
@@ -103,6 +108,10 @@ if __name__ == '__main__':
 
             elif search == "DFS":
                 for l in limit:
+                    if l == 15 and depth > 16:
+                        continue
+                    if l == 18 and depth > 19:
+                        continue
                     for value in graph:
                         print()
                         print(search + " with limit " + str(l) + " with graph " + str(value))
@@ -163,6 +172,8 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
+                    if depth > 16:
+                        break
                     sol, expanded, depth_found, memory = methods.idfs(start_node, goal_state)
                     if sol:
                         true_total += 1
@@ -176,9 +187,12 @@ if __name__ == '__main__':
                         memory_total += memory
                     if fail_total == 2:
                         break
-                print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
-                print("Average depth: " + str(depth_total/(fail_total+true_total)))
-                print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                if fail_total+true_total > 0:
+                    print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
+                    print("Average depth: " + str(depth_total/(fail_total+true_total)))
+                    print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                else:
+                    print("None")
                 
                 print()
                 print(search + " with improved descendants")
@@ -348,6 +362,8 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
+                    if depth > 8:
+                        break
                     sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state)
                     if sol:
                         true_total += 1
@@ -361,9 +377,12 @@ if __name__ == '__main__':
                         memory_total += memory
                     if fail_total == 2:
                         break
-                print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
-                print("Average depth: " + str(depth_total/(fail_total+true_total)))
-                print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                if fail_total+true_total > 0:
+                    print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
+                    print("Average depth: " + str(depth_total/(fail_total+true_total)))
+                    print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                else:
+                    print("None")
                 
                 print()
                 print(search + " with improved descendants")
@@ -398,6 +417,8 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
+                    if depth > 11:
+                        break
                     sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state, improved_heuristic=True)
                     if sol:
                         true_total += 1
@@ -411,9 +432,12 @@ if __name__ == '__main__':
                         memory_total += memory
                     if fail_total == 2:
                         break
-                print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
-                print("Average depth: " + str(depth_total/(fail_total+true_total)))
-                print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                if fail_total+true_total > 0:
+                    print("Average Nodes expanded: " + str(expanded_total/(fail_total+true_total)))
+                    print("Average depth: " + str(depth_total/(fail_total+true_total)))
+                    print("Average memory: " + str(memory_total/(fail_total+true_total)))
+                else:
+                    print("None")
 
     
 
