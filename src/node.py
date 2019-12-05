@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import random
 
 class Node:
-
+	
 	def __init__(self, board, agent, depth, parent = None, move = None):
 		"""Creates a new instance of Node
 		
@@ -19,9 +19,9 @@ class Node:
 		self.board = board
 		self.agent = agent
 		self.depth = depth
-		self.count = 0 #keep track of number of nodes visited, for debug purposes
+		self.count = 0 #keep track of number of nodes expanded
 		self.parent = parent
-		self.move = move #keeps track of the move made previously, so that doens't make the symmetric move after, we would be going backwards if that happened
+		self.move = move #keeps track of the move made previously
 	
 	def __lt__(self, other):
 		"""When two nodes have the same herusitic value, this function is the tiebracker
@@ -204,7 +204,7 @@ class Node:
 			dimensions {int} -- the dimensions of the subfigure.
 			count {int} -- The number of printed states until now.
 		"""		
-		ax = fig.add_subplot(dimensions, dimensions, count)
+		ax = fig.add_subplot(4, 4, count)
 
 		for x in range(5):
 			ax.plot([x, x], [0,4], 'k')
@@ -249,12 +249,14 @@ class Node:
 			count {int} -- The number of nodes backtracked until now.
 		"""		
 		if self.parent != None:
-			self.parent.print_path(fig, dimensions, count = count + 1)
+			self.parent.print_path(fig, dimensions, count = count - 1)
 		
 		self.print_board(fig, dimensions, count)
 
 	def print_path_reserse(self, fig, dimensions, count):
-		"""Backtracks the path for the bottom-up search in Bidirectional search
+		"""Backtracks the path for the bottom-up search in Bidirectional search. Besides that, it calculates
+		how many nodes of the bottom-up search belong to the actual solution, that is, when it reaches a state with
+		all the tiles in the correct place ignoring the position of the agent.
 		
 		Arguments:
 			fig {matplotlib.pyplot.figure} -- The figure to attach the board to.
@@ -264,9 +266,7 @@ class Node:
 		self.print_board(fig, dimensions, count)
 
 		if self.parent != None:
-			self.parent.print_path_reserse(fig, dimensions, count = count + 1)
-
-
+			depth_extra = self.parent.print_path_reserse(fig, dimensions, count + 1)
 
 
 
