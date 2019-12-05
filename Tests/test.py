@@ -84,7 +84,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.bfs(start_node, goal_state, improved_descendants=value)
+                    sol, expanded, depth_found, memory = methods.bfs(start_node, goal_state, improved_descendants=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -137,7 +137,7 @@ if __name__ == '__main__':
                     fail_total = 0
                     true_total = 0
                     for _ in range(10):
-                        sol, expanded, depth_found, memory = methods.dfs(start_node, goal_state, limit=l, improved_descendants=value)
+                        sol, expanded, depth_found, memory = methods.dfs(start_node, goal_state, limit=l, improved_descendants=True)
                         if sol:
                             true_total += 1
                             expanded_total += expanded
@@ -188,7 +188,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.idfs(start_node, goal_state, improved_descendants=value)
+                    sol, expanded, depth_found, memory = methods.idfs(start_node, goal_state, improved_descendants=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -243,9 +243,9 @@ if __name__ == '__main__':
                 true_total = 0
                 for _ in range(10):
                     if depth <= 13:
-                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state2, improved_descendants=value)
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state2, improved_descendants=True)
                     else:
-                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, improved_descendants=value)
+                        sol, expanded, depth_found, memory = methods.BidirectionalSearch(start_node, end_node, goal_state, improved_descendants=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -297,7 +297,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.Astar(start_node, goal_state, improved_descendants=value, improved_heuristic=True)
+                    sol, expanded, depth_found, memory = methods.Astar(start_node, goal_state, improved_descendants=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -322,7 +322,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.Astar(start_node, goal_state, improved_heuristic=value)
+                    sol, expanded, depth_found, memory = methods.Astar(start_node, goal_state, improved_heuristic=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -373,7 +373,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state, improved_descendants=value)
+                    sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state, improved_descendants=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
@@ -398,7 +398,7 @@ if __name__ == '__main__':
                 fail_total = 0
                 true_total = 0
                 for _ in range(10):
-                    sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state, improved_heuristic=value)
+                    sol, expanded, depth_found, memory = methods.Greedy(start_node, goal_state, improved_heuristic=True)
                     if sol:
                         true_total += 1
                         expanded_total += expanded
