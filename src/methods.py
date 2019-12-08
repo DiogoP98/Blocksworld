@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 from queue import PriorityQueue
 import time
-import os
+import os, sys
 
 def print_solution(state1, number_nodes_expanded, goal_state, state2 = None): 
 	"""When solution is found, this method is called to print the solution path
@@ -18,7 +18,7 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 		node in the bottom-up search (default: {None})
 	"""		
 
-	#print("Expanded nodes: " + str(number_nodes_expanded))
+	print("Expanded nodes: " + str(number_nodes_expanded))
 
 	if state2 != None:
 		total_depth = state1.depth + state2.depth
@@ -26,46 +26,42 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 		total_depth = state1.depth
 		#print("Solution found at depth: " + str(total_depth))
 
-	#dimensions = int(math.sqrt(total_depth)) + 1
+	dimensions = int(math.sqrt(total_depth)) + 1
 
-	#fig = plt.figure(figsize=[4 * 4, 4 * 4])
+	fig = plt.figure(figsize=[4 * 4, 4 * 4])
 
-	#state1.print_path(fig, 3, state1.depth + 1)
+	state1.print_path(fig, 3, state1.depth + 1)
 
 	if state2 != None:
 		#state2.parent.print_path_reserse(fig, 3, state1.depth + 2)
-		depth = 0
+		middle_depth = state1.depth
 		found = False
-		while not(found):
+		while True:
 			if state1.check_solution(goal_state):
+				middle_depth = state1.depth
 				found = True
+				state1 = state1.parent #check if the solution can still be find in previous nodes
 			else:
-				depth += 1
-				if state1.parent != None:
-					state1 = state1.parent
-				else:
+				if state1.parent == None:
 					break
+				else:
+					state1 = state1.parent
 
 		state2 = state2.parent
 		while not(found):
 			if state2.check_solution(goal_state):
+				middle_depth += 1
 				found = True
 			else:
-				depth += 1
+				middle_depth += 1
 				state2 = state2.parent
-		#print("Solution found at depth: " + str(depth))
-		return depth
+		print("Solution found at depth: " + str(middle_depth))
+		return middle_depth
 	else:
+		plt.show()
 		return None
 	
 	#plt.savefig('../Results/path.png')
-
-def memory_usage_psutil():
-    # return the memory usage in MB
-    import psutil
-    process = psutil.Process(os.getpid())
-    mem = process.memory_info()[0] / float(2 ** 20)
-    return mem
 
 def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = False, improved_descendants = False):
 	"""This method runs depth-first tree search.
@@ -90,16 +86,11 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 
 	t0 = time.time()
 
-	memory_max = 0
-
 	if graphSearch:
 		closed = {} #hash_map
 
 	while len(fringe) > 0:
 		node = fringe.pop()
-
-		memory_max = max(memory_max, memory_usage_psutil())
-
 		node.count = number_nodes_expanded + 1
 
 		t1 = time.time()
@@ -107,15 +98,15 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
 			if iterative:
-				return False, number_nodes_expanded, 0, memory_max*1.049
+				return False, number_nodes_expanded, 0
 			else:
-				return False, number_nodes_expanded, 0, memory_max*1.049
+				return False, number_nodes_expanded, 0
 		
 		if node.check_solution(goal_state):
 			x = print_solution(node, number_nodes_expanded, goal_state)
 			if iterative:
-				return True, number_nodes_expanded, node.depth, memory_max*1.049
-			return True, number_nodes_expanded, node.depth, memory_max*1.049 
+				return True, number_nodes_expanded, node.depth
+			return True, number_nodes_expanded, node.depth 
 
 
 		if limit == None or node.depth < limit:
@@ -136,9 +127,9 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 					fringe.append(child_nodes[i])
 	
 	if iterative:
-		return False, number_nodes_expanded, 0, memory_max*1.049
+		return False, number_nodes_expanded, 0
 			
-	return False, number_nodes_expanded, 0, memory_max*1.049
+	return False, number_nodes_expanded, 0
 
 
 def bfs(start_node, goal_state, graphSearch = False, improved_descendants = False):
@@ -164,23 +155,22 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 		closed = set()
 
 	t0 = time.time()
-	memory_max = 0
+
 	while len(fringe) > 0:		
 		node = fringe.pop(0)
 
 		node.count = number_nodes_expanded + 1
 
-		memory_max = max(memory_max, memory_usage_psutil())
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, number_nodes_expanded, 0, memory_max*1.049
+			return False, number_nodes_expanded, 0
 
 		if node.check_solution(goal_state):
 			x = print_solution(node, number_nodes_expanded, goal_state)
-			return True, number_nodes_expanded, node.depth, memory_max*1.049 
+			return True, number_nodes_expanded, node.depth 
 
 		if graphSearch:
 			if node.build_hash() not in closed:
@@ -196,7 +186,7 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 			for i in range(len(child_nodes)):
 				fringe.append(child_nodes[i])
 
-	return False, number_nodes_expanded, 0, memory_max*1.049
+	return False, number_nodes_expanded, 0
 
 def idfs(start_node, goal_state, improved_descendants = False):
 	"""[summary]
@@ -213,21 +203,20 @@ def idfs(start_node, goal_state, improved_descendants = False):
 	"""	
 	number_nodes_expanded = 0
 	t0 = time.time()
-	memory_max = 0
+
 	for lim in range(21): #from depth 0 to 20
 		solution, number_nodes_expanded_iter, depth, mem = dfs(start_node, goal_state, lim, iterative= True, improved_descendants= improved_descendants)
 		number_nodes_expanded += number_nodes_expanded_iter
-		memory_max = max(mem, memory_max)
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, number_nodes_expanded, 0, memory_max*1.049
+			return False, number_nodes_expanded, 0
 
 		if solution:
-			return True, number_nodes_expanded, depth, memory_max*1.049
+			return True, number_nodes_expanded, depth
 		
-	return False, number_nodes_expanded, 0, memory_max*1.049
+	return False, number_nodes_expanded, 0
 
 
 def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants = False):
@@ -259,13 +248,11 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 	hash_value_up = {}
 
 	t0 = time.time()
-	memory_max = 0
+
 
 	while len(queue_down) > 0 or len(queue_up) > 0:
 		top_expanded = False
 		bottom_expanded = False
-
-		memory_max = max(memory_max, memory_usage_psutil())
 
 		if len(queue_down) > 0:
 			node_down = queue_down.pop(0)
@@ -285,7 +272,7 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, number_nodes_expanded, 0, memory_max*1.049
+			return False, number_nodes_expanded, 0
 
 		if bottom_expanded:
 			node_down_hash = node_down.build_hash()
@@ -317,12 +304,12 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 
 		if bottom_expanded and (node_down_hash in visited_nodes_up):
 			depth_found = print_solution(node_down, number_nodes_expanded, goal_state, hash_value_up[node_down_hash])
-			return True, number_nodes_expanded, depth_found, memory_max*1.049
+			return True, number_nodes_expanded, depth_found
 		elif top_expanded and (node_up_hash in visited_nodes_down):
 			depth_found = print_solution(hash_value_down[node_up_hash], number_nodes_expanded, goal_state, node_up)
-			return True, number_nodes_expanded, depth_found, memory_max*1.049
+			return True, number_nodes_expanded, depth_found
 				
-	return False, number_nodes_expanded, 0, memory_max*1.049
+	return False, number_nodes_expanded, 0
 
 def Astar(start_node, goal_state, graphSearch = False, improved_descendants = False, improved_heuristic = False):
 	"""Runs A-star tree search.
@@ -345,27 +332,23 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 	number_nodes_expanded = 0
 
 	t0 = time.time()
-	memory_max = 0
 
 	if graphSearch:
 			closed = set()
 
 	while not prior_queue.empty():
-		node_f, current_node = prior_queue.get()
-
-		memory_max = max(memory_max, memory_usage_psutil())
-			
+		node_f, current_node = prior_queue.get()			
 		t1 = time.time()
 
 		current_node.count = number_nodes_expanded + 1
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, number_nodes_expanded, 0, memory_max*1.049
+			return False, number_nodes_expanded, 0
 		
 		if current_node.check_solution(goal_state):
 			x = print_solution(current_node, number_nodes_expanded, goal_state)
-			return True, number_nodes_expanded, current_node.depth, memory_max*1.049 
+			return True, number_nodes_expanded, current_node.depth 
 
 		if graphSearch:
 			if current_node.build_hash() not in closed:
@@ -384,7 +367,67 @@ def Astar(start_node, goal_state, graphSearch = False, improved_descendants = Fa
 				child_f = child_h + child.depth
 				prior_queue.put((child_f, child))
 
-	return False, number_nodes_expanded, 0, memory_max*1.049
+	return False, number_nodes_expanded, 0
+
+def DFSAstar(start_node, goal_state, threshold, improved_descendants = False, improved_heuristic = False):
+	fringe = [start_node]
+	number_nodes_expanded = 0
+	child_nodes = []
+	
+	t0 = time.time()
+	new_threshold = sys.maxsize
+
+	while len(fringe) > 0:
+		node = fringe.pop(0)
+
+		node.count = total + number_nodes_expanded + 1
+
+		t1 = time.time()
+
+		if (t1 - t0) > 900:
+			print("It took more than 15 min")
+			return False, number_nodes_expanded, 0, new_threshold
+
+		if node.check_solution(goal_state):
+			#x = print_solution(node, number_nodes_expanded, goal_state)
+			return True, number_nodes_expanded, node.depth, new_threshold 
+
+		number_nodes_expanded += 1
+		child_nodes = node.descendants(improved_descendants)
+		for child in child_nodes:
+			child_h = child.heuristic_manhattan(goal_state, improved_heuristic)
+			child_f = child_h + child.depth
+
+			if child_f <= threshold:
+				fringe.append(child)
+			else:
+				new_threshold = min(new_threshold, child_f)
+
+	return False, number_nodes_expanded, 0, new_threshold
+
+def IDAstar(start_node, goal_state, improved_descendants = False, improved_heuristic = False):
+	threshold = start_node.heuristic_manhattan(goal_state, improved_heuristic)
+	number_nodes_expanded = 0
+	t0 = time.time()
+
+	while True:
+		sol, number_nodes, depth_f, new_treshold = DFSAstar(start_node, goal_state, threshold, improved_descendants, improved_heuristic)
+		number_nodes_expanded += number_nodes
+		t1 = time.time()
+
+		if (t1 - t0) > 900:
+			print("Took more than 15 minutes")
+			return False, number_nodes_expanded, 0
+		
+		if new_treshold == sys.maxsize:
+			return False, 0, 0
+		
+		if sol:
+			print("Number of nodes: " + str(number_nodes_expanded))
+			print("Depth Found: " + str(depth_f))
+			return True, number_nodes_expanded, depth_f
+		else:
+			threshold = new_treshold
 
 def Greedy(start_node, goal_state, improved_descendants = False, improved_heuristic = False):
 	"""Runs Greedy tree search.
@@ -406,24 +449,23 @@ def Greedy(start_node, goal_state, improved_descendants = False, improved_heuris
 	number_nodes_expanded = 0
 
 	t0 = time.time()
-	memory_max = 0
+
 
 	while not prior_queue.empty():
 		node_f, current_node = prior_queue.get()
 		
 		current_node.count = number_nodes_expanded + 1
 
-		memory_max = max(memory_max, memory_usage_psutil())
 
 		t1 = time.time()
 
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, number_nodes_expanded, 0, memory_max*1.049
+			return False, number_nodes_expanded, 0
 		
 		if current_node.check_solution(goal_state):
 			x = print_solution(current_node, number_nodes_expanded, goal_state)
-			return True, number_nodes_expanded, current_node.depth, memory_max*1.049 
+			return True, number_nodes_expanded, current_node.depth 
 
 		number_nodes_expanded += 1
 		
@@ -433,4 +475,4 @@ def Greedy(start_node, goal_state, improved_descendants = False, improved_heuris
 			child_f = child.heuristic_manhattan(goal_state, improved_heuristic)
 			prior_queue.put((child_f, child))
 
-	return False, number_nodes_expanded, 0, memory_max*1.049		
+	return False, number_nodes_expanded, 0		

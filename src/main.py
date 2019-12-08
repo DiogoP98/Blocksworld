@@ -48,7 +48,7 @@ def main():
 	sol = False
 
 	parser = argparse.ArgumentParser(description='A tutorial of argparse!')
-	parser.add_argument("--m", choices=["BFS", "DFS", "IDS", "Bidirectional", "Astar", "Greedy"], required=True, type=str, help="Method to use")
+	parser.add_argument("--m", choices=["BFS", "DFS", "IDS", "Bidirectional", "Astar", "IDA", "Greedy"], required=True, type=str, help="Method to use")
 	parser.add_argument("--l", default=None, type=int, help="Depth limit for depth-first search")
 	parser.add_argument("--g", choices=[True, False], default=False, type=bool, help="Whether or not to use graph search")
 	parser.add_argument("--h", choices=[True, False], default=False, type=bool, help="Whether or not to use improved heuristic, for heuristic searches")
@@ -90,6 +90,8 @@ def main():
 		sol = methods.BidirectionalSearch(start_node, end_node, goal_state2, improved_descendants = improved_descendants)
 	elif method == "Astar":
 		sol = methods.Astar(start_node, goal_state, graphSearch = graph_search, improved_descendants = improved_descendants, improved_heuristic = improved_heuristic)
+	elif method == "IDA":
+		sol = methods.IDAstar(start_node, goal_state, improved_descendants= improved_descendants, improved_heuristic= improved_heuristic)
 	elif method == "Greedy":
 		sol = methods.Greedy(start_node, goal_state, improved_descendants = improved_descendants, improved_heuristic = improved_heuristic)
 	else:

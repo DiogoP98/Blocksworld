@@ -22,6 +22,7 @@ class Node:
 		self.count = 0 #keep track of number of nodes expanded
 		self.parent = parent
 		self.move = move #keeps track of the move made previously
+		self.heurisitc = None
 	
 	def __lt__(self, other):
 		"""When two nodes have the same herusitic value, this function is the tiebracker
@@ -235,10 +236,11 @@ class Node:
 	
 		ax.set(xticks=[], yticks=[])
 		ax.axis('image')
+
 		if self.parent != None:
-			ax.set_title("Node: " + str(self.count) + ", Parent: " + str(self.parent.count) + ", Depth: " + str(self.depth))
+			ax.set_title("Node: " + str(self.count) + ", Parent: " + str(self.parent.count) + ", Heur.: " + str(self.heurisitc)) 
 		else:
-			ax.set_title("Node: " + str(self.count) + ", Parent: None" + ", Depth: " + str(self.depth))
+			ax.set_title("Node: " + str(self.count) + ", Parent: None" + ", Heur.: " + str(self.heurisitc))
 
 	def print_path(self, fig, dimensions, count):
 		"""Backtracks the path from the solution to the start node.
