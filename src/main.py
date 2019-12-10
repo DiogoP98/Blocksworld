@@ -65,8 +65,8 @@ def main():
 	depth = args.s
 	
 	if depth == None:
-		start_agent, end_agent = find_agent(initial_states[10], goal_state)
-		start_node = Node(initial_states[10], start_agent, 0)
+		start_agent, end_agent = find_agent(initial_states[3], goal_state)
+		start_node = Node(initial_states[3], start_agent, 0)
 		start_node.count = 1
 		end_node = Node(goal_state2, end_agent, 0) #used for bidirectional search
 	elif depth <= 14:

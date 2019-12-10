@@ -19,10 +19,11 @@ class Node:
 		self.board = board
 		self.agent = agent
 		self.depth = depth
-		self.count = 0 #keep track of number of nodes expanded
+		#keep track of number of nodes visited
+		self.count = 0 
 		self.parent = parent
-		self.move = move #keeps track of the move made previously
-		self.heurisitc = None
+		#keeps track of the move made previously
+		self.move = move 
 	
 	def __lt__(self, other):
 		"""When two nodes have the same herusitic value, this function is the tiebracker
@@ -54,23 +55,26 @@ class Node:
 			return False
 	
 	#find all possible descendants
-	def descendants(self, improved= False):
-		"""Calculates the descendant nodes of the current node.
+	def successors(self, improved= False):
+		"""Calculates the successors nodes of the current node.
 		
 		Keyword Arguments:
 			improved {bool} -- If True, takes into account the last move made, and it does not do the symmetric one (default: {False})
 		
 		Returns:
-			[list] -- List of the descendant nodes.
+			[list] -- List of the successors nodes.
 		"""		
 		desc = []
-		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] #go up, down, right and left
+		#up, down, right and left, respectively
+		possibleMoves = [(0,1),(0,-1),(1,0),(-1,0)] 
 
-		random.shuffle(possibleMoves) #randomize chosen moves
+		#randomize chosen moves
+		random.shuffle(possibleMoves) 
 
 		for i in range(4):
 			if improved and self.move != None: 
-				if possibleMoves[i] == tuple(np.multiply((-1,-1), self.move)): #if move is symmetric to the one done previously
+				#if move is symmetric to the one done previously
+				if possibleMoves[i] == tuple(np.multiply((-1,-1), self.move)): 
 					continue
 			
 			current_x_position = self.agent[0]
@@ -84,9 +88,10 @@ class Node:
 
 			board = self.board.copy()
 
-			old_value = board[new_y_position * 4 + new_x_position] #check the value before change
-
-			if(old_value == 'O'): #obstacle, cannot pass
+			#check the value before change
+			old_value = board[new_y_position * 4 + new_x_position] 
+			#obstacle, cannot pass
+			if(old_value == 'O'): 
 				continue
 			
 			board[current_y_position * 4 + current_x_position] = old_value
@@ -127,24 +132,30 @@ class Node:
 				final_tile = final_pos[2]
 			else:
 				continue
-						
+
+			#gets x and y coordinates of the tile in current node		
 			current_x =  tile % 4
 			current_y =  tile // 4
 
+			#gets x and y coordinates of the tile in final node
 			final_x = final_tile % 4
 			final_y = final_tile // 4
 
+			#manhattan distance 
 			distance = abs(current_x - final_x) + abs(current_y - final_y)
 			value += distance
-
+			
+			#distance to the agent to the further misplaced tile
 			if distance != 0:
 				agent_distance_to_misplaced_tile = max(agent_distance_to_misplaced_tile, abs(current_x - self.agent[0]) + abs(current_y - self.agent[1]))
 
 			letters_accounted += 1
-			if letters_accounted == 3: # no need to stay in the loop if already found the 3 letters
+			# no need to stay in the loop if already found the 3 letters
+			if letters_accounted == 3: 
 				break
 		
-		if boost: #improved heuristic, that also takes into account the location of the agent
+		#improved heuristic, that also takes into account the location of the agent
+		if boost: 
 			return value + agent_distance_to_misplaced_tile
 		else:
 			return value
@@ -205,7 +216,7 @@ class Node:
 			dimensions {int} -- the dimensions of the subfigure.
 			count {int} -- The number of printed states until now.
 		"""		
-		ax = fig.add_subplot(4, 4, count)
+		ax = fig.add_subplot(dimensions, dimensions, count)
 
 		for x in range(5):
 			ax.plot([x, x], [0,4], 'k')
@@ -238,9 +249,9 @@ class Node:
 		ax.axis('image')
 
 		if self.parent != None:
-			ax.set_title("Node: " + str(self.count) + ", Parent: " + str(self.parent.count) + ", Heur.: " + str(self.heurisitc)) 
+			ax.set_title("N: " + str(self.count) + ", P: " + str(self.parent.count) + ", D: " + str(self.depth)) 
 		else:
-			ax.set_title("Node: " + str(self.count) + ", Parent: None" + ", Heur.: " + str(self.heurisitc))
+			ax.set_title("N: " + str(self.count) + ", P: None" + ", D: " + str(self.depth))
 
 	def print_path(self, fig, dimensions, count):
 		"""Backtracks the path from the solution to the start node.
