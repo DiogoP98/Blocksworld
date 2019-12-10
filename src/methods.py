@@ -4,6 +4,8 @@ import math
 import matplotlib.pyplot as plt
 from queue import PriorityQueue
 
+sys.setrecursionlimit(9000)
+
 def print_solution(state1, number_nodes_expanded, goal_state, state2 = None): 
 	"""When solution is found, this method is called to print the solution path
 	
@@ -400,11 +402,11 @@ def DFSAstar(start_node, goal_state, threshold, improved_descendants = False, im
 		t1 = time.time()
 		if (t1 - t0) > 900:
 			print("It took more than 15 min")
-			return False, new_threshold
+			return False, number_nodes_expanded, new_threshold
 
 		if node.check_solution(goal_state):
 			_ = print_solution(node, number_nodes_expanded, goal_state)
-			return True, new_threshold 
+			return True, number_nodes_expanded, new_threshold 
 
 		child_nodes = node.successors(improved_descendants)
 		number_nodes_expanded += 1
@@ -418,7 +420,7 @@ def DFSAstar(start_node, goal_state, threshold, improved_descendants = False, im
 			else:
 				new_threshold = min(new_threshold, child_f)
 
-	return False, new_threshold
+	return False, number_nodes_expanded, new_threshold
 
 def IDAstar(start_node, goal_state, improved_descendants = False, improved_heuristic = False):
 	"""Runs Iterative-deppening A* 
@@ -439,7 +441,7 @@ def IDAstar(start_node, goal_state, improved_descendants = False, improved_heuri
 	t0 = time.time()
 
 	while True:
-		sol, number_nodes, depth_f, new_treshold = DFSAstar(start_node, goal_state, threshold, improved_descendants, improved_heuristic)
+		sol, number_nodes, new_treshold = DFSAstar(start_node, goal_state, threshold, improved_descendants, improved_heuristic)
 		number_nodes_expanded += number_nodes
 		t1 = time.time()
 
