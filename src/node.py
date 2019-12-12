@@ -5,7 +5,7 @@ import random
 class Node:
 	
 	def __init__(self, board, agent, depth, parent = None, move = None):
-		"""Creates a new instance of Node
+		"""Creates a new instance of Node.
 		
 		Arguments:
 			board {list} -- Current layout of the board
@@ -107,7 +107,7 @@ class Node:
 		return desc
 
 	def heuristic_manhattan(self, end_state, boost = False):
-		"""Calculates the manhattan heurisitc from the current node.
+		"""Calculates the manhattan heuristic from the current node.
 		
 		Arguments:
 			end_state {list} -- Represents the final layout of the board.
@@ -182,7 +182,7 @@ class Node:
 		return list_posi
 
 	def build_hash(self):
-		"""Builds the hash of current node
+		"""Builds the hash of current node.
 		
 		Returns:
 			[list] -- Hash of current node
@@ -193,7 +193,7 @@ class Node:
 		return board_hash
 
 	def check_solution(self, end_state):
-		"""Checks if current node is te solution node
+		"""Checks if current node is te solution node.
 		
 		Arguments:
 			end_state {list} -- Represents the final layout of the board.

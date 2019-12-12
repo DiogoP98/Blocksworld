@@ -15,8 +15,11 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 		goal_state {Node} -- final layout of the board, used for Bidirectional search to find actual depth of solution 
 	
 	Keyword Arguments:
-		state2 {Node} -- If the search used was Bidirectional search, it returns a second node, correspondent to the final
+		state2 {Node} -- If the search used was Bidirectional search, it gives a second node, correspondent to the final
 		node in the bottom-up search (default: {None})
+
+	Returns:
+		{int} -- In case the search was Bidirectional, it calculates the actual depth of the solution.
 	"""
 
 	if state2 != None:
@@ -39,7 +42,8 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 			if state1.check_solution(goal_state):
 				middle_depth = state1.depth
 				found = True
-				state1 = state1.parent #check if the solution can still be find in previous nodes
+				#check if the solution can still be find in previous nodes
+				state1 = state1.parent
 			else:
 				if state1.parent == None:
 					break
@@ -63,7 +67,7 @@ def print_solution(state1, number_nodes_expanded, goal_state, state2 = None):
 		return None
 
 def bfs(start_node, goal_state, graphSearch = False, improved_descendants = False):
-	"""This method runs breadth-first tree search.
+	"""Runs breadth-first search.
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
@@ -118,7 +122,7 @@ def bfs(start_node, goal_state, graphSearch = False, improved_descendants = Fals
 	return False
 
 def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = False, improved_descendants = False):
-	"""This method runs depth-first tree search.
+	"""Runs depth-first tree search.
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
@@ -188,7 +192,7 @@ def dfs(start_node, goal_state, limit = None, iterative = False, graphSearch = F
 	return False
 
 def idfs(start_node, goal_state, improved_descendants = False):
-	"""[summary]
+	"""Runs iterative-deepening depth-first search.
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
@@ -220,7 +224,7 @@ def idfs(start_node, goal_state, improved_descendants = False):
 
 
 def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants = False):
-	"""This method runs Bidirectional Search, with BFS search in each of the directions.
+	"""Runs Bidirectional Search, with BFS search in each of the directions.
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
@@ -254,12 +258,14 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 		top_expanded = False
 		bottom_expanded = False
 
+		#if the search down still has nodes to expand
 		if len(queue_down) > 0:
 			node_down = queue_down.pop(0)
 			bottom_expanded = True
 			number_nodes_visited += 1
 			node_down.count = number_nodes_visited
 		
+		#if the search up still has nodes to expand
 		if len(queue_up) > 0:
 			node_up = queue_up.pop(0)
 			top_expanded = True
@@ -299,6 +305,7 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 			else:
 				child_nodes_up = []
 
+		#The node expanded on the search down was already expanded in the search up or vice-versa
 		if bottom_expanded and (node_down_hash in visited_nodes_up):
 			print("Expanded nodes: " + str(number_nodes_expanded))
 			depth_found = print_solution(node_down, number_nodes_expanded, goal_state, hash_value_up[node_down_hash])
@@ -311,7 +318,7 @@ def BidirectionalSearch(start_node, end_node, goal_state, improved_descendants =
 	return False
 
 def Astar(start_node, goal_state, graphSearch = False, improved_descendants = False, improved_heuristic = False):
-	"""Runs A-star tree search.
+	"""Runs A* tree search.
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
@@ -423,7 +430,7 @@ def DFSAstar(start_node, goal_state, threshold, improved_descendants = False, im
 	return False, number_nodes_expanded, new_threshold
 
 def IDAstar(start_node, goal_state, improved_descendants = False, improved_heuristic = False):
-	"""Runs Iterative-deppening A* 
+	"""Runs Iterative-deppening A* .
 	
 	Arguments:
 		start_node {Node} -- Start node, which describes where the search starts.
